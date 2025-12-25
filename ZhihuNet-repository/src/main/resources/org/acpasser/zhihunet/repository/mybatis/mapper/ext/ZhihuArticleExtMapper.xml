@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.acpasser.zhihunet.repository.mybatis.mapper.ext.ZhihuArticleExtMapper">
+    <resultMap id="BaseResultMap" type="org.acpasser.zhihunet.model.ZhihuArticle">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="article_id" jdbcType="BIGINT" property="articleId" />
+        <result column="url" jdbcType="VARCHAR" property="url" />
+        <result column="title" jdbcType="VARCHAR" property="title" />
+        <result column="author_token" jdbcType="VARCHAR" property="authorToken" />
+        <result column="article_created_time" jdbcType="TIMESTAMP" property="articleCreatedTime" />
+        <result column="article_updated_time" jdbcType="TIMESTAMP" property="articleUpdatedTime" />
+        <result column="voteup_count" jdbcType="INTEGER" property="voteupCount" />
+        <result column="comment_count" jdbcType="INTEGER" property="commentCount" />
+        <result column="comment_permission" jdbcType="VARCHAR" property="commentPermission" />
+        <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+        <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime" />
+        <result column="deleted_at" jdbcType="INTEGER" property="deletedAt" />
+    </resultMap>
+    <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="org.acpasser.zhihunet.model.ZhihuArticle">
+        <result column="excerpt" jdbcType="LONGVARCHAR" property="excerpt" />
+    </resultMap>
+    <insert id="batchUpsert">
+        INSERT INTO zhihu_article (
+        article_id,
+        url,
+        title,
+        excerpt,
+        author_token,
+        article_created_time,
+        article_updated_time,
+        voteup_count,
+        comment_count,
+        comment_permission,
+        created_time,
+        updated_time,
+        deleted_at
+        ) VALUES
+        <foreach collection="articles" item="article" separator=",">
+            (
+            #{article.articleId},
+            #{article.url},
+            #{article.title},
+            #{article.excerpt},
+            #{article.authorToken},
+            #{article.articleCreatedTime},
+            #{article.articleUpdatedTime},
+            #{article.voteupCount},
+            #{article.commentCount},
+            #{article.commentPermission},
+            <!-- 首次插入时生成创建时间 -->
+            IFNULL(#{article.createdTime}, NOW()),
+            <!-- 每次插入/更新都刷新更新时间 -->
+            NOW(),
+            0
+            )
+        </foreach>
+        ON DUPLICATE KEY UPDATE
+        url = VALUES(url),
+        title = VALUES(title),
+        excerpt = VALUES(excerpt),
+        author_token = VALUES(author_token),
+        article_created_time = VALUES(article_created_time),
+        article_updated_time = VALUES(article_updated_time),
+        voteup_count = VALUES(voteup_count),
+        comment_count = VALUES(comment_count),
+        comment_permission = VALUES(comment_permission),
+        <!-- 保留原始创建时间，不更新 -->
+        created_time = zhihu_article.created_time,
+        <!-- 每次更新都刷新更新时间 -->
+        updated_time = NOW(),
+        deleted_at = 0
+    </insert>
+</mapper>

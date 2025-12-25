@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.acpasser.zhihunet.repository.mybatis.mapper.ext.ZhihuAnswerExtMapper">
+    <resultMap id="BaseResultMap" type="org.acpasser.zhihunet.model.ZhihuAnswer">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="answer_id" jdbcType="BIGINT" property="answerId" />
+        <result column="answer_type" jdbcType="VARCHAR" property="answerType" />
+        <result column="author_token" jdbcType="VARCHAR" property="authorToken" />
+        <result column="voteup_count" jdbcType="INTEGER" property="voteupCount" />
+        <result column="thanks_count" jdbcType="INTEGER" property="thanksCount" />
+        <result column="answer_created_time" jdbcType="TIMESTAMP" property="answerCreatedTime" />
+        <result column="answer_updated_time" jdbcType="TIMESTAMP" property="answerUpdatedTime" />
+        <result column="comment_permission" jdbcType="VARCHAR" property="commentPermission" />
+        <result column="is_copyable" jdbcType="TINYINT" property="isCopyable" />
+        <result column="comment_count" jdbcType="INTEGER" property="commentCount" />
+        <result column="can_comment" jdbcType="VARCHAR" property="canComment" />
+        <result column="url" jdbcType="VARCHAR" property="url" />
+        <result column="question_id" jdbcType="BIGINT" property="questionId" />
+        <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+        <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime" />
+        <result column="deleted_at" jdbcType="INTEGER" property="deletedAt" />
+    </resultMap>
+    <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="org.acpasser.zhihunet.model.ZhihuAnswer">
+        <result column="excerpt" jdbcType="LONGVARCHAR" property="excerpt" />
+    </resultMap>
+    <insert id="batchUpsert">
+        INSERT INTO zhihu_answer (
+        answer_id,
+        answer_type,
+        author_token,
+        url,
+        voteup_count,
+        thanks_count,
+        answer_created_time,
+        answer_updated_time,
+        comment_permission,
+        is_copyable,
+        comment_count,
+        can_comment,
+        excerpt,
+        question_id,
+        created_time,
+        updated_time,
+        deleted_at
+        ) VALUES
+        <foreach collection="answers" item="answer" separator=",">
+            (
+            #{answer.answerId},
+            #{answer.answerType},
+            #{answer.authorToken},
+            #{answer.url},
+            #{answer.voteupCount},
+            #{answer.thanksCount},
+            #{answer.answerCreatedTime},
+            #{answer.answerUpdatedTime},
+            #{answer.commentPermission},
+            #{answer.isCopyable},
+            #{answer.commentCount},
+            #{answer.canComment},
+            #{answer.excerpt},
+            #{answer.questionId},
+            <!-- 首次插入时生成创建时间 -->
+            IFNULL(#{answer.createdTime}, NOW()),
+            <!-- 每次插入/更新都刷新更新时间 -->
+            NOW(),
+            0
+            )
+        </foreach>
+        ON DUPLICATE KEY UPDATE
+        answer_type = VALUES(answer_type),
+        author_token = VALUES(author_token),
+        url = VALUES(url),
+        voteup_count = VALUES(voteup_count),
+        thanks_count = VALUES(thanks_count),
+        answer_created_time = VALUES(answer_created_time),
+        answer_updated_time = VALUES(answer_updated_time),
+        comment_permission = VALUES(comment_permission),
+        is_copyable = VALUES(is_copyable),
+        comment_count = VALUES(comment_count),
+        can_comment = VALUES(can_comment),
+        excerpt = VALUES(excerpt),
+        question_id = VALUES(question_id),
+        <!-- 保留原始创建时间，不更新 -->
+        created_time = zhihu_answer.created_time,
+        <!-- 每次更新都刷新更新时间 -->
+        updated_time = NOW(),
+        deleted_at = 0
+    </insert>
+</mapper>

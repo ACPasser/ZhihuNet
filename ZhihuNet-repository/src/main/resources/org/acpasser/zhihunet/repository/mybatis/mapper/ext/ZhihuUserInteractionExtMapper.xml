@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.acpasser.zhihunet.repository.mybatis.mapper.ext.ZhihuUserInteractionExtMapper">
+    <resultMap id="BaseResultMap" type="org.acpasser.zhihunet.model.ZhihuUserInteraction">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="interaction_id" jdbcType="BIGINT" property="interactionId" />
+        <result column="actor_token" jdbcType="VARCHAR" property="actorToken" />
+        <result column="author_token" jdbcType="VARCHAR" property="authorToken" />
+        <result column="is_following" jdbcType="BIT" property="isFollowing" />
+        <result column="is_followed" jdbcType="BIT" property="isFollowed" />
+        <result column="type" jdbcType="VARCHAR" property="type" />
+        <result column="action_text" jdbcType="VARCHAR" property="actionText" />
+        <result column="target_id" jdbcType="BIGINT" property="targetId" />
+        <result column="target_type" jdbcType="VARCHAR" property="targetType" />
+        <result column="verb" jdbcType="VARCHAR" property="verb" />
+        <result column="interaction_time" jdbcType="TIMESTAMP" property="interactionTime" />
+        <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+        <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime" />
+        <result column="deleted_at" jdbcType="INTEGER" property="deletedAt" />
+    </resultMap>
+    <insert id="batchUpsert">
+        INSERT INTO zhihu_user_interaction (
+        interaction_id,
+        actor_token,
+        author_token,
+        is_following,
+        is_followed,
+        type,
+        action_text,
+        target_id,
+        target_type,
+        verb,
+        interaction_time,
+        created_time,
+        updated_time
+        ) VALUES
+        <foreach collection="interactions" item="act" separator=",">
+            (
+            #{act.interactionId},
+            #{act.actorToken},
+            #{act.authorToken},
+            #{act.isFollowing},
+            #{act.isFollowed},
+            #{act.type},
+            #{act.actionText},
+            #{act.targetId},
+            #{act.targetType},
+            #{act.verb},
+            #{act.interactionTime},
+            -- 首次插入时生成创建时间，已存在则不修改（用 IFNULL 保留原时间）
+            IFNULL(#{act.createdTime}, NOW()),
+            -- 每次更新时刷新更新时间
+            NOW()
+            )
+        </foreach>
+        -- 当 interaction_id 冲突时执行更新（仅更新非创建时间的字段）
+        ON DUPLICATE KEY UPDATE
+        actor_token = VALUES(actor_token),
+        author_token = VALUES(author_token),
+        is_following = VALUES(is_following),
+        is_followed = VALUES(is_followed),
+        type = VALUES(type),
+        action_text = VALUES(action_text),
+        target_id = VALUES(target_id),
+        target_type = VALUES(target_type),
+        verb = VALUES(verb),
+        interaction_time = VALUES(interaction_time),
+        -- 创建时间不变（保留首次插入时间）
+        created_time = IFNULL(zhihu_user_interaction.created_time, NOW()),
+        -- 更新时间刷新为当前时间
+        updated_time = NOW(),
+        deleted_at = 0
+    </insert>
+</mapper>

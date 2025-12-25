@@ -1,0 +1,103 @@
+{
+  "id": "1757508683331",
+  "type": "feed",
+  "target": {
+    "id": "372576355",
+    "type": "article",
+    "author": {
+      "id": "1ecedd0c63f8910b286875511b465929",
+      "name": "程序员",
+      "headline": "［个人公众号：程序员的一天］",
+      "type": "people",
+      "user_type": "people",
+      "url": "https://www.zhihu.com/people/zhi-hu-34-63-63",
+      "url_token": "zhi-hu-34-63-63",
+      "avatar_url": "https://picx.zhimg.com/v2-6394f6d2f49dfc2e182f0ed2ce448c76_l.jpg?source=5a24d060\u0026needBackground=1",
+      "gender": 1,
+      "is_following": false,
+      "is_followed": false,
+      "is_org": false,
+      "badge": [],
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      },
+      "vip_info": {
+        "is_vip": false,
+        "target_url": ""
+      },
+      "kvip_info": {
+        "is_vip": false,
+        "target_url": ""
+      }
+    },
+    "created": 1621099002,
+    "updated": 1621099002,
+    "title": "MacBook使用笔记：安装Homebrew（M1）",
+    "excerpt_title": "",
+    "content": "\u003cp data-pid=\"2bWK6NJY\"\u003e\u003cb\u003e作者 ｜ 公众号：程序员的一天\u003c/b\u003e\u003c/p\u003e\u003chr/\u003e\u003ch2\u003e一、Homebrew是什么？\u003c/h2\u003e\u003cp data-pid=\"55SHZbVQ\"\u003eHomebrew官网：\u003c/p\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003ccode class=\"language-text\"\u003e英文：\nhttps://brew.sh\n中文：\nhttps://brew.sh/index_zh-cn\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp data-pid=\"xAgFpyx0\"\u003eHomebrew是MacOS（或 Linux）的软件包管理器。\u003c/p\u003e\u003cp data-pid=\"37-LB7Xs\"\u003e通过它，我们可以方便的对Mac上的各种应用软件进行管理，例如：安装、更新、查看、搜索、卸载等。\u003c/p\u003e\u003cp data-pid=\"T-eAyfW3\"\u003eHomebrew，可谓是Mac神器，几乎每一位Mac使用者都会安装它。\u003c/p\u003e\u003cp data-pid=\"Tw97pGde\"\u003e用Homebrew官网的一句话总结：\u003c/p\u003e\u003cblockquote data-pid=\"sinRRD6q\"\u003eHomebrew 使 macOS（或您的 Linux 系统）更完整。\u003c/blockquote\u003e\u003cfigure data-size=\"small\"\u003e\u003cimg src=\"https://pic1.zhimg.com/v2-404803f2c63d2f9fdf226292580d0ec0_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"966\" data-rawheight=\"494\" class=\"origin_image zh-lightbox-thumb\" width=\"966\" data-original=\"https://pic1.zhimg.com/v2-404803f2c63d2f9fdf226292580d0ec0_r.jpg\" data-original-token=\"v2-97902c78cf6df3bcf4bcea5bcb6e6d49\"/\u003e\u003c/figure\u003e\u003chr/\u003e\u003ch2\u003e二、Mac上安装Homebrew\u003c/h2\u003e\u003cblockquote data-pid=\"VovDgyEA\"\u003eHomebrew 3.0.0版开始，正式支持Apple M1芯片，M1用户放心安装！\u003c/blockquote\u003e\u003ch3\u003e第一步：\u003c/h3\u003e\u003cp data-pid=\"IGwHCT-8\"\u003e打开终端。不知道如何打开终端的朋友，请参考：\u003c/p\u003e\u003ca href=\"https://zhuanlan.zhihu.com/p/369615135\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-4b37cc8aa2417ada1d73952e50607d95_180x120.jpg\" data-image-width=\"900\" data-image-height=\"383\" class=\"internal\"\u003e爱码士：MacBook使用笔记：打开终端\u003c/a\u003e\u003ch3\u003e第二步：\u003c/h3\u003e\u003cp data-pid=\"5WrtxWSR\"\u003e在终端命令行窗口输入安装命令。\u003c/p\u003e\u003cp data-pid=\"fDlwrUEj\"\u003e这里需要特别说明几点内容。\u003c/p\u003e\u003cp data-pid=\"JAC1NLhs\"\u003e下面是Homebrew官方给出的安装命令：（如果没有VPN，不要使用此命令安装！）\u003c/p\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003ccode class=\"language-text\"\u003e/bin/bash -c \u0026#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\u0026#34;\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp data-pid=\"9yWDViAY\"\u003e通常情况下，官网给出的指令会报错：\u003c/p\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003ccode class=\"language-python3\"\u003e\u003cspan class=\"n\"\u003ecurl\u003c/span\u003e\u003cspan class=\"p\"\u003e:\u003c/span\u003e \u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"mi\"\u003e7\u003c/span\u003e\u003cspan class=\"p\"\u003e)\u003c/span\u003e \u003cspan class=\"n\"\u003eFailed\u003c/span\u003e \u003cspan class=\"n\"\u003eto\u003c/span\u003e \u003cspan class=\"n\"\u003econnect\u003c/span\u003e \u003cspan class=\"n\"\u003eto\u003c/span\u003e \u003cspan class=\"n\"\u003eraw\u003c/span\u003e\u003cspan class=\"o\"\u003e.\u003c/span\u003e\u003cspan class=\"n\"\u003egithubusercontent\u003c/span\u003e\u003cspan class=\"o\"\u003e.\u003c/span\u003e\u003cspan class=\"n\"\u003ecom\u003c/span\u003e \u003cspan class=\"n\"\u003eport\u003c/span\u003e \u003cspan class=\"mi\"\u003e443\u003c/span\u003e\u003cspan class=\"p\"\u003e:\u003c/span\u003e \u003cspan class=\"n\"\u003eConnection\u003c/span\u003e \u003cspan class=\"n\"\u003erefused\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp data-pid=\"uLUypl9Z\"\u003e因为这是国外网站，由于GFW（中国长城防火墙）的存在，如果没有vpn，是无法访问的，所以连接被拒绝！\u003c/p\u003e\u003chr/\u003e\u003cp data-pid=\"SaP1TXZJ\"\u003e别着急，有办法解决！\u003c/p\u003e\u003cp data-pid=\"5NzflWre\"\u003e只要我们从国内镜像网站安装，就一切OK了。\u003c/p\u003e\u003cp data-pid=\"5mU3jkra\"\u003e以下为国内安装Homebrew的正确姿势：(基于gitee上某大神的自动安装脚本)\u003c/p\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003ccode class=\"language-text\"\u003e/bin/zsh -c \u0026#34;$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)\u0026#34;\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp data-pid=\"j0wTSDpC\"\u003e回车执行指令后，根据提示操作。具体包括以下提示操作：\u003c/p\u003e\u003cp data-pid=\"wyW18Anu\"\u003e\u003cb\u003e（1）选择下载镜像\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"FvfSg1gF\"\u003e根据需要选择下载源，例如，我这里选择中科大下载源，就输入‘1’，回车。\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cimg src=\"https://pic2.zhimg.com/v2-739f08cdbb3fb14802bfa91588278241_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1180\" data-rawheight=\"454\" class=\"origin_image zh-lightbox-thumb\" width=\"1180\" data-original=\"https://pic2.zhimg.com/v2-739f08cdbb3fb14802bfa91588278241_r.jpg\" data-original-token=\"v2-b89e2b355f6a35eb3351efaea909438a\"/\u003e\u003c/figure\u003e\u003cp data-pid=\"Is1550Pd\"\u003e\u003cb\u003e（2）确认删除旧版本\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"oqJhPNHa\"\u003e如果存在旧版本，会弹出删除旧版本提示，输入\u0026#34;Y\u0026#34;，回车。\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cimg src=\"https://pic2.zhimg.com/v2-cf55167d8fe7a2a2ea3a43855e8f01cf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1180\" data-rawheight=\"300\" class=\"origin_image zh-lightbox-thumb\" width=\"1180\" data-original=\"https://pic2.zhimg.com/v2-cf55167d8fe7a2a2ea3a43855e8f01cf_r.jpg\" data-original-token=\"v2-f2b08051c5298a8e23a78a9081dee203\"/\u003e\u003c/figure\u003e\u003cp data-pid=\"hrJ4jGTD\"\u003e\u003cb\u003e（3）输入开机密码（用于mac确认第三方应用安装）\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"1aUmslwD\"\u003e\u003cb\u003e（4）安装git\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"Yb-ERi0P\"\u003e如果之前没有安装过git，会终止homebrew安装，弹出git安装提示，点击“安装”。\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cimg src=\"https://picx.zhimg.com/v2-f9c32e6b0fbfded843d3fafa7b3448f7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"922\" data-rawheight=\"358\" class=\"origin_image zh-lightbox-thumb\" width=\"922\" data-original=\"https://picx.zhimg.com/v2-f9c32e6b0fbfded843d3fafa7b3448f7_r.jpg\" data-original-token=\"v2-bec25d750c3f7778338dd020bc86ce92\"/\u003e\u003c/figure\u003e\u003cp data-pid=\"3DYMZ6V3\"\u003e\u003cb\u003e（5）再次执行homebrew安装指令\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"rijtZvfS\"\u003e耐心等待git安装完成后，再次运行homebrew安装指令，重新根据提示操作即可。\u003c/p\u003e\u003cp data-pid=\"9ABmiNae\"\u003e安装需要一段时间，过程中，可以在终端看到脚本执行了那些操作。\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cimg src=\"https://pic4.zhimg.com/v2-bf1f0461a373e541af8be956dce862bf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1118\" data-rawheight=\"346\" class=\"origin_image zh-lightbox-thumb\" width=\"1118\" data-original=\"https://pic4.zhimg.com/v2-bf1f0461a373e541af8be956dce862bf_r.jpg\" data-original-token=\"v2-c0489b001106a00e4d33a7f8f77389b5\"/\u003e\u003c/figure\u003e\u003cp data-pid=\"v3bBt--k\"\u003e\u003cb\u003e（6）验证是否安装成功\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"uv7nlX7-\"\u003e安装脚本执行完成后，重启终端。（重启后才生效）\u003c/p\u003e\u003cp data-pid=\"9Y4XzJJF\"\u003e通过在终端输入\u0026#34;brew -v\u0026#34;，可以查看homebrew版本。\u003c/p\u003e\u003cp data-pid=\"Zp_20qe5\"\u003e如果正确输出版本信息，表示成功安装。\u003c/p\u003e\u003cblockquote data-pid=\"HujqwxyI\"\u003e虽然叫做\u0026#39;Homebrew\u0026#39;，但实际使用时，命令是\u0026#39;brew\u0026#39;。\u003c/blockquote\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003ccode class=\"language-text\"\u003eqiuxiannv@qiuxiannvdeMBP ~ % brew -v\nHomebrew 3.1.7-42-gd45832b\nHomebrew/homebrew-core (git revision 09d1a8b385; last commit 2021-05-15)\nHomebrew/homebrew-cask (git revision c1dad4a5cf; last commit 2021-05-15)\nqiuxiannv@qiuxiannvdeMBP ~ % \u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cblockquote data-pid=\"NGyMdgXD\"\u003e在M1芯片上，homebrew的安装路径为：\u0026#34;/opt/Homebrew/\u0026#34;\u003c/blockquote\u003e\u003chr/\u003e\u003ch2\u003e三、Homebrew卸载\u003c/h2\u003e\u003cp data-pid=\"PtPDv419\"\u003e如需卸载，使用指令：\u003c/p\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003ccode class=\"language-text\"\u003e/bin/zsh -c \u0026#34;$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh)\u0026#34;\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003chr/\u003e\u003cp data-pid=\"PqRuP66B\"\u003e如果有用，点个赞吧～ \u003c/p\u003e\u003cp data-pid=\"hvcqLF0q\"\u003e\u003cb\u003eEND\u003c/b\u003e\u003c/p\u003e",
+    "excerpt": "\u003cb\u003e作者 ｜ 公众号：程序员的一天\u003c/b\u003e一、Homebrew是什么？Homebrew官网： 英文： https://brew.sh 中文： https://brew.sh/index_zh-cnHomebrew是MacOS（或 Linux）的软件包管理器。 通过它，我们可以方便的对Mac上的各种应用软件进行管理，例如：安装、更新、查看、搜索、卸载等。 Homebrew，可谓是Mac神器，几乎每一位Mac使用者都会安装它。 用Homebrew官网的一句话总结： Homebrew 使 macOS（或您的 Linux 系统）更完整。二、Mac上…",
+    "excerpt_new": "\u003cb\u003e作者 ｜ 公众号：程序员的一天\u003c/b\u003e一、Homebrew是什么？Homebrew官网： 英文： https://brew.sh 中文： https://brew.sh/index_zh-cnHomebrew是MacOS（或 Linux）的软件包管理器。 通过它，我们可以方便的对Mac上的各种应用软件进行管理，例如：安装、更新、查看、搜索、卸载等。 Homebrew，可谓是Mac神器，几乎每一位Mac使用者都会安装它。 用Homebrew官网的一句话总结： Homebrew 使 macOS（或您的 Linux 系统）更完整。二、Mac上…",
+    "preview_type": "default",
+    "preview_text": "",
+    "url": "https://zhuanlan.zhihu.com/p/372576355",
+    "comment_permission": "all",
+    "voteup_count": 745,
+    "comment_count": 225,
+    "image_url": "https://picx.zhimg.com/v2-4b37cc8aa2417ada1d73952e50607d95_r.jpg?source=172ae18b",
+    "linkbox": {
+      "url": "",
+      "category": "",
+      "pic": "",
+      "title": ""
+    },
+    "reaction_instruction": {},
+    "upvoted_followees": [],
+    "voting": 1,
+    "content_need_truncated": false,
+    "force_login_when_click_read_more": false,
+    "is_navigator": false,
+    "navigator_vote": false,
+    "vote_next_step": "unvote"
+  },
+  "verb": "MEMBER_COLLECT_ARTICLE",
+  "created_time": 1757508683,
+  "interaction": {
+    "can_show_sticker": true
+  },
+  "actor": {
+    "id": "bafec2f1e7c8802e2bdd066088523072",
+    "name": "自由之翼",
+    "headline": "",
+    "type": "people",
+    "user_type": "people",
+    "url": "https://www.zhihu.com/people/zi-you-zhi-yi-21-60",
+    "url_token": "zi-you-zhi-yi-21-60",
+    "avatar_url": "https://pic1.zhimg.com/v2-7c2fd536a1e30b5a73a8d3d5dec4cdc9_l.jpg?source=5a24d060\u0026needBackground=1",
+    "gender": 0,
+    "is_following": false,
+    "is_followed": false,
+    "is_org": false,
+    "badge": [],
+    "badge_v2": {
+      "title": "",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "vip_info": {
+      "is_vip": false,
+      "target_url": ""
+    },
+    "kvip_info": {
+      "is_vip": false,
+      "target_url": ""
+    }
+  },
+  "action_text": "收藏了文章",
+  "is_sticky": false
+}

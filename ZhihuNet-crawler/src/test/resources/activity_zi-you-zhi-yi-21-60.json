@@ -1,0 +1,1208 @@
+{
+  "data": [
+    {
+      "id": "1761057439331",
+      "type": "feed",
+      "target": {
+        "id": "82354621220",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/82354621220",
+        "voteup_count": 6090,
+        "thanks_count": 944,
+        "question": {
+          "id": "28528909",
+          "title": "为什么有时候辟谣比造谣难？",
+          "url": "https://api.zhihu.com/questions/28528909",
+          "type": "question",
+          "question_type": "normal",
+          "created": 1425489453,
+          "answer_count": 473,
+          "comment_count": 21,
+          "follower_count": 1495,
+          "detail": "大家都说“造谣张张嘴，辟谣跑断腿”，为什么谣言特别容易被接受而且传播速度极快，而辟谣往往没人在意呢？大家不是也很爱看打脸啪啪反转戏吗？可是为何有时候辟谣了人们却还不愿意改变最初相信的那样谣言？",
+          "excerpt": "大家都说“造谣张张嘴，辟谣跑断腿”，为什么谣言特别容易被接受而且传播速度极快，…",
+          "bound_topic_ids": [
+            1333,
+            25244,
+            74108
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "is_following": false,
+          "author": {
+            "id": "00edb2a2b7eb8c070401125d5caca0e3",
+            "name": "李丽薇",
+            "headline": "",
+            "type": "people",
+            "user_type": "people",
+            "url": "https://www.zhihu.com/people/li-li-wei-87-76",
+            "url_token": "li-li-wei-87-76",
+            "avatar_url": "https://picx.zhimg.com/521cfc380e7a4892d6e24fb05419dffc_l.jpg?source=5a24d060\u0026needBackground=1",
+            "gender": 0,
+            "is_following": false,
+            "is_followed": false,
+            "is_org": false,
+            "badge": [
+
+            ],
+            "badge_v2": {
+              "title": "",
+              "merged_badges": [
+
+              ],
+              "detail_badges": [
+
+              ],
+              "icon": "",
+              "night_icon": ""
+            },
+            "vip_info": {
+              "is_vip": false,
+              "target_url": ""
+            },
+            "kvip_info": {
+              "is_vip": false,
+              "target_url": ""
+            }
+          },
+          "reaction_instruction": null
+        },
+        "updated_time": 1737253611,
+        "created_time": 1737245114,
+        "author": {
+          "id": "bfded759ba8a863ba41139a95d236d96",
+          "name": "陈二饼",
+          "headline": "b站ID：艾学百科陈二饼 考据请看主页文章和专栏",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/chenerbing",
+          "url_token": "chenerbing",
+          "avatar_url": "https://pic1.zhimg.com/v2-f0db3aae750e731b77380e33cf6f6eaa_l.jpg?source=5a24d060\u0026needBackground=1",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [
+            {
+              "type": "identity",
+              "description": "教师资格证持证人",
+              "topic_names": [
+
+              ],
+              "topics": [
+
+              ]
+            }
+          ],
+          "badge_v2": {
+            "title": "教师资格证持证人",
+            "merged_badges": [
+              {
+                "type": "identity",
+                "detail_type": "identity_people",
+                "title": "认证",
+                "description": "教师资格证持证人",
+                "url": "https://zhuanlan.zhihu.com/p/96956163",
+                "sources": [
+
+                ],
+                "icon": "",
+                "night_icon": "",
+                "badge_status": "passed"
+              }
+            ],
+            "detail_badges": [
+              {
+                "type": "identity",
+                "detail_type": "identity_people",
+                "title": "已认证的个人",
+                "description": "教师资格证持证人",
+                "url": "https://zhuanlan.zhihu.com/p/96956163",
+                "sources": [
+
+                ],
+                "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "night_icon": "https://pica.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "badge_status": "passed"
+              }
+            ],
+            "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+            "night_icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c"
+          },
+          "vip_info": {
+            "is_vip": false,
+            "widget": {
+              "url": "https://pic1.zhimg.com/v2-22dabcb374ade72c6a3c19aca1673c88_r.jpg?source=5a24d060",
+              "night_mode_url": "https://picx.zhimg.com/v2-22dabcb374ade72c6a3c19aca1673c88_r.jpg?source=5a24d060",
+              "id": 40105
+            },
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "comment_permission": "all",
+        "is_copyable": true,
+        "comment_count": 749,
+        "can_comment": {
+          "status": false,
+          "reason": "只有作者关注的人才可以评论"
+        },
+        "content": "\u003cp data-pid=\"VhO8JmbN\"\u003e假如我到处造谣题主：\u003cb\u003e12岁的时候就敢下河救起了一个小朋友。\u003c/b\u003e你知道了并不会不高兴，甚至可能觉得没什么辟谣的必要。\u003c/p\u003e\u003cp data-pid=\"reSnZ1uw\"\u003e假如我到处造谣题主：\u003cb\u003e12岁的时候还尿了炕被老爸扒掉裤子打。\u003c/b\u003e你知道了就会想打我，指责我诽谤，恨不得把我嘴缝起来。\u003c/p\u003e\u003cp data-pid=\"BXvY8XSl\"\u003e大家可以代入想象一下，是不是这样？\u003c/p\u003e\u003cp data-pid=\"4o5aShSf\"\u003e\u003cb\u003e谣言还是谣言，性质并没有变化，可是带给人的感受却可能是截然不同的。\u003c/b\u003e这也是为什么，很多人其实并不反感谣言，甚至对一些正中下怀的谣言非常受用，为这类谣言申辩，袒护它们属于\u003cb\u003e“正能量谣言”“好的谣言”，\u003c/b\u003e应该被区别对待。\u003c/p\u003e\u003cp data-pid=\"hM4PGinP\"\u003e当人们搜肠刮肚用能想到的词儿痛骂造谣者的时候，他们又会出来为“正能量谣言”的始作俑者辩护了。\u003c/p\u003e\u003cp data-pid=\"GWtPLVxQ\"\u003e说些“人家动机是为了弘扬正能量！”“谁都知道他本意并不坏”“至少出发点是好的”“事实不重要，立场没问题就行”“是假的没错，可造成什么严重危害了没有？”......的话来。\u003c/p\u003e\u003cp data-pid=\"rzDRzUao\"\u003e所以，辟谣者不仅要面对谣言制造者和谣言迷信者的阻力，还得应对谣言支持者出来搅浑水、拉偏架。\u003c/p\u003e\u003cp data-pid=\"IocoWrcJ\"\u003e有时候，如果谣言内容过于难绷，造谣者的拙劣造谣行为与其高知身份形成了强烈荒诞的反差，导致辟谣者辟谣时禁不住笑出声来，也是要被“正能量谣言”的拥趸们怒斥“阴阳怪气”“别有用心”“居心叵测”的。\u003c/p\u003e\u003cp data-pid=\"TrTsQpX2\"\u003e这种时候，就不是辟谣者说一句“我没有笑，我只是突然想起了一些开心的事情！”能够掩饰过去的了。\u003c/p\u003e\u003chr/\u003e\u003cp data-pid=\"6JgmDlkN\"\u003e我举一个真实的例子吧。\u003c/p\u003e\u003cp data-pid=\"geRO9iWY\"\u003e南开大学有位早已经故去多年的教授艾跃进博士，他在如今的互联网上享有崇高声誉，远远超过他在学术界和教育界的实际地位。\u003c/p\u003e\u003cp data-pid=\"aHZo8mCU\"\u003e虽然有着“党史专家”“军事专家”“历史学者”“理论家”“教育家”“和张召忠教授一样是少将”等等由爱戴他的网友热切“授予”的头衔，但盛名之下，其实难副。\u003c/p\u003e\u003cp data-pid=\"NUWd3nGS\"\u003e他在宣传伟人的时候，不总去权威档案文献里翻查真实感人的事迹提炼成讲课的素材，而常喜欢网上冲浪拾人牙慧，照搬大量地摊文学衍生的查无实据的段子，当做真实发生的历史讲给学生和听众。比如：\u003c/p\u003e\u003cp data-pid=\"qFOTWTVD\"\u003e“尼克松在回忆录里自称在伟人面前像个犯了错的小学生”\u003c/p\u003e\u003cp data-pid=\"2Xplk2Xv\"\u003e“白宫南草坪立着伟人的雕像，人家崇拜！”\u003c/p\u003e\u003cp data-pid=\"o2wUfACM\"\u003e“奥巴马入主白宫的第一个圣诞节，米歇尔夫人在圣诞树上只挂唯一一个头像，伟人的头像！”\u003c/p\u003e\u003cp data-pid=\"5B74vmOI\"\u003e“美国华盛顿航母作战指挥室悬挂大幅伟人画像，舰长说我崇拜他！他在我们不敢来！”\u003c/p\u003e\u003cp data-pid=\"u4SNzt6z\"\u003e“美国总统福特不会游泳，但舍命陪君子邀请伟人畅游密西西比河。”\u003c/p\u003e\u003cp data-pid=\"CkxTkTq8\"\u003e“拿破仑一生重要战役和战斗40场，胜率只有40%，伟人一生亲自指挥400场战役，100%胜！”\u003c/p\u003e\u003cp data-pid=\"FEwNYUFi\"\u003e“戴高乐临终前最大的遗憾就是没能来中国亲眼见到伟人。”\u003c/p\u003e\u003cp data-pid=\"0wVg_Z4U\"\u003e“非洲的领导袒着胸，像章的针别肉里，血流得......听说过么？和伟人握手，人家回去三个月不洗手，听说过么？”\u003c/p\u003e\u003cp data-pid=\"Oe0TgjZM\"\u003e除了在讲座上对谣言偏听偏信不予甄别，这种疏懒怠惰的治学态度也延续到了他2012年的博士学位答辩论文里。\u003c/p\u003e\u003cp data-pid=\"aOHwz7cH\"\u003e在正文第147页，艾跃进教授大胆地将2006年三位网友作答的百度知道引为信源。\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cnoscript\u003e\u003cimg src=\"https://picx.zhimg.com/v2-2bd5060958f5f3b06efccd98fa888445_b.jpg\" data-rawwidth=\"2160\" data-rawheight=\"13822\" data-size=\"normal\" data-original-token=\"v2-cfa046e7a39930ba56d4b0803f0a5c72\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-6ab80422338e226c4487429863ef4f3a_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2160\" data-original=\"https://picx.zhimg.com/v2-2bd5060958f5f3b06efccd98fa888445_r.jpg\"/\u003e\u003c/noscript\u003e\u003cimg src=\"data:image/svg+xml;utf8,\u0026lt;svg xmlns=\u0026#39;http://www.w3.org/2000/svg\u0026#39; width=\u0026#39;2160\u0026#39; height=\u0026#39;13822\u0026#39;\u0026gt;\u0026lt;/svg\u0026gt;\" data-rawwidth=\"2160\" data-rawheight=\"13822\" data-size=\"normal\" data-original-token=\"v2-cfa046e7a39930ba56d4b0803f0a5c72\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-6ab80422338e226c4487429863ef4f3a_b.jpg\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"2160\" data-original=\"https://picx.zhimg.com/v2-2bd5060958f5f3b06efccd98fa888445_r.jpg\" data-actualsrc=\"https://picx.zhimg.com/v2-2bd5060958f5f3b06efccd98fa888445_b.jpg\"/\u003e\u003c/figure\u003e\u003cp data-pid=\"Cv1aOSAW\"\u003e他为什么不愿意去引用国内外学者的专著、学术论文来佐证伟人曾采取【“核捆绑”政策】？\u003c/p\u003e\u003cp data-pid=\"_08SA1NI\"\u003e因为这一概念本就是早年互联网网民的构想，在人类历史上并无此事。\u003cb\u003e根本没有正经学者去研究，便没有权威的资料和学术研究成果可以参考引用。\u003c/b\u003e于是，百度知道的网友回答就这样历史性地载入了南开大学著名教授的博论，传为美谈。\u003c/p\u003e\u003cp data-pid=\"9UHbUzn7\"\u003e......\u003c/p\u003e\u003cp data-pid=\"QF0LQYVM\"\u003e如果艾教授制造或传播这类谣言，确实“本意并不坏”“出发点是好的”“立场没问题”，那么这就只能是学术水平过于孱弱的缘故了。\u003c/p\u003e\u003cp data-pid=\"wV_hR6lj\"\u003e鲁迅先生一针见血地指出来：\u003c/p\u003e\u003cblockquote data-pid=\"bIDWdTle\"\u003e“谣言这东西，却确是造谣者本心所希望的事实，我们可以借此看看一部分人的思想和行为。”\u003cbr/\u003e——《无花的蔷薇之三》\u003c/blockquote\u003e\u003cp data-pid=\"8oqRqdW8\"\u003e艾跃进教授讲课时的语调表情和著作的字里行间，都体现出来对伟人的强烈的崇敬之情。\u003cb\u003e虽然他生前表达了对年轻人追星文化、饭圈文化的反感、批评态度，可是当这些正向的、关于自己所崇拜的人和事的谣言袭来，艾跃进教授也堕入了饭圈文化、粉丝视角的桎梏，放下了对谣言的警惕性，失去了鉴别真伪的判断力。\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"dUJjOfYZ\"\u003e按照鲁迅的分析，艾跃进教授反复在讲座上宣扬谣言，甚至把谣言引入自己的博论里流传后世，说明艾跃进教授希望这些谣言就是事实。\u003c/p\u003e\u003cp data-pid=\"nz58GsVn\"\u003e可它们根本不是事实，是好事者炮制的地摊文学。\u003c/p\u003e\u003cp data-pid=\"gKQHSqFW\"\u003e《尼克松回忆录》原著和任何版本的译本都没有“像个犯了错的小学生”；会谈记录显示并无邀约畅游密西西比河，且福特是海军出身、水兵教练酷爱游泳；戴高乐是突发疾病昏迷中去世，根本没有机会抒发人生苦短的遗憾；白宫南草坪游客可以参观并无雕像；航母作战指挥室悬挂画像其实是钓鱼文的ps图片；世界上没有人列的出来拿破仑打过的40x（1-40%）=24场败仗......\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cnoscript\u003e\u003cimg src=\"https://pica.zhimg.com/v2-0eef2e0d7982e4d27e7f693b928254b0_b.jpg\" data-rawwidth=\"1438\" data-rawheight=\"534\" data-size=\"normal\" data-original-token=\"v2-173e324d8fed0b4cb493fca17bf8dea6\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-ca377f8a6940519f354563215d229ae6_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1438\" data-original=\"https://pica.zhimg.com/v2-0eef2e0d7982e4d27e7f693b928254b0_r.jpg\"/\u003e\u003c/noscript\u003e\u003cimg src=\"data:image/svg+xml;utf8,\u0026lt;svg xmlns=\u0026#39;http://www.w3.org/2000/svg\u0026#39; width=\u0026#39;1438\u0026#39; height=\u0026#39;534\u0026#39;\u0026gt;\u0026lt;/svg\u0026gt;\" data-rawwidth=\"1438\" data-rawheight=\"534\" data-size=\"normal\" data-original-token=\"v2-173e324d8fed0b4cb493fca17bf8dea6\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-ca377f8a6940519f354563215d229ae6_b.jpg\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1438\" data-original=\"https://pica.zhimg.com/v2-0eef2e0d7982e4d27e7f693b928254b0_r.jpg\" data-actualsrc=\"https://pica.zhimg.com/v2-0eef2e0d7982e4d27e7f693b928254b0_b.jpg\"/\u003e\u003cfigcaption\u003e艾教授甚至也把拿破仑胜率谣言写进了博士学位论文里\u003c/figcaption\u003e\u003c/figure\u003e\u003cp data-pid=\"JpfwBTIf\"\u003e这些拙劣的谣言，借用历史背景的壳子，杜撰出一个个与史料相悖，查无实据的“正能量故事”，就因为此种内容非常符合某些受众内心的期待，便得到被口耳相传、交相称颂的机会。\u003c/p\u003e\u003cp data-pid=\"bt4h2JBu\"\u003e题主你问为什么辟谣这么困难？\u003c/p\u003e\u003cp data-pid=\"d1apoDJ_\"\u003e我用我的切身体会回答你。\u003c/p\u003e\u003cp data-pid=\"q34gkQ8I\"\u003e我为什么尊敬学术水平比较一般的艾跃进教授？\u003cb\u003e因为我深深地为他广阔胸襟所折服。\u003c/b\u003e\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cnoscript\u003e\u003cimg src=\"https://pica.zhimg.com/v2-da7dfb2995769b45e0d5163c150d3eac_b.jpg\" data-rawwidth=\"2160\" data-rawheight=\"10692\" data-size=\"normal\" data-original-token=\"v2-46302035493777033034daa6d32c0f16\" data-default-watermark-src=\"https://picx.zhimg.com/v2-91e098319861c2ace0eec3e7171e2f73_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2160\" data-original=\"https://pica.zhimg.com/v2-da7dfb2995769b45e0d5163c150d3eac_r.jpg\"/\u003e\u003c/noscript\u003e\u003cimg src=\"data:image/svg+xml;utf8,\u0026lt;svg xmlns=\u0026#39;http://www.w3.org/2000/svg\u0026#39; width=\u0026#39;2160\u0026#39; height=\u0026#39;10692\u0026#39;\u0026gt;\u0026lt;/svg\u0026gt;\" data-rawwidth=\"2160\" data-rawheight=\"10692\" data-size=\"normal\" data-original-token=\"v2-46302035493777033034daa6d32c0f16\" data-default-watermark-src=\"https://picx.zhimg.com/v2-91e098319861c2ace0eec3e7171e2f73_b.jpg\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"2160\" data-original=\"https://pica.zhimg.com/v2-da7dfb2995769b45e0d5163c150d3eac_r.jpg\" data-actualsrc=\"https://pica.zhimg.com/v2-da7dfb2995769b45e0d5163c150d3eac_b.jpg\"/\u003e\u003c/figure\u003e\u003cp data-pid=\"rblLDntj\"\u003e我是个直肠子，我理解的就是字面意思。我觉得艾教授这是发自内心的真诚表态，我愿意听从。\u003c/p\u003e\u003cp data-pid=\"XHXM4ejJ\"\u003e然而，一旦你像我似的信以为真，如实照办，开始尝试在互联网上公开辟艾跃进教授编排、传播过的谣，你将会很快招来千夫所指：\u003c/p\u003e\u003cp data-pid=\"aQHvquCV\"\u003e“你是什么动机？你为什么做这些事？”\u003c/p\u003e\u003cp data-pid=\"Sa1ItDuv\"\u003e“我看你有问题，收钱办事黑艾老师挺卖力的啊！”\u003c/p\u003e\u003cp data-pid=\"ZD0_3kpj\"\u003e“艾教授活着的时候，你们这些肮脏玩意儿怎么没胆子出来批评他？”\u003c/p\u003e\u003cp data-pid=\"M9D57XYr\"\u003e“你是哪个学校的？也配挑南开教授的错？你猜我们信你还是信艾教授？”\u003c/p\u003e\u003cp data-pid=\"cFGGdXmi\"\u003e“想吃流量想疯了吧？没完没了地去挑一个逝者的毛病。”\u003c/p\u003e\u003cp data-pid=\"EsPAW-Lx\"\u003e“你说的那些博主，他们跟你能一样吗？人家是义务宣传艾教授的正能量！你除了抹黑艾公还会什么？”\u003c/p\u003e\u003cp data-pid=\"ofDc0Rbn\"\u003e“什么人啊坏了良心，连艾教授都敢诋毁了？”\u003c/p\u003e\u003cp data-pid=\"1ApKnkFN\"\u003e“你知不知道你被利用了？你现在把艾教授这些错误拿出来说，就是给网上的坏人当帮凶！”\u003c/p\u003e\u003cp data-pid=\"f72T__Gr\"\u003e“人无完人，艾教授那么多的优点你怎么不提？你提什么了？我怎没看见？”\u003c/p\u003e\u003cp data-pid=\"YtIaCCja\"\u003e“公布收益算什么？谁知道真的假的呀才那么一点。登子给的美刀你忘说了吧？”\u003c/p\u003e\u003cp data-pid=\"E7ymDlYY\"\u003e\u003cb\u003e“项庄舞剑，意在沛公。我看你表面上是在批评艾公，实际上矛头对准谁已经是昭然若揭了。”\u003c/b\u003e（这一句是最势大力沉，恨不得辟艾公谣者立刻被退网的指控。）\u003c/p\u003e\u003cp data-pid=\"UBxlp3YL\"\u003e“虽然你考据这事儿做得也没错，但是死者为大，还是少说两句吧。”\u003c/p\u003e\u003cp data-pid=\"fXRbE55B\"\u003e......\u003c/p\u003e\u003cp data-pid=\"lbrIx7_8\"\u003e像这样↑的发言（已过滤不文明词汇），一年多前关注我的知友可能看过不少，那时候我容忍度还没锻炼出来，常常会因为忍不住笑出声来，分享在想法给大家看。\u003c/p\u003e\u003cp data-pid=\"sZo8jzqO\"\u003e这些反对对艾教授谬误言论进行勘误辟谣的发声群体，其实大部分都是一些剪辑艾教授视频片段，配上煽情的BGM，起个醒目标题，就敢投原创自制进而建群、带货的博主们↓的受众。\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cnoscript\u003e\u003cimg src=\"https://picx.zhimg.com/v2-f8a3d3c56b2731f0bd37b071102123f5_b.jpg\" data-rawwidth=\"1950\" data-rawheight=\"16380\" data-size=\"normal\" data-original-token=\"v2-aa2b63df8f29a9f0e33b4d6f33dd0689\" data-default-watermark-src=\"https://pica.zhimg.com/v2-c1fe5257cceb8bebfec053fd1ee57fa0_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1950\" data-original=\"https://picx.zhimg.com/v2-f8a3d3c56b2731f0bd37b071102123f5_r.jpg\"/\u003e\u003c/noscript\u003e\u003cimg src=\"data:image/svg+xml;utf8,\u0026lt;svg xmlns=\u0026#39;http://www.w3.org/2000/svg\u0026#39; width=\u0026#39;1950\u0026#39; height=\u0026#39;16380\u0026#39;\u0026gt;\u0026lt;/svg\u0026gt;\" data-rawwidth=\"1950\" data-rawheight=\"16380\" data-size=\"normal\" data-original-token=\"v2-aa2b63df8f29a9f0e33b4d6f33dd0689\" data-default-watermark-src=\"https://pica.zhimg.com/v2-c1fe5257cceb8bebfec053fd1ee57fa0_b.jpg\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1950\" data-original=\"https://picx.zhimg.com/v2-f8a3d3c56b2731f0bd37b071102123f5_r.jpg\" data-actualsrc=\"https://picx.zhimg.com/v2-f8a3d3c56b2731f0bd37b071102123f5_b.jpg\"/\u003e\u003c/figure\u003e\u003cp data-pid=\"N1Y0EZNO\"\u003e所以，你辟艾教授的谣，这些用着艾教授照片作头像、ID里一定要带“艾”字儿的博主们，普遍是不欢迎的。\u003c/p\u003e\u003cp data-pid=\"jyIWu5_k\"\u003e辟谣者除了可能每天大量收获反对辟谣的评论和私信，辟谣的文字还可能因为审核误判、被浏览者多次举报等等缘故，消失不见。\u003c/p\u003e\u003cp data-pid=\"Vga2T9ii\"\u003e以艾教授制造、传播谣言为例，我觉得想要辟谣的人最困恼的3点：\u003c/p\u003e\u003cul\u003e\u003cli data-pid=\"SDo3ZAou\"\u003e1.他是名校教授，你只是普通网友\u003c/li\u003e\u003cli data-pid=\"w2lLeTCu\"\u003e2.他有海量的网络支持者，你可能就一个人\u003c/li\u003e\u003cli data-pid=\"mn0uEJHG\"\u003e3.他的谣言段子，总爱围绕特定的对象展开\u003c/li\u003e\u003c/ul\u003e\u003cp data-pid=\"bSSj0JPM\"\u003e尤其是第三点，会给第二点叠加各种倍增效果，将会让冲动易怒、思维单一的网友预备下更多款式的帽子，迫切地想要赠予辟谣者。\u003c/p\u003e\u003cp data-pid=\"9GZSOHtg\"\u003e这导致许多跃跃欲试想辟谣艾教授谬论的人知难而退，对谣言采取了某种“一切都是相比较而言.jpg”式的妥协态度——\u003c/p\u003e\u003cp data-pid=\"6HvpWjYS\"\u003e\u003cb\u003e“吃力不讨好，算啦！至少艾教授传播的基本都是正向的谣言。”\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"n8-ksvaN\"\u003e可是我一想起艾教授生前对年轻一代的谆谆教诲，就情不自禁握紧了拳头：\u003c/p\u003e\u003cp data-pid=\"vtny6SuO\"\u003e\u003cb\u003e为艾教授谬误言论考据勘误的辟谣工作绝不妥协！\u003c/b\u003e\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cnoscript\u003e\u003cimg src=\"https://pic2.zhimg.com/v2-322ae3342ebaf4df28ef9cb70b165917_b.jpg\" data-rawwidth=\"2160\" data-rawheight=\"10589\" data-size=\"normal\" data-original-token=\"v2-93f63bf6bffdfda63286f41e810af31f\" data-default-watermark-src=\"https://pica.zhimg.com/v2-cabfc7bfe3af919e6c6727b67e972982_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"2160\" data-original=\"https://pic2.zhimg.com/v2-322ae3342ebaf4df28ef9cb70b165917_r.jpg\"/\u003e\u003c/noscript\u003e\u003cimg src=\"data:image/svg+xml;utf8,\u0026lt;svg xmlns=\u0026#39;http://www.w3.org/2000/svg\u0026#39; width=\u0026#39;2160\u0026#39; height=\u0026#39;10589\u0026#39;\u0026gt;\u0026lt;/svg\u0026gt;\" data-rawwidth=\"2160\" data-rawheight=\"10589\" data-size=\"normal\" data-original-token=\"v2-93f63bf6bffdfda63286f41e810af31f\" data-default-watermark-src=\"https://pica.zhimg.com/v2-cabfc7bfe3af919e6c6727b67e972982_b.jpg\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"2160\" data-original=\"https://pic2.zhimg.com/v2-322ae3342ebaf4df28ef9cb70b165917_r.jpg\" data-actualsrc=\"https://pic2.zhimg.com/v2-322ae3342ebaf4df28ef9cb70b165917_b.jpg\"/\u003e\u003c/figure\u003e\u003cp data-pid=\"oYeqcr5l\"\u003e我一直都认为真诚最得人心。宣传工作必须坚持“实事求是”的原则和底线，才能取得良好持久的效果。\u003c/p\u003e\u003cp data-pid=\"-OiEBpEm\"\u003e可惜的是，还是有很多人意识不到这一点，甚至理解不了一点。\u003c/p\u003e\u003chr/\u003e\u003cp data-pid=\"WALFAmcd\"\u003e用事实说话，\u003c/p\u003e\u003cp data-pid=\"YK4TXMBf\"\u003e艾公千古！\u003c/p\u003e",
+        "excerpt": "假如我到处造谣题主： \u003cb\u003e12岁的时候就敢下河救起了一个小朋友。\u003c/b\u003e你知道了并不会不高兴，甚至可能觉得没什么辟谣的必要。假如我到处造谣题主： \u003cb\u003e12岁的时候还尿了炕被老爸扒掉裤子打。\u003c/b\u003e你知道了就会想打我，指责我诽谤，恨不得把我嘴缝起来。大家可以代入想象一下，是不是这样？ \u003cb\u003e谣言还是谣言，性质并没有变化，可是带给人的感受却可能是截然不同的。\u003c/b\u003e这也是为什么，很多人其实并不反感谣言，甚至对一些正中下怀的谣言非常受用，为这类…",
+        "excerpt_new": "假如我到处造谣题主： \u003cb\u003e12岁的时候就敢下河救起了一个小朋友。\u003c/b\u003e你知道了并不会不高兴，甚至可能觉得没什么辟谣的必要。假如我到处造谣题主： \u003cb\u003e12岁的时候还尿了炕被老爸扒掉裤子打。\u003c/b\u003e你知道了就会想打我，指责我诽谤，恨不得把我嘴缝起来。大家可以代入想象一下，是不是这样？ \u003cb\u003e谣言还是谣言，性质并没有变化，可是带给人的感受却可能是截然不同的。\u003c/b\u003e这也是为什么，很多人其实并不反感谣言，甚至对一些正中下怀的谣言非常受用，为这类…",
+        "preview_type": "default",
+        "preview_text": "",
+        "relationship": {
+          "voting": 1,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": null
+        },
+        "reaction_instruction": {
+
+        },
+        "relevant_info": {
+          "relevant_type": "",
+          "is_relevant": false,
+          "relevant_text": ""
+        },
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "paid_info": {
+          "type": "",
+          "content": "",
+          "has_purchased": false
+        },
+        "attachment": null,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "unvote",
+        "mark_infos": [
+
+        ],
+        "content_need_truncated": false,
+        "force_login_when_click_read_more": false
+      },
+      "verb": "MEMBER_VOTEUP_ANSWER",
+      "created_time": 1761057439,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "bafec2f1e7c8802e2bdd066088523072",
+        "name": "自由之翼",
+        "headline": "",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/zi-you-zhi-yi-21-60",
+        "url_token": "zi-you-zhi-yi-21-60",
+        "avatar_url": "https://pica.zhimg.com/v2-7c2fd536a1e30b5a73a8d3d5dec4cdc9_l.jpg?source=5a24d060\u0026needBackground=1",
+        "gender": 0,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [
+
+        ],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [
+
+          ],
+          "detail_badges": [
+
+          ],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "赞同了回答",
+      "is_sticky": false
+    },
+    {
+      "id": "1761055966181",
+      "type": "feed",
+      "target": {
+        "id": "3589299094",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/3589299094",
+        "voteup_count": 34,
+        "thanks_count": 3,
+        "question": {
+          "id": "663465009",
+          "title": "请问个人所得税标准有几档？该怎么计算自己交多少？",
+          "url": "https://api.zhihu.com/questions/663465009",
+          "type": "question",
+          "question_type": "normal",
+          "created": 1722806782,
+          "answer_count": 4,
+          "comment_count": 0,
+          "follower_count": 3,
+          "detail": "",
+          "excerpt": "",
+          "bound_topic_ids": [
+            215,
+            6471,
+            37744
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "is_following": false,
+          "author": {
+            "id": "b3e6327028ce083b06f3163142d1dc0a",
+            "name": "撩妹小分队",
+            "headline": "",
+            "type": "people",
+            "user_type": "people",
+            "url": "https://www.zhihu.com/people/liao-mei-xiao-fen-dui",
+            "url_token": "liao-mei-xiao-fen-dui",
+            "avatar_url": "https://picx.zhimg.com/v2-60f104778c37d95c3dc56649c849dd31_l.jpg?source=5a24d060\u0026needBackground=1",
+            "gender": 0,
+            "is_following": false,
+            "is_followed": false,
+            "is_org": false,
+            "badge": [
+
+            ],
+            "badge_v2": {
+              "title": "",
+              "merged_badges": [
+
+              ],
+              "detail_badges": [
+
+              ],
+              "icon": "",
+              "night_icon": ""
+            },
+            "vip_info": {
+              "is_vip": false,
+              "target_url": ""
+            },
+            "kvip_info": {
+              "is_vip": false,
+              "target_url": ""
+            }
+          },
+          "reaction_instruction": null
+        },
+        "updated_time": 1723197222,
+        "created_time": 1723197222,
+        "author": {
+          "id": "d9724c3fd75f9e0fed0215fe7f797dcb",
+          "name": "垚垚财务咨询",
+          "headline": "资深财务会计职业者，代理记账税务咨询和税务筹划都可以畅聊",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/zfh-3-52",
+          "url_token": "zfh-3-52",
+          "avatar_url": "https://picx.zhimg.com/v2-a9bcbba68335eb1493029e07d94a48f4_l.jpg?source=5a24d060\u0026needBackground=1",
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [
+            {
+              "type": "identity",
+              "description": "会计专业技术资格证持证人",
+              "topic_names": [
+
+              ],
+              "topics": [
+
+              ]
+            }
+          ],
+          "badge_v2": {
+            "title": "会计专业技术资格证持证人",
+            "merged_badges": [
+              {
+                "type": "identity",
+                "detail_type": "identity_people",
+                "title": "认证",
+                "description": "会计专业技术资格证持证人",
+                "url": "https://zhuanlan.zhihu.com/p/96956163",
+                "sources": [
+
+                ],
+                "icon": "",
+                "night_icon": "",
+                "badge_status": "passed"
+              }
+            ],
+            "detail_badges": [
+              {
+                "type": "identity",
+                "detail_type": "identity_people",
+                "title": "已认证的个人",
+                "description": "会计专业技术资格证持证人",
+                "url": "https://zhuanlan.zhihu.com/p/96956163",
+                "sources": [
+
+                ],
+                "icon": "https://pic1.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+                "badge_status": "passed"
+              }
+            ],
+            "icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c",
+            "night_icon": "https://picx.zhimg.com/v2-2ddc5cc683982648f6f123616fb4ec09_l.png?source=32738c0c"
+          },
+          "vip_info": {
+            "is_vip": false,
+            "widget": {
+              "url": "https://pica.zhimg.com/v2-5f2558d9a0ab384096c4ab33a96f722f_r.jpg?source=5a24d060",
+              "night_mode_url": "https://pic1.zhimg.com/v2-5f2558d9a0ab384096c4ab33a96f722f_r.jpg?source=5a24d060",
+              "id": 40136
+            },
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "comment_permission": "all",
+        "is_copyable": true,
+        "comment_count": 1,
+        "can_comment": {
+          "status": false,
+          "reason": "只有作者关注的人才可以评论"
+        },
+        "content": "\u003ch2\u003e个人所得税对象\u003c/h2\u003e\u003cp data-pid=\"4hOpRjr4\"\u003e个人所得税的征收对象是居民个人，居民个人是指在中国境内有住所或者实际居住超过183天的个人。\u003c/p\u003e\u003ch2\u003e个人所得税纳税档次\u003c/h2\u003e\u003cp data-pid=\"Q7DPP-r8\"\u003e个人所得税的征收标准是按照综合所得额计算的，个人所得税采用渐进税率的方式征收，税率包括7个档次，分别为3%、10%、20%、25%、30%、35%、45%。\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cnoscript\u003e\u003cimg src=\"https://pic1.zhimg.com/v2-9dc3e23eab773729d17a5fefb7bfc072_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1119\" data-rawheight=\"868\" data-original-token=\"v2-5e7ad15b46cae15ef77a7889489e118d\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-7a15d484dab9740b489fdfe3e7cca2c8_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1119\" data-original=\"https://pic1.zhimg.com/v2-9dc3e23eab773729d17a5fefb7bfc072_r.jpg\"/\u003e\u003c/noscript\u003e\u003cimg src=\"data:image/svg+xml;utf8,\u0026lt;svg xmlns=\u0026#39;http://www.w3.org/2000/svg\u0026#39; width=\u0026#39;1119\u0026#39; height=\u0026#39;868\u0026#39;\u0026gt;\u0026lt;/svg\u0026gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1119\" data-rawheight=\"868\" data-original-token=\"v2-5e7ad15b46cae15ef77a7889489e118d\" data-default-watermark-src=\"https://pic3.zhimg.com/v2-7a15d484dab9740b489fdfe3e7cca2c8_b.jpg\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1119\" data-original=\"https://pic1.zhimg.com/v2-9dc3e23eab773729d17a5fefb7bfc072_r.jpg\" data-actualsrc=\"https://pic1.zhimg.com/v2-9dc3e23eab773729d17a5fefb7bfc072_b.jpg\"/\u003e\u003c/figure\u003e\u003ch2\u003e综合所得额的范围\u003c/h2\u003e\u003cp data-pid=\"wrkc0Wwu\"\u003e一般就是指工资薪金、劳务报酬、稿酬、特许权使用费等四项综合所得的收入总额。\u003c/p\u003e\u003ch2\u003e个人所得税计算\u003c/h2\u003e\u003cp data-pid=\"YkCdonPF\"\u003e个人所得税采取的是分期预缴，年度汇算清缴的方式。起计算公式为应退或应补税额=[（综合所得收入额-60000元-“三险一金”等专项扣除-五项专项附加扣除-依法确定的其他扣除-符合条件的公益慈善事业捐赠）×适用税率-速算扣除数]-已预缴税额\u003c/p\u003e\u003cp data-pid=\"HeIZq34h\"\u003e\u003ci\u003e在这里注意预缴时每月可扣除的费用为5000元，上面公式写的是年度汇算清缴全年的累计扣除金额60000元。\u003c/i\u003e\u003c/p\u003e\u003ch2\u003e什么情况无需做汇算清缴\u003c/h2\u003e\u003cp data-pid=\"IOL98L2R\"\u003e\u003cbr/\u003e（一）汇算需补税但综合所得收入全年不超过12万元的；\u003cbr/\u003e（二）汇算需补税金额不超过400元的；\u003cbr/\u003e（三）已预缴税额与汇算应纳税额一致的；\u003cbr/\u003e（四）符合汇算退税条件但不申请退税的。\u003c/p\u003e\u003ch2\u003e年终奖\u003c/h2\u003e\u003cp data-pid=\"_5OwR-Nk\"\u003e年终奖我们在一个纳税年度内，对每一个纳税人，该计税办法只允许采用一次。将全年一次性奖金，除以12个月，按其商数确定适用税率和速算扣除数。目前年度汇算清缴时年终奖可以与日常的工资薪金综合所得分开计算税金。\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cnoscript\u003e\u003cimg src=\"https://picx.zhimg.com/v2-36fdb5b446f97b69b394a5a0ee5497ff_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"751\" data-rawheight=\"543\" data-original-token=\"v2-aa7cc3b35e9b657d053d9fa7826245d7\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-46a26c700fea3f4dc27f60a1ba15efab_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"751\" data-original=\"https://picx.zhimg.com/v2-36fdb5b446f97b69b394a5a0ee5497ff_r.jpg\"/\u003e\u003c/noscript\u003e\u003cimg src=\"data:image/svg+xml;utf8,\u0026lt;svg xmlns=\u0026#39;http://www.w3.org/2000/svg\u0026#39; width=\u0026#39;751\u0026#39; height=\u0026#39;543\u0026#39;\u0026gt;\u0026lt;/svg\u0026gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"751\" data-rawheight=\"543\" data-original-token=\"v2-aa7cc3b35e9b657d053d9fa7826245d7\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-46a26c700fea3f4dc27f60a1ba15efab_b.jpg\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"751\" data-original=\"https://picx.zhimg.com/v2-36fdb5b446f97b69b394a5a0ee5497ff_r.jpg\" data-actualsrc=\"https://picx.zhimg.com/v2-36fdb5b446f97b69b394a5a0ee5497ff_b.jpg\"/\u003e\u003c/figure\u003e\u003cfigure data-size=\"normal\"\u003e\u003cnoscript\u003e\u003cimg src=\"https://pic1.zhimg.com/v2-0f2083b718e6b5001365cea0a3a1d9ca_b.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1356\" data-rawheight=\"753\" data-original-token=\"v2-dd519d3b1b8128e8667cdd8163035fee\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-6b8c526a7587538f0f6e65ce7030b84b_b.jpg\" class=\"origin_image zh-lightbox-thumb\" width=\"1356\" data-original=\"https://pic1.zhimg.com/v2-0f2083b718e6b5001365cea0a3a1d9ca_r.jpg\"/\u003e\u003c/noscript\u003e\u003cimg src=\"data:image/svg+xml;utf8,\u0026lt;svg xmlns=\u0026#39;http://www.w3.org/2000/svg\u0026#39; width=\u0026#39;1356\u0026#39; height=\u0026#39;753\u0026#39;\u0026gt;\u0026lt;/svg\u0026gt;\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1356\" data-rawheight=\"753\" data-original-token=\"v2-dd519d3b1b8128e8667cdd8163035fee\" data-default-watermark-src=\"https://pic2.zhimg.com/v2-6b8c526a7587538f0f6e65ce7030b84b_b.jpg\" class=\"origin_image zh-lightbox-thumb lazy\" width=\"1356\" data-original=\"https://pic1.zhimg.com/v2-0f2083b718e6b5001365cea0a3a1d9ca_r.jpg\" data-actualsrc=\"https://pic1.zhimg.com/v2-0f2083b718e6b5001365cea0a3a1d9ca_b.jpg\"/\u003e\u003c/figure\u003e\u003cp\u003e\u003c/p\u003e",
+        "excerpt": "个人所得税对象个人所得税的征收对象是居民个人，居民个人是指在中国境内有住所或者实际居住超过183天的个人。 个人所得税纳税档次个人所得税的征收标准是按照综合所得额计算的，个人所得税采用渐进税率的方式征收，税率包括7个档次，分别为3%、10%、20%、25%、30%、35%、45%。 综合所得额的范围一般就是指工资薪金、劳务报酬、稿酬、特许权使用费等四项综合所得的收入总额。 个人所得税计算个人所得税采取的是分期预缴，年度汇…",
+        "excerpt_new": "个人所得税对象个人所得税的征收对象是居民个人，居民个人是指在中国境内有住所或者实际居住超过183天的个人。 个人所得税纳税档次个人所得税的征收标准是按照综合所得额计算的，个人所得税采用渐进税率的方式征收，税率包括7个档次，分别为3%、10%、20%、25%、30%、35%、45%。 综合所得额的范围一般就是指工资薪金、劳务报酬、稿酬、特许权使用费等四项综合所得的收入总额。 个人所得税计算个人所得税采取的是分期预缴，年度汇…",
+        "preview_type": "default",
+        "preview_text": "",
+        "relationship": {
+          "voting": 1,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": null
+        },
+        "reaction_instruction": {
+
+        },
+        "relevant_info": {
+          "relevant_type": "",
+          "is_relevant": false,
+          "relevant_text": ""
+        },
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "paid_info": {
+          "type": "",
+          "content": "",
+          "has_purchased": false
+        },
+        "attachment": null,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "unvote",
+        "mark_infos": [
+
+        ],
+        "content_need_truncated": false,
+        "force_login_when_click_read_more": false
+      },
+      "verb": "MEMBER_VOTEUP_ANSWER",
+      "created_time": 1761055966,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "bafec2f1e7c8802e2bdd066088523072",
+        "name": "自由之翼",
+        "headline": "",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/zi-you-zhi-yi-21-60",
+        "url_token": "zi-you-zhi-yi-21-60",
+        "avatar_url": "https://picx.zhimg.com/v2-7c2fd536a1e30b5a73a8d3d5dec4cdc9_l.jpg?source=5a24d060\u0026needBackground=1",
+        "gender": 0,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [
+
+        ],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [
+
+          ],
+          "detail_badges": [
+
+          ],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "赞同了回答",
+      "is_sticky": false
+    },
+    {
+      "id": "1760585947085",
+      "type": "feed",
+      "target": {
+        "id": "1954725359602870003",
+        "title": "张雪峰为什么被禁止关注了？",
+        "url": "https://api.zhihu.com/questions/1954725359602870003",
+        "type": "question",
+        "question_type": "normal",
+        "created": 1758822842,
+        "answer_count": 2610,
+        "comment_count": 64,
+        "follower_count": 4969,
+        "detail": "\u003cp\u003e张雪峰一直以来都是以言词幽默犀利而著称。\u003c/p\u003e\u003cp\u003e给学生和家长的建议也很中肯。\u003c/p\u003e\u003cp\u003e记得以前高考，找工作的时候，因为家里人见识，文化水平的局限，真的很吃亏。\u003c/p\u003e\u003cp\u003e所以不明白为什么那么多人攻击张雪峰。\u003c/p\u003e",
+        "excerpt": "张雪峰一直以来都是以言词幽默犀利而著称。给学生和家长的建议也很中肯。记得以前高…",
+        "bound_topic_ids": [
+          199568,
+          2812395,
+          3786875,
+          4132156,
+          4136223
+        ],
+        "relationship": {
+          "is_author": false
+        },
+        "is_following": true,
+        "author": {
+          "id": "5b065f0040b9236258082160c9dcb592",
+          "name": "温暖",
+          "headline": "生活像山泉，越流越混浊。",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/wei-xin-yong-hu-59-26-54-40",
+          "url_token": "wei-xin-yong-hu-59-26-54-40",
+          "avatar_url": "https://pica.zhimg.com/v2-a61bc745f35ef8456470b1d1cc07b8f9_l.jpg?source=5a24d060\u0026needBackground=1",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [
+
+          ],
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [
+
+            ],
+            "detail_badges": [
+
+            ],
+            "icon": "",
+            "night_icon": ""
+          },
+          "vip_info": {
+            "is_vip": false,
+            "widget": {
+              "url": "https://picx.zhimg.com/v2-64a58c6459bea11becf5f93975ce9993_r.jpg?source=5a24d060",
+              "night_mode_url": "https://pic1.zhimg.com/v2-64a58c6459bea11becf5f93975ce9993_r.jpg?source=5a24d060",
+              "id": 40101
+            },
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "reaction_instruction": {
+
+        }
+      },
+      "verb": "",
+      "created_time": 1760585947,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "bafec2f1e7c8802e2bdd066088523072",
+        "name": "自由之翼",
+        "headline": "",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/zi-you-zhi-yi-21-60",
+        "url_token": "zi-you-zhi-yi-21-60",
+        "avatar_url": "https://picx.zhimg.com/v2-7c2fd536a1e30b5a73a8d3d5dec4cdc9_l.jpg?source=5a24d060\u0026needBackground=1",
+        "gender": 0,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [
+
+        ],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [
+
+          ],
+          "detail_badges": [
+
+          ],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "关注了问题",
+      "is_sticky": false
+    },
+    {
+      "id": "1760583055338",
+      "type": "feed",
+      "target": {
+        "id": "387885344",
+        "title": "学术造假是怎样被发现的？",
+        "url": "https://api.zhihu.com/questions/387885344",
+        "type": "question",
+        "question_type": "normal",
+        "created": 1586914707,
+        "answer_count": 557,
+        "comment_count": 15,
+        "follower_count": 3368,
+        "detail": "",
+        "excerpt": "",
+        "bound_topic_ids": [
+          8097,
+          117098,
+          138472,
+          140309,
+          158096
+        ],
+        "relationship": {
+          "is_author": false
+        },
+        "is_following": true,
+        "author": {
+          "id": "38f83ece1096e21b49b46be84759beda",
+          "name": "驴驴驴",
+          "headline": "",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/lu-lu-lu-32-58",
+          "url_token": "lu-lu-lu-32-58",
+          "avatar_url": "https://picx.zhimg.com/v2-4004787a9d0612cb30fb7bdc5cdc3380_l.jpg?source=5a24d060\u0026needBackground=1",
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [
+
+          ],
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [
+
+            ],
+            "detail_badges": [
+
+            ],
+            "icon": "",
+            "night_icon": ""
+          },
+          "vip_info": {
+            "is_vip": false,
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "reaction_instruction": {
+
+        }
+      },
+      "verb": "",
+      "created_time": 1760583055,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "bafec2f1e7c8802e2bdd066088523072",
+        "name": "自由之翼",
+        "headline": "",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/zi-you-zhi-yi-21-60",
+        "url_token": "zi-you-zhi-yi-21-60",
+        "avatar_url": "https://picx.zhimg.com/v2-7c2fd536a1e30b5a73a8d3d5dec4cdc9_l.jpg?source=5a24d060\u0026needBackground=1",
+        "gender": 0,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [
+
+        ],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [
+
+          ],
+          "detail_badges": [
+
+          ],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "关注了问题",
+      "is_sticky": false
+    },
+    {
+      "id": "1760086062963",
+      "type": "feed",
+      "target": {
+        "id": "1956854246176691698",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1956854246176691698",
+        "voteup_count": 2159,
+        "thanks_count": 85,
+        "question": {
+          "id": "1954725359602870003",
+          "title": "张雪峰为什么被禁止关注了？",
+          "url": "https://api.zhihu.com/questions/1954725359602870003",
+          "type": "question",
+          "question_type": "normal",
+          "created": 1758822842,
+          "answer_count": 2610,
+          "comment_count": 64,
+          "follower_count": 4969,
+          "detail": "\u003cp\u003e张雪峰一直以来都是以言词幽默犀利而著称。\u003c/p\u003e\u003cp\u003e给学生和家长的建议也很中肯。\u003c/p\u003e\u003cp\u003e记得以前高考，找工作的时候，因为家里人见识，文化水平的局限，真的很吃亏。\u003c/p\u003e\u003cp\u003e所以不明白为什么那么多人攻击张雪峰。\u003c/p\u003e",
+          "excerpt": "张雪峰一直以来都是以言词幽默犀利而著称。给学生和家长的建议也很中肯。记得以前高…",
+          "bound_topic_ids": [
+            199568,
+            2812395,
+            3786875,
+            4132156,
+            4136223
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "is_following": true,
+          "author": {
+            "id": "5b065f0040b9236258082160c9dcb592",
+            "name": "温暖",
+            "headline": "生活像山泉，越流越混浊。",
+            "type": "people",
+            "user_type": "people",
+            "url": "https://www.zhihu.com/people/wei-xin-yong-hu-59-26-54-40",
+            "url_token": "wei-xin-yong-hu-59-26-54-40",
+            "avatar_url": "https://picx.zhimg.com/v2-a61bc745f35ef8456470b1d1cc07b8f9_l.jpg?source=5a24d060\u0026needBackground=1",
+            "gender": 1,
+            "is_following": false,
+            "is_followed": false,
+            "is_org": false,
+            "badge": [
+
+            ],
+            "badge_v2": {
+              "title": "",
+              "merged_badges": [
+
+              ],
+              "detail_badges": [
+
+              ],
+              "icon": "",
+              "night_icon": ""
+            },
+            "vip_info": {
+              "is_vip": false,
+              "widget": {
+                "url": "https://picx.zhimg.com/v2-64a58c6459bea11becf5f93975ce9993_r.jpg?source=5a24d060",
+                "night_mode_url": "https://picx.zhimg.com/v2-64a58c6459bea11becf5f93975ce9993_r.jpg?source=5a24d060",
+                "id": 40101
+              },
+              "target_url": ""
+            },
+            "kvip_info": {
+              "is_vip": false,
+              "target_url": ""
+            }
+          },
+          "reaction_instruction": {
+
+          }
+        },
+        "updated_time": 1759330408,
+        "created_time": 1759330408,
+        "author": {
+          "id": "e5dfcb61effe973567b60ba5aadc50f4",
+          "name": "人民的迈巴赫",
+          "headline": "东北亚知名抽象主题艺术学家",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/79-50-10-11-67",
+          "url_token": "79-50-10-11-67",
+          "avatar_url": "https://pic1.zhimg.com/v2-533ad97a22ff31679fbe84c031f4041e_l.jpg?source=5a24d060\u0026needBackground=1",
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [
+
+          ],
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [
+
+            ],
+            "detail_badges": [
+
+            ],
+            "icon": "",
+            "night_icon": ""
+          },
+          "vip_info": {
+            "is_vip": false,
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "comment_permission": "follower_n_days",
+        "is_copyable": true,
+        "comment_count": 10,
+        "can_comment": {
+          "status": false,
+          "reason": "只有作者关注的人才可以评论"
+        },
+        "content": "\u003cp data-pid=\"n7tEc1C6\"\u003e一个猪贩子告诉你，\u003c/p\u003e\u003cp data-pid=\"FVbpkM7D\"\u003e他有致富秘诀，一万块钱一条，\u003c/p\u003e\u003cp data-pid=\"GGKnualE\"\u003e你把一万块钱付了，\u003c/p\u003e\u003cp data-pid=\"y4F3JssX\"\u003e他告诉你，明年猪肉肯定大涨，\u003c/p\u003e\u003cp data-pid=\"Bnl4iD9q\"\u003e劝你去养猪，铁定大赚。\u003c/p\u003e\u003cp data-pid=\"Ke7B9AkT\"\u003e你贷款养了1000头猪，其他村民都羡慕，说养猪可是热门专业，能赚大钱，\u003c/p\u003e\u003cp data-pid=\"NJNcAwuq\"\u003e年底猪出栏了，你却发现猪肉价格已经爆跌，你赔的连裤衩都不剩了。\u003c/p\u003e\u003cp data-pid=\"GGjsAAYS\"\u003e之后你突然发现了，这个猪贩子把同样的消息，以一万元一条的价格，卖给了附近村子几乎每一个村民。\u003c/p\u003e\u003cp data-pid=\"_bbykDoe\"\u003e而这些得到“宝贵消息”的村民，都心照不宣的把这个所谓的“秘密”藏在心里，谁也不告诉，自以为要发财了，偷偷贷款养猪。\u003c/p\u003e\u003cp data-pid=\"zD_uTABG\"\u003e即使有人看到猪贩子在直播间公开宣扬养猪能发大财，也丝毫没有怀疑消息的正确性，反而更加笃信猪贩子的话了，都直播了不是嘛？那说的肯定没错了。\u003c/p\u003e\u003cp data-pid=\"61XF4lTM\"\u003e结果附近几个村子的村民，拼尽全家之力贷款养猪，幻想一夜暴富，城里的别墅都交定金了。\u003c/p\u003e\u003cp data-pid=\"uyMOnJqc\"\u003e最终的后果就是：年底的时候猪肉价格暴跌，蔬菜鸡肉鸡蛋，几乎绝产，价格暴涨。\u003c/p\u003e\u003cp data-pid=\"QaudS1Ev\"\u003e猪肉贩子又冒出来了，他说:“养鸡才能赚大钱，养猪的当初是咋想的？”\u003c/p\u003e\u003cp data-pid=\"XfNDEPE0\"\u003e村民一看，还是猪贩子说的对呀，说啥赚钱啥赚钱，听他的准没错，自己养猪破产了，就是因为没早听他的话，早一年养猪不就发财了！？！？\u003c/p\u003e\u003cp data-pid=\"de67LgHO\"\u003e村民们一琢磨，赶紧去猪贩子直播间刷“肉身封圣、配立太庙”，\u003c/p\u003e\u003cp data-pid=\"Tx5Zrbp0\"\u003e因为猪贩子实在是太伟大了，说什么赚什么，不赚的他绝对不说。\u003c/p\u003e\u003cp data-pid=\"Z9QUeuvY\"\u003e就这消息，一万块，值了！\u003c/p\u003e\u003cp data-pid=\"eLTVKeVj\"\u003e还有村民说，猪贩子这是给了贫农重生的希望，贫农就靠养殖才有发财的可能性，如果有下辈子还听猪贩子的！\u003c/p\u003e\u003cp data-pid=\"tcBtV-o1\"\u003e因为猪贩子在乡镇的巨大影响力，导致附近城市的猪肉价格如同坐过山车一样，\u003c/p\u003e\u003cp data-pid=\"HuZfgWDg\"\u003e百姓一年到头要不就是买不起猪肉，要不就是只买得起猪肉，严重影响了正常的市场生态。\u003c/p\u003e\u003cp data-pid=\"fbev0PhB\"\u003e但是猪贩子却在直播间炫耀，说他根本不担心吃不吃的起猪肉，因为他账户里有几个亿现金，想吃什么吃什么，甚至打仗他都可以随便捐钱。\u003c/p\u003e\u003cp data-pid=\"-VvPhLoZ\"\u003e最后，猪贩子的直播间被封了，\u003c/p\u003e\u003cp data-pid=\"31ZNqBQ3\"\u003e村民都义愤填膺，说这是巨大的阴谋，\u003c/p\u003e\u003cp data-pid=\"Ex797PgP\"\u003e说这是防止村民发家致富的阴谋。\u003c/p\u003e\u003cp data-pid=\"pjIYVbNw\"\u003e\u003cb\u003e没有猪贩子了，他们连养什么都不知道了，这下可怎么发财呢？\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"XRw5rgy4\"\u003e\u003cb\u003e封他的人肯定是被动了蛋糕了，准没错！太坏了！\u003c/b\u003e\u003c/p\u003e",
+        "excerpt": "一个猪贩子告诉你， 他有致富秘诀，一万块钱一条， 你把一万块钱付了， 他告诉你，明年猪肉肯定大涨， 劝你去养猪，铁定大赚。 你贷款养了1000头猪，其他村民都羡慕，说养猪可是热门专业，能赚大钱， 年底猪出栏了，你却发现猪肉价格已经爆跌，你赔的连裤衩都不剩了。 之后你突然发现了，这个猪贩子把同样的消息，以一万元一条的价格，卖给了附近村子几乎每一个村民。 而这些得到“宝贵消息”的村民，都心照不宣的把这个所谓的“…",
+        "excerpt_new": "一个猪贩子告诉你， 他有致富秘诀，一万块钱一条， 你把一万块钱付了， 他告诉你，明年猪肉肯定大涨， 劝你去养猪，铁定大赚。 你贷款养了1000头猪，其他村民都羡慕，说养猪可是热门专业，能赚大钱， 年底猪出栏了，你却发现猪肉价格已经爆跌，你赔的连裤衩都不剩了。 之后你突然发现了，这个猪贩子把同样的消息，以一万元一条的价格，卖给了附近村子几乎每一个村民。 而这些得到“宝贵消息”的村民，都心照不宣的把这个所谓的“…",
+        "preview_type": "default",
+        "preview_text": "",
+        "relationship": {
+          "voting": 1,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": null
+        },
+        "reaction_instruction": {
+
+        },
+        "relevant_info": {
+          "relevant_type": "",
+          "is_relevant": false,
+          "relevant_text": ""
+        },
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "paid_info": {
+          "type": "",
+          "content": "",
+          "has_purchased": false
+        },
+        "attachment": null,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "unvote",
+        "mark_infos": [
+
+        ],
+        "content_need_truncated": false,
+        "force_login_when_click_read_more": false
+      },
+      "verb": "MEMBER_VOTEUP_ANSWER",
+      "created_time": 1760086062,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "bafec2f1e7c8802e2bdd066088523072",
+        "name": "自由之翼",
+        "headline": "",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/zi-you-zhi-yi-21-60",
+        "url_token": "zi-you-zhi-yi-21-60",
+        "avatar_url": "https://pic1.zhimg.com/v2-7c2fd536a1e30b5a73a8d3d5dec4cdc9_l.jpg?source=5a24d060\u0026needBackground=1",
+        "gender": 0,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [
+
+        ],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [
+
+          ],
+          "detail_badges": [
+
+          ],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "赞同了回答",
+      "is_sticky": false
+    },
+    {
+      "id": "1757668077997",
+      "type": "feed",
+      "target": {
+        "id": "1949604555357659743",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/1949604555357659743",
+        "voteup_count": 2072,
+        "thanks_count": 101,
+        "question": {
+          "id": "337079478",
+          "title": "字节跳动是一家怎么样的公司？",
+          "url": "https://api.zhihu.com/questions/337079478",
+          "type": "question",
+          "question_type": "normal",
+          "created": 1564143755,
+          "answer_count": 11,
+          "comment_count": 0,
+          "follower_count": 45,
+          "detail": "",
+          "excerpt": "",
+          "bound_topic_ids": [
+            209209
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "is_following": false,
+          "author": {
+            "id": "9cbaf625ca884abc5fc4dfc086c83810",
+            "name": "知乎用户8R92m2",
+            "headline": "",
+            "type": "people",
+            "user_type": "people",
+            "url": "https://www.zhihu.com/people/wang-shu-70-82",
+            "url_token": "wang-shu-70-82",
+            "avatar_url": "https://pic1.zhimg.com/v2-abed1a8c04700ba7d72b45195223e0ff_l.jpg?source=5a24d060\u0026needBackground=1",
+            "gender": 0,
+            "is_following": false,
+            "is_followed": false,
+            "is_org": false,
+            "badge": [
+
+            ],
+            "badge_v2": {
+              "title": "",
+              "merged_badges": [
+
+              ],
+              "detail_badges": [
+
+              ],
+              "icon": "",
+              "night_icon": ""
+            },
+            "vip_info": {
+              "is_vip": false,
+              "target_url": ""
+            },
+            "kvip_info": {
+              "is_vip": false,
+              "target_url": ""
+            }
+          },
+          "reaction_instruction": null
+        },
+        "updated_time": 1757718724,
+        "created_time": 1757601947,
+        "author": {
+          "id": "c423f7b5e4386e8d3fb954650e60a8a2",
+          "name": "小熊猫",
+          "headline": "",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/xiao-xiong-mao-75-8",
+          "url_token": "xiao-xiong-mao-75-8",
+          "avatar_url": "https://picx.zhimg.com/v2-76b9038ee6432e61c2ad0387ab5fbc7a_l.jpg?source=5a24d060\u0026needBackground=1",
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [
+
+          ],
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [
+
+            ],
+            "detail_badges": [
+
+            ],
+            "icon": "",
+            "night_icon": ""
+          },
+          "vip_info": {
+            "is_vip": false,
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "comment_permission": "all",
+        "is_copyable": true,
+        "comment_count": 201,
+        "can_comment": {
+          "status": false,
+          "reason": "只有作者关注的人才可以评论"
+        },
+        "content": "\u003cp data-pid=\"Fv_bhajT\"\u003e字节跳动（ByteDance）成立于 2012 年 3 月。\u003c/p\u003e\u003cp data-pid=\"K5m-SNw_\"\u003e2012 年的字节跳动只做一件事：把“今日头条”做出来并跑通算法推荐。\u003c/p\u003e\u003cp data-pid=\"Rq13cxj_\"\u003e1. 公司 3 月刚注册时，30 多个人挤在北京知春路民居，产品方向只有一个——移动端个性化资讯。\u003c/p\u003e\u003cp data-pid=\"4PQjCKyN\"\u003e2. 8 月今日头条 1.0 上线，核心卖点就是“不用人工编辑、全靠算法推荐”，90 天做到日活 100 万，年底突破 1000 万用户。\u003c/p\u003e\u003cp data-pid=\"cA1tdPrF\"\u003e3. 当年收入几乎为零，7 月拿到海纳亚洲 100 万美元 A 轮，全部砸在服务器和招人上，先把推荐引擎的召回、排序、实时更新跑通。\u003c/p\u003e\u003cp data-pid=\"VZtr9P87\"\u003e4. 除今日头条外，还同时内测了十几款“段子”“漫画”“美图”类 App 做数据实验，最终只有内涵段子留存，其它都砍掉，为算法积累用户行为样本。\u003c/p\u003e\u003cp data-pid=\"MznPhhUD\"\u003e一句话：2012 年的字节跳动 = “算法实验室 + 今日头条”，没有短视频、没有抖音，更谈不上电商、飞书、TikTok，所有资源都在验证“让信息主动找人”能不能成立。\u003c/p\u003e\u003cp data-pid=\"9KtpCBvG\"\u003e2013 年的字节跳动只做三件事：冲用户、做算法、试变现，全部围着“今日头条”一款 App 转。\u003c/p\u003e\u003cp data-pid=\"8BPS90mx\"\u003e1. 用户规模\u003c/p\u003e\u003cp data-pid=\"eH3ku076\"\u003e年中注册破 2 000 万，日活冲到 400～500 万；到 9 月 B 轮时对外公布“用户 5 000 万、日活 1 000 万”，成为增速最快的新闻客户端 。\u003c/p\u003e\u003cp data-pid=\"3Vg_4pgu\"\u003e2. 产品与算法\u003c/p\u003e\u003cp data-pid=\"Ji9L_7p-\"\u003e把推荐引擎从“离线计算”升级为“实时在线学习”，上线用户画像 1.0；iOS 8 周留存做到 45%，单条信息流刷新可 200 ms 内完成重排——这是当时同行做不到的速度 。\u003c/p\u003e\u003cp data-pid=\"ZXbIWQ4s\"\u003e3. 商业化试水\u003c/p\u003e\u003cp data-pid=\"5KgqDLvX\"\u003e年底开始接第一批信息流广告（今日本邦、京东、平安），CPM 高于门户 2～3 倍，验证了“算法＝溢价”；同时启动自媒体邀请制，为 2014 年“头条号”做铺垫 。\u003c/p\u003e\u003cp data-pid=\"2bqnHbNw\"\u003e一句话：2013 年的字节跳动 = 今日头条冲顶＋算法壁垒成型＋广告变现元年，公司全部资源仍集中在这一个 App 上，没有短视频，也没有海外产品 。\u003c/p\u003e\u003cp data-pid=\"lUyHgZdQ\"\u003e2014 年是字节跳动从“单 App 爆款”升级为“内容平台公司”的关键年，做了四件大事：\u003c/p\u003e\u003cp data-pid=\"6tB5cMgt\"\u003e1. 今日头条用户再翻倍\u003c/p\u003e\u003cp data-pid=\"C5lVv3C0\"\u003e年中日活破 3 000 万，年底到 6 000 万；稳居新闻客户端第二，仅次于腾讯新闻，但增速仍 3 倍于对手。\u003c/p\u003e\u003cp data-pid=\"lymUuqSc\"\u003e2. 推出“头条号”——中国第一个算法分发自媒体平台\u003c/p\u003e\u003cp data-pid=\"wlQWtGAm\"\u003e 9 月上线，三个月吸引 3 万作者入驻，日新增文章 1 万篇；用广告分成+流量倾斜把内容供给从“爬虫抓取”变成“原生创作”，为后续抖音、西瓜的“创作者生态”打了模板。\u003c/p\u003e\u003cp data-pid=\"FW02ZEfV\"\u003e3. 国际化第一次试水\u003c/p\u003e\u003cp data-pid=\"OKvJcMzm\"\u003e年底推出英文版 TopBuzz（海外头条），用同一套推荐引擎做英文内容聚合，算是 TikTok 之前的“算法出海 0.1”。\u003c/p\u003e\u003cp data-pid=\"aTfcbTnw\"\u003e4. 广告收入爆发\u003c/p\u003e\u003cp data-pid=\"fJHTh8Eh\"\u003e信息流广告日流水破 100 万元，全年营收预估 3～4 亿元，比 2013 年增长 10 倍；同时拿到红杉 1 亿美元 C 轮，估值 5 亿美元，正式跻身独角兽。\u003c/p\u003e\u003cp data-pid=\"vAmLxrqP\"\u003e一句话：2014 年的字节跳动 = 头条号生态+国际化起步+收入 10 倍暴涨，完成了从“App 工厂”到“平台公司”的惊险一跃，但短视频仍未面世。\u003c/p\u003e\u003cp data-pid=\"aeUn35qF\"\u003e2015 年，字节跳动把“算法+短视频”写进基因，公司从“图文平台”升级为“短视频前线指挥部”，做了四件决定命运的大事：\u003c/p\u003e\u003cp data-pid=\"C8PXtZPL\"\u003e1. 火山小视频上线（原名“火山直播”）\u003c/p\u003e\u003cp data-pid=\"GM6BWKDU\"\u003e4 月发布，先做成 15 秒短视频社区，用头条同款推荐引擎喂内容，日活半年冲到 500 万，验证了“短视频+算法”比“图文+算法”更杀时间。\u003c/p\u003e\u003cp data-pid=\"BKOHxDRG\"\u003e2. 花 10 亿元收购 Flipagram\u003c/p\u003e\u003cp data-pid=\"W3pJ7Ybp\"\u003e这是字节第一次海外并购，把美国短视频团队整体吞下，拿到音乐版权+本地化运营经验，为 TikTok 买路。\u003c/p\u003e\u003cp data-pid=\"RKMGW1hh\"\u003e3. 头条号全面视频化\u003c/p\u003e\u003cp data-pid=\"fwOS87AL\"\u003e推出“头条视频”子频道，给创作者 10 亿元分成补贴，一年内短视频播放量翻 8 倍，占总体时长 25%，完成内容形态切换的冷启动。\u003c/p\u003e\u003cp data-pid=\"2SEMVlCn\"\u003e4. 营收再翻 5 倍\u003c/p\u003e\u003cp data-pid=\"FaBp-LIo\"\u003e信息流广告日流水破 1 000 万元，全年收入约 20 亿元；年底完成 D 轮 10 亿美元融资，估值 110 亿美元，正式晋升“百亿美元俱乐部”。\u003c/p\u003e\u003cp data-pid=\"zvQk47-J\"\u003e一句话：2015 年的字节跳动 = 火山小视频跑通模式 + 海外并购练手 + 收入暴涨至 20 亿，公司已经拿到短视频赛道的入场券，只差一款“抖音”引爆全网。\u003c/p\u003e\u003cp data-pid=\"GkZnAt4p\"\u003e2016 年是字节跳动“火山”与“抖音”双短视频并行、最终把全部资源押注抖音的转折年，也是 TikTok 出海的前夜。核心事件只有四件：\u003c/p\u003e\u003cp data-pid=\"hj3Hu0sG\"\u003e1. 抖音（\u003ca href=\"https://link.zhihu.com/?target=http%3A//A.me\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003e\u003cspan class=\"invisible\"\u003ehttp://\u003c/span\u003e\u003cspan class=\"visible\"\u003eA.me\u003c/span\u003e\u003cspan class=\"invisible\"\u003e\u003c/span\u003e\u003c/a\u003e）诞生\u003c/p\u003e\u003cp data-pid=\"KDjzZwn1\"\u003e9 月 20 日低调上线，最初叫 \u003ca href=\"https://link.zhihu.com/?target=http%3A//A.me\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003e\u003cspan class=\"invisible\"\u003ehttp://\u003c/span\u003e\u003cspan class=\"visible\"\u003eA.me\u003c/span\u003e\u003cspan class=\"invisible\"\u003e\u003c/span\u003e\u003c/a\u003e，12 月正式更名“抖音”。定位“15 秒音乐短视频+全屏沉浸式”，把火山“草根搞笑”升级为“潮流酷盖”，早期拉来 200 位艺术院校学生拍模板，冷启动 3 个月日活破 30 万。\u003c/p\u003e\u003cp data-pid=\"RwU1eJsp\"\u003e2. 火山小视频 All in 补贴\u003c/p\u003e\u003cp data-pid=\"8a8K5BUM\"\u003e拿出 10 亿元做“火力全开”计划，每万次播放给创作者 20 元，直接把火山日活从 500 万推到 3 000 万，一度冲到 App Store 免费榜第一，为集团验证“撒币换流量”打法。\u003c/p\u003e\u003cp data-pid=\"7gHwhPfz\"\u003e3. 算法中台升级\u003c/p\u003e\u003cp data-pid=\"R3EJiZco\"\u003e把“双列点选”改成“单列上下滑+实时兴趣反馈”，推荐延迟降到 50 ms 以内，人均使用时长提升 40%，这套模型后来原封不动搬到抖音和 TikTok。\u003c/p\u003e\u003cp data-pid=\"s1Qse1mv\"\u003e4. 融资与估值再翻倍\u003c/p\u003e\u003cp data-pid=\"npfaVVHz\"\u003e年初完成 10 亿美元 D+ 轮，年末启动 Pre-IPO，估值从 110 亿美元跳到 220 亿美元；同时开始秘密孵化海外版短视频项目——\u003ca href=\"https://link.zhihu.com/?target=http%3A//Musical.ly\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003e\u003cspan class=\"invisible\"\u003ehttp://\u003c/span\u003e\u003cspan class=\"visible\"\u003eMusical.ly\u003c/span\u003e\u003cspan class=\"invisible\"\u003e\u003c/span\u003e\u003c/a\u003e 并购案进入谈判阶段，为 2017 年 TikTok 铺路。\u003c/p\u003e\u003cp data-pid=\"9v-2i0Vb\"\u003e一句话：2016 年的字节跳动 = 抖音 0 到 1 上线 + 火山撒币验证流量打法 + 单列算法成型，公司第一次把“短视频”抬到与今日头条同等战略高度，并准备好全面出海。\u003c/p\u003e\u003cp data-pid=\"okkdNfUk\"\u003e2017 年，字节跳动把“抖音”推成全民级现象，同时完成海外跳板收购，公司正式从“图文算法公司”升级为“短视频全球工厂”。全年五件大事：\u003c/p\u003e\u003cp data-pid=\"G5qGN12R\"\u003e1. 抖音国内爆红\u003c/p\u003e\u003cp data-pid=\"4U-1C9Gy\"\u003e3 月岳云鹏微博转发带 Logo 短视频，4 日登顶 App Store 免费榜；\u003c/p\u003e\u003cp data-pid=\"fMhVWivT\"\u003e6 月上线“一键换装”+“尬舞机”，日活破 3 000 万；\u003c/p\u003e\u003cp data-pid=\"N2ydkSqH\"\u003e年底日活 1.1 亿，人均日使用时长 52 分钟，成为仅次于微信的第二大时长黑洞。\u003c/p\u003e\u003cp data-pid=\"Z6omh3iq\"\u003e2. 10 亿美元收购 \u003ca href=\"https://link.zhihu.com/?target=http%3A//Musical.ly\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003e\u003cspan class=\"invisible\"\u003ehttp://\u003c/span\u003e\u003cspan class=\"visible\"\u003eMusical.ly\u003c/span\u003e\u003cspan class=\"invisible\"\u003e\u003c/span\u003e\u003c/a\u003e\u003c/p\u003e\u003cp data-pid=\"lPROOppK\"\u003e11 月宣布，18 年 2 月完成交割，直接把海外 2.4 亿注册用户、北美 60% 青少年渗透率收入囊中，为 TikTok 合并铺平道路。\u003c/p\u003e\u003cp data-pid=\"hNnKaO56\"\u003e3. 火山小视频升级“火山直播”\u003c/p\u003e\u003cp data-pid=\"_axVCpM8\"\u003e推出 15 秒短视频 + 直播 + 火力补贴 2.0，日活冲到 5 000 万，与抖音形成“双品牌”矩阵，覆盖下沉市场与一二线城市。\u003c/p\u003e\u003cp data-pid=\"oYrU7KZU\"\u003e4. 营收三级跳\u003c/p\u003e\u003cp data-pid=\"CojGmoOJ\"\u003e信息流广告 + 短视频品牌广告 + 直播打赏，全年收入约 150 亿元，同比 2016 年 20 亿翻 7 倍；抖音单款贡献过半，验证“短视频=印钞机”。\u003c/p\u003e\u003cp data-pid=\"oB-3gSec\"\u003e5. 内部赛马机制成型\u003c/p\u003e\u003cp data-pid=\"inG-2WNU\"\u003e抖音、火山、TopBuzz、\u003ca href=\"https://link.zhihu.com/?target=http%3A//Musical.ly\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003e\u003cspan class=\"invisible\"\u003ehttp://\u003c/span\u003e\u003cspan class=\"visible\"\u003eMusical.ly\u003c/span\u003e\u003cspan class=\"invisible\"\u003e\u003c/span\u003e\u003c/a\u003e 四支团队并行，同一套算法中台+独立 BU 考核，为 2018 年“头条系”全面出海奠定组织模板。\u003c/p\u003e\u003cp data-pid=\"UnNqRWPI\"\u003e一句话：2017 年的字节跳动 = 抖音 1 亿日活 + 买下 \u003ca href=\"https://link.zhihu.com/?target=http%3A//Musical.ly\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003e\u003cspan class=\"invisible\"\u003ehttp://\u003c/span\u003e\u003cspan class=\"visible\"\u003eMusical.ly\u003c/span\u003e\u003cspan class=\"invisible\"\u003e\u003c/span\u003e\u003c/a\u003e + 收入 150 亿，公司正式拿到“短视频全球战争”的入场券，并启动合并 TikTok 倒计时。\u003c/p\u003e\u003cp data-pid=\"PbyljAqT\"\u003e2018 年，字节跳动把“抖音 + TikTok”合并成全球超级 App，营收、估值、员工数全部指数级暴涨，公司第一次让 Facebook 感到“中国算法”的威胁。全年六大节点：\u003c/p\u003e\u003cp data-pid=\"31zBAiM5\"\u003e1. 抖音日活冲 2.5 亿，月活破 5 亿\u003c/p\u003e\u003cp data-pid=\"xVKcCPYS\"\u003e春节冠名 40 亿红包+“百万英雄”撒币 10 亿，除夕当日新增 3 000 万 DAU；\u003c/p\u003e\u003cp data-pid=\"RQ0Woo_e\"\u003e品牌广告报价超过 CCTV-1 黄金档，15 秒贴片一天 180 万元。\u003c/p\u003e\u003cp data-pid=\"HtF-mqZ3\"\u003e2. TikTok 与 \u003ca href=\"https://link.zhihu.com/?target=http%3A//Musical.ly\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003e\u003cspan class=\"invisible\"\u003ehttp://\u003c/span\u003e\u003cspan class=\"visible\"\u003eMusical.ly\u003c/span\u003e\u003cspan class=\"invisible\"\u003e\u003c/span\u003e\u003c/a\u003e 正式合并，全球统一品牌\u003c/p\u003e\u003cp data-pid=\"HiYQG99_\"\u003e 8 月 2 日海外商店全面替换为 TikTok，30 天新增 1 亿海外注册用户；\u003c/p\u003e\u003cp data-pid=\"yFIsO2O9\"\u003e年底 TikTok 全球月活 6.8 亿，登顶 40 国免费榜，首次在下载量上超过 Facebook、Instagram。\u003c/p\u003e\u003cp data-pid=\"YlInX1NL\"\u003e3. 收入再翻 3 倍\u003c/p\u003e\u003cp data-pid=\"nnwJog7w\"\u003e抖音国内广告 400 亿 + 直播打赏 100 亿 + 海外 50 亿，全年营收约 550 亿元，同比 2017 年 150 亿增长 267%，成为仅次于 BAT 的第四大互联网广告平台。\u003c/p\u003e\u003cp data-pid=\"bmmmVUya\"\u003e4. 估值 750 亿美元，登顶全球最大未上市独角兽\u003c/p\u003e\u003cp data-pid=\"-QUdPgEr\"\u003e10 月完成软银领投 30 亿美元 Pre-IPO，腾讯、阿里同期估值仅为其 1/2～1/3；\u003c/p\u003e\u003cp data-pid=\"28zkpuGZ\"\u003e香港投行已把 IPO 定价草稿写到 1 200 亿美元。\u003c/p\u003e\u003cp data-pid=\"pSSpdhfo\"\u003e5. 员工数一年翻倍\u003c/p\u003e\u003cp data-pid=\"bsiO8CJ3\"\u003e年初 1.5 万人 → 年末 3 万人，新增 5 000 名算法/审核工程师、3 000 名海外本地化运营，杭州、上海、深圳、洛杉矶、伦敦、新加坡六地同步扩编。\u003c/p\u003e\u003cp data-pid=\"ExCipcca\"\u003e6. 监管与对手围堵开始\u003c/p\u003e\u003cp data-pid=\"ZfvfmZpN\"\u003e国内上线“青少年模式”，首批接入网信办算法备案；\u003c/p\u003e\u003cp data-pid=\"7teSsW11\"\u003eFacebook 推出 Lasso、Google 推出 Tangi，全面克隆 TikTok 15 秒模板，首次把一家中国 App 列为“头号竞品”。\u003c/p\u003e\u003cp data-pid=\"3N3r3fHS\"\u003e一句话：2018 年的字节跳动 = 抖音 2.5 亿 DAU + TikTok 全球 6.8 亿 MAU + 营收 550 亿，公司用一年时间完成“中国爆款”到“世界超级 App”的跃迁，并提前锁定 2019 年全球最大 IPO 候选。\u003c/p\u003e\u003cp data-pid=\"W2L1Nm8e\"\u003e2019 年，字节跳动第一次真正“把战火烧到全球”，也让国内短视频战争彻底终局；营收突破千亿，估值超过 1 000 亿美元，却被美国、印度同时“聚光灯”照射。全年七件大事：\u003c/p\u003e\u003cp data-pid=\"AbeAoptP\"\u003e1. TikTok 全球月活 10 亿，下载量 7.38 亿次\u003c/p\u003e\u003cp data-pid=\"_BxyVDox\"\u003e连续四个季度位居全球 App Store + Google Play 下载总榜第一，把 WhatsApp、Facebook、Instagram 全部甩在身后；美国月活 3 700 万，印度 2 亿，成为第一款在欧美市场做到“国民级”的中国 App。\u003c/p\u003e\u003cp data-pid=\"w8BFHyJY\"\u003e2. 抖音国内日活 4 亿，广告 600 亿\u003c/p\u003e\u003cp data-pid=\"dOsg6Hi-\"\u003e春晚再撒 9 亿红包，上线“抖音小程序”对标微信；信息流+挑战赛+直播带货，全年广告收入 600 亿元，占国内短视频广告大盘的 60%。\u003c/p\u003e\u003cp data-pid=\"YMOC4v5f\"\u003e3. 直播电商元年\u003c/p\u003e\u003cp data-pid=\"NO341Y5L\"\u003e抖音 4 月开放购物车，12 月日带货 GMV 破 2 亿元；\u003c/p\u003e\u003cp data-pid=\"u6J3PNoJ\"\u003e全年电商 GMV 1 000 亿元（含跳转淘宝），开始把“流量”直接变“交易额”。\u003c/p\u003e\u003cp data-pid=\"mJEHwccs\"\u003e4. 营收破千亿，估值 1 400 亿美元\u003c/p\u003e\u003cp data-pid=\"2tMLaCWd\"\u003e国内广告 800 亿 + 直播 200 亿 + 海外 50 亿，合计 1 050 亿元，同比 2018 年 550 亿再翻倍；\u003c/p\u003e\u003cp data-pid=\"am9y_CpV\"\u003e二级市场私募换手价格已给到 1 400 亿美元，成为全球最大未上市独角兽。\u003c/p\u003e\u003cp data-pid=\"B3QI3tov\"\u003e5. 员工数突破 6 万\u003c/p\u003e\u003cp data-pid=\"1vEpBOxr\"\u003e 内容审核 2 万人、算法研发 1 万人、海外本地化 5 000 人；北京总部不够用，新增武汉、成都、南京三大审核基地。\u003c/p\u003e\u003cp data-pid=\"GpW7ge5s\"\u003e6. 监管与地缘政治双重暴击\u003c/p\u003e\u003cp data-pid=\"Wm8z2U5V\"\u003e国内：网信办“算法备案”首批名单，抖音、头条、西瓜全部上榜；青少年模式每天 40 分钟强制下线。\u003c/p\u003e\u003cp data-pid=\"BuA_kgAE\"\u003e海外： \u003c/p\u003e\u003cp data-pid=\"p2BIBV_x\"\u003e - 4 月印度法院以“色情内容”为由短期下架 TikTok； \u003c/p\u003e\u003cp data-pid=\"y-m810Cg\"\u003e- 10 月美国外资审查委员会（CFIUS）公开对 \u003ca href=\"https://link.zhihu.com/?target=http%3A//Musical.ly\" class=\" external\" target=\"_blank\" rel=\"nofollow noreferrer\"\u003e\u003cspan class=\"invisible\"\u003ehttp://\u003c/span\u003e\u003cspan class=\"visible\"\u003eMusical.ly\u003c/span\u003e\u003cspan class=\"invisible\"\u003e\u003c/span\u003e\u003c/a\u003e 并购案启动国家安全调查； \u003c/p\u003e\u003cp data-pid=\"jHfe1fYl\"\u003e- 12 月美国陆军、海军先后禁止在军用设备上安装 TikTok。\u003c/p\u003e\u003cp data-pid=\"Gj2x3Owk\"\u003e7. 第一次组织架构大调整\u003c/p\u003e\u003cp data-pid=\"qwVt_Jo-\"\u003e张一鸣升任“字节跳动”全球 CEO，国内业务交给张楠；\u003c/p\u003e\u003cp data-pid=\"qXqesgOC\"\u003e成立“全球化委员会”，把 TikTok 总部迁到新加坡，数据存储迁到新加坡+美国，试图切割国内监管形象。\u003c/p\u003e\u003cp data-pid=\"bj_ipgbM\"\u003e一句话：2019 年的字节跳动 = 千亿营收 + 10 亿月活 + 1 400 亿美元估值，公司站上历史巅峰，却同时迎来“国内强监管 + 海外政治化”两大天花板，为 2020 年出售 TikTok 印度、限制出口清单埋下伏笔。\u003c/p\u003e\u003cp data-pid=\"CREzXV2f\"\u003e2020 年，字节跳动在“疫情红利＋海外围剿”两条线并行下，仍然实现收入与用户数的大爆发，也第一次暴露巨额亏损。全年可以用三组硬数字概括：\u003c/p\u003e\u003cp data-pid=\"wpzVzCDg\"\u003e1. 营收 2 366 亿元，同比 +111%\u003c/p\u003e\u003cp data-pid=\"MYrdxdEA\"\u003e其中广告 1 831 亿元，占比 77%，抖音贡献近 60%；国内直播、电商佣金等带来约 400 亿元增量，海外 TikTok 仅 50 亿元左右。\u003c/p\u003e\u003cp data-pid=\"7DVGa9yW\"\u003e2. 经营亏损 147 亿元\u003c/p\u003e\u003cp data-pid=\"I1cuE0Lc\"\u003e主要因 1 920 亿元销售费用和 1 460 亿元研发支出（含海外数据中心、11 万员工扩招）一次性计入；若剔除可转换债券公允价值变动，主营业务实际盈利约 120 亿元。\u003c/p\u003e\u003cp data-pid=\"sZHmeCqG\"\u003e3. 全球月活 19 亿，正式超过 Facebook 家族之外的所有社交产品\u003c/p\u003e\u003cp data-pid=\"v5so1-X2\"\u003e抖音国内日活 6 亿，TikTok 全球月活 8.5 亿，TopBuzz、BuzzVideo 等海外图文产品合计约 2.5 亿。\u003c/p\u003e\u003cp data-pid=\"6GUvMdU1\"\u003e此外，2020 年还发生了决定 TikTok 命运的三件外部大事：\u003c/p\u003e\u003cp data-pid=\"F9ysoG5f\"\u003e- 6 月印度政府以“数据安全”为由永久下架 TikTok，2 亿用户瞬间归零； \u003c/p\u003e\u003cp data-pid=\"szjL6KIe\"\u003e- 8 月美国总统特朗普签发行政令，要求 45 天内强制出售 TikTok 美国业务，否则全美封禁； \u003c/p\u003e\u003cp data-pid=\"WArYfcN8\"\u003e- 中国商务部 8 月 28 日紧急调整《禁止出口限制出口技术目录》，把“基于数据分析的个性化信息推送服务技术”列入管制，意味着 TikTok 出售需北京批准。\u003c/p\u003e\u003cp data-pid=\"g6O0sWfs\"\u003e内部应对上，字节把 TikTok 总部迁往新加坡，数据存储迁移到新加坡+美国德州 Oracle 云，并首次在华盛顿、洛杉矶、都柏林建立本地审核与公共政策团队，试图切割“中国背景”。\u003c/p\u003e\u003cp data-pid=\"BjY1mAVm\"\u003e一句话：2020 年的字节跳动 = 2 366 亿元营收 + 19 亿月活 + 147 亿元账面亏损，公司站上全球第三大互联网广告平台，却同时迎来“印度封禁 + 美国强卖”双重地缘政治暴击，为 2021—2022 年的全球架构重组埋下伏笔。\u003c/p\u003e\u003cp data-pid=\"Rh3DPBv4\"\u003e2021 年，字节跳动把“全球分拆＋国内收紧”写进 OKR，一边创纪录地拿下 3 400 亿元营收，一边完成史上最大组织重组，正式从“一个 App 打天下”变成“六个业务集团”。全年可以用“四张表”总结：\u003c/p\u003e\u003cp data-pid=\"wADgsdfK\"\u003e1. 营收与利润 \u003c/p\u003e\u003cp data-pid=\"BwnCLw9e\"\u003e - 总营收 3 400 亿元，同比 +44%，增速首次低于 50% \u003c/p\u003e\u003cp data-pid=\"m_reqePE\"\u003e - 经营利润 450 亿元，净利率 13%，结束 2020 年账面亏损 \u003c/p\u003e\u003cp data-pid=\"b4IeGJNy\"\u003e - 广告仍占 70%，电商佣金 600 亿元，海外 TikTok 广告 60 亿美元（约 400 亿元）首次单列\u003c/p\u003e\u003cp data-pid=\"DbwdOAy1\"\u003e2. 用户规模 \u003c/p\u003e\u003cp data-pid=\"zCUW5yJ1\"\u003e - 抖音国内日活 6.4 亿（几乎见顶） \u003c/p\u003e\u003cp data-pid=\"BspDHyJP\"\u003e - TikTok 全球月活 10 亿（印度缺席，美国保住） \u003c/p\u003e\u003cp data-pid=\"5fCCrZ0S\"\u003e - 全球去重月活 19 亿，持平 2020，增长红利结束\u003c/p\u003e\u003cp data-pid=\"_1CUR9SH\"\u003e3. 组织大拆分——“六大 BU”\u003c/p\u003e\u003cp data-pid=\"Uds70pUC\"\u003e11 月张一鸣退居董事长，梁汝波接任 CEO，成立六大业务集团： \u003c/p\u003e\u003cp data-pid=\"lcJMMLrV\"\u003e - 抖音集团（国内抖音、今日头条、西瓜） \u003c/p\u003e\u003cp data-pid=\"PvDdy9Si\"\u003e - TikTok Ltd.（海外短视频） \u003c/p\u003e\u003cp data-pid=\"epqbpD1l\"\u003e - 火山引擎（to B 云与算法） \u003c/p\u003e\u003cp data-pid=\"orhdC6t4\"\u003e - 大力教育（瓜瓜龙、清北网校） \u003c/p\u003e\u003cp data-pid=\"LRqdhdM8\"\u003e - 飞书（Lark 海外） \u003c/p\u003e\u003cp data-pid=\"aHYtAVcn\"\u003e - 朝夕光年（游戏发行与自研）\u003c/p\u003e\u003cp data-pid=\"lSRNSm1c\"\u003e各 BU 独立预算、独立融资通道，为后续分拆上市埋伏笔\u003c/p\u003e\u003cp data-pid=\"yNPfHp5X\"\u003e4. 监管与上市节奏 \u003c/p\u003e\u003cp data-pid=\"N_rGMubc\"\u003e - 4 月首次披露“国内业务上市辅导”，估值 1 800 亿美元 \u003c/p\u003e\u003cp data-pid=\"4yDjuStv\"\u003e - 7 月“双减”政策落地，大力教育裁员 3 000 人，关停瓜瓜龙、GOGOKID，一次性减值 100 亿元 \u003c/p\u003e\u003cp data-pid=\"6D_bdajk\"\u003e - 11 月《个人信息保护法》生效，抖音、今日头条全部接入工信部“数据出境安全评估”试点，广告精准度下降 10–15%，直接拉低 Q4 增速 \u003c/p\u003e\u003cp data-pid=\"3P4bSO5U\"\u003e- 美国 CFIUS 审查结束，TikTok 与美国政府达成“Oracle 数据托管+第三方审计”协议，暂缓强制出售，但上市窗口继续关闭\u003c/p\u003e\u003cp data-pid=\"NQ100ox0\"\u003e一句话：2021 年的字节跳动 = 3 400 亿元营收 + 450 亿元利润 + 六大 BU 分拆，公司完成从“单 App”到“多元控股”的成人礼，却面临“国内监管见顶 + 海外上市受阻”双重天花板，正式告别高速增长时代。\u003c/p\u003e\u003cp data-pid=\"32hKYKYB\"\u003e2022 年，字节跳动把“千亿美金俱乐部”当成及格线，却首次体会“增速腰斩＋地缘政治＋监管寒冬”的三重夹击，全年可以用“四张硬表＋两次裁员”来总结：\u003c/p\u003e\u003cp data-pid=\"Zk1MTs87\"\u003e1. 营收与利润 \u003c/p\u003e\u003cp data-pid=\"Rv-8jFlR\"\u003e- 总营收 852 亿美元（≈6 220 亿元人民币），同比 +38%，增速首次跌破 50% \u003c/p\u003e\u003cp data-pid=\"mQgmKMY3\"\u003e- 营业利润 200 亿美元（≈1 390 亿元人民币），净利率 23%，扭转 2020 年亏损局面 \u003c/p\u003e\u003cp data-pid=\"ilQNk2t4\"\u003e - 中国收入 690 亿美元，海外收入 160 亿美元（其中 TikTok 广告约 120 亿），海外占比首次接近 20%\u003c/p\u003e\u003cp data-pid=\"BpFZqo8X\"\u003e2. 用户规模见顶 \u003c/p\u003e\u003cp data-pid=\"bH1u2PIX\"\u003e - 抖音国内日活 6.8 亿，同比仅增 6%，一二线市场基本饱和 \u003c/p\u003e\u003cp data-pid=\"KRLJeJAr\"\u003e - TikTok 全球月活 12 亿，但印度市场 2 亿用户已归零，美国 8 000 万月活增速降至个位数\u003c/p\u003e\u003cp data-pid=\"xBTqyRLd\"\u003e3. 成本大瘦身——“去肥增瘦”元年 \u003c/p\u003e\u003cp data-pid=\"5wtkBUz2\"\u003e - 销售与营销费用 148 亿美元，同比下降 23% \u003c/p\u003e\u003cp data-pid=\"9gEDh21D\"\u003e - 研发费用 87 亿美元，同比下降 40% \u003c/p\u003e\u003cp data-pid=\"ZfF4GK0H\"\u003e - 员工总数从 11 万缩减至 9 万左右，本地直营中心砍掉 30%，字节教育、游戏、商业化三条线裁员超 2 万人\u003c/p\u003e\u003cp data-pid=\"sxvlIdJi\"\u003e4. 业务板块第一次“负增长” \u003c/p\u003e\u003cp data-pid=\"vU0fak7Z\"\u003e - 大力教育：受“双减”影响，瓜瓜龙、GOGOKID 全部关停，一次性减值 15 亿美元 \u003c/p\u003e\u003cp data-pid=\"VPGMgpG2\"\u003e - PICO VR：花 100 亿元收购后 2022 年销量 70 万台，低于内部 100 万台目标，年底开始第一波裁员 \u003c/p\u003e\u003cp data-pid=\"VaWQ9xAJ\"\u003e - 游戏（朝夕光年）：自研《航海王》流水未达预期，上海 101 工作室解散\u003c/p\u003e\u003cp data-pid=\"qGbSsLmb\"\u003e5. 地缘政治升级 \u003c/p\u003e\u003cp data-pid=\"adTtxPcU\"\u003e - 6 月印度对 TikTok 永久禁令生效，2 亿用户资产直接清零 \u003c/p\u003e\u003cp data-pid=\"TTRV-omV\"\u003e - 美国 CFIUS 调查进入第二轮，TikTok 被迫与 Oracle 签署“数据托管＋第三方审计”协议，暂缓强制出售，但上市窗口继续关闭\u003c/p\u003e\u003cp data-pid=\"H6OuB_hV\"\u003e6. 组织与资本动作 \u003c/p\u003e\u003cp data-pid=\"5LgA2_lQ\"\u003e - 4 月梁汝波接任全球 CEO 后首次大规模 BU 重组，成立“抖音、TikTok、火山引擎、飞书、朝夕光年、大力教育”六大集团，各自独立预算、独立融资通道 \u003c/p\u003e\u003cp data-pid=\"iCHvJxOa\"\u003e - 8 月启动香港上市辅导，估值 1 800 亿美元，后因数据出境审批搁置\u003c/p\u003e\u003cp data-pid=\"KRxj_Tt_\"\u003e一句话：2022 年的字节跳动 = 852 亿美元营收 + 200 亿美元利润，公司成功“瘦身”并稳坐中国互联网公司利润第一，但国内用户见顶、海外政治高压、教育/VR 裁员减值，正式告别高速增长时代，进入“成熟防御”阶段。\u003c/p\u003e\u003cp data-pid=\"_N0FOuiw\"\u003e2023 年，字节跳动在“全球收缩、聚焦 AI”的主线下，一边刷新营收纪录，一边大规模砍业务、调架构，全年可用“四句话、十件大事”概括：\u003c/p\u003e\u003cp data-pid=\"feJXrziH\"\u003e一、营收与利润首次全面超过腾讯、阿里 \u003c/p\u003e\u003cp data-pid=\"Qe4h7vbg\"\u003e- 全年营收 1 200 亿美元（≈8 500 亿元人民币），同比 +39% \u003c/p\u003e\u003cp data-pid=\"ZzI2WHRh\"\u003e- 营业利润 400 亿美元，+60%，净利率 33%，规模与盈利均登顶中国互联网公司第一\u003c/p\u003e\u003cp data-pid=\"vHkXWRxn\"\u003e二、国内广告登顶，电商狂奔 \u003c/p\u003e\u003cp data-pid=\"CT9xyQxV\"\u003e- 互联网广告收入 +24%，超越阿里巴巴，成为中国第一大广告平台 \u003c/p\u003e\u003cp data-pid=\"FzDMCcIT\"\u003e- 抖音电商 GMV 2.5 万亿元，同比 +78%，逼近拼多多，淘宝内部已把抖音视为“最大威胁”\u003c/p\u003e\u003cp data-pid=\"i_7jP3vY\"\u003e三、大规模“减法”——游戏、VR、SaaS 全收缩 \u003c/p\u003e\u003cp data-pid=\"7e48vjsY\"\u003e业务\t动作\t影响\t\u003c/p\u003e\u003cp data-pid=\"WqnIePt8\"\u003e朝夕光年游戏\t11 月宣布关停全部未上线自研项目，裁员约 700 人；已上线项目寻求出售\t400 亿元投入阶段性止损\t\u003c/p\u003e\u003cp data-pid=\"se0DHKxT\"\u003ePICO VR\t裁员 23%，砍掉下一代旗舰机，缩减线下门店\t百亿级收购减值\t\u003c/p\u003e\u003cp data-pid=\"7pC7ofeZ\"\u003e飞书 SaaS\t3 月裁员 1 000+ 人，收缩海外团队\t从“极速扩张”转向“盈利优先”\t\u003c/p\u003e\u003cp data-pid=\"xsY_-ifU\"\u003e四、AI 与组织升级——“All in AI”元年 \u003c/p\u003e\u003cp data-pid=\"-qL9omHu\"\u003e1. 3 月成立“Flow”事业部，整合 AI 中台，推出豆包大模型（内测代号“Grace”） \u003c/p\u003e\u003cp data-pid=\"yNlbumrr\"\u003e2. 11 月宣布飞书、火山引擎、抖音全线接入自研大模型，对标 ChatGPT \u003c/p\u003e\u003cp data-pid=\"8tildndE\"\u003e3. 首次把“AI 生成视频”列为集团级 OKR，张楠卸任抖音 CEO 后专职负责 AI 业务\u003c/p\u003e\u003cp data-pid=\"fly5Rpk6\"\u003e五、资本动作：高位回购，为上市保温 \u003c/p\u003e\u003cp data-pid=\"F5ZYd7OC\"\u003e- 12 月启动50 亿美元期权回购，每股 160 美元，对应估值 2 680 亿美元，比 2022 年上涨 18%，稳住了老员工套现预期\u003c/p\u003e\u003cp data-pid=\"RYCOyrgE\"\u003e六、监管与地缘政治“余震” \u003c/p\u003e\u003cp data-pid=\"p02N-n95\"\u003e- 国内：广告、电商、算法备案全部纳入常态化巡视；游戏版号暂停 8 个月，直接触发朝夕光年收缩 \u003c/p\u003e\u003cp data-pid=\"K7D1ggfm\"\u003e- 海外：美国众议院再次投票要求 TikTok 165 天内完成剥离，参议院讨论延期至 1 年，TikTok 全球月活仍保持 16.5 亿高位\u003c/p\u003e\u003cp data-pid=\"ljM7tOOa\"\u003e七、产品微创新：内容与交易再融合 \u003c/p\u003e\u003cp data-pid=\"K-BCmE7W\"\u003e- 抖音上线“团购配送”“抖音超市”，正式切入外卖、即时零售 \u003c/p\u003e\u003cp data-pid=\"LRMAbbTe\"\u003e- 推出“全域兴趣电商”CORE 方法论，搜索+商城 GMV 占比首次超过 30%，摆脱纯直播依赖\u003c/p\u003e\u003cp data-pid=\"G2T29FY6\"\u003e八、全员信定调：“始终创业、聚焦主业、耐心做好基础创新” \u003c/p\u003e\u003cp data-pid=\"Wt_LYL8s\"\u003eCEO 梁汝波在 12 月年终会上提出 2024 年三大方向：\u003c/p\u003e\u003cp data-pid=\"RaJiSQjb\"\u003e① 抖音电商再翻倍；\u003c/p\u003e\u003cp data-pid=\"dlbR-B81\"\u003e② AI 能力全业务渗透；\u003c/p\u003e\u003cp data-pid=\"kBJYPvH1\"\u003e③ 海外 TikTok 商业化提速\u003c/p\u003e\u003cp data-pid=\"YlOES6uG\"\u003e一句话总结：2023 年的字节跳动 = 营收利润中国第一 + 游戏/VR/ SaaS 大撤退 + AI 与电商二次曲线确立，公司用“减法”换“增量”，正式从高速扩张转向“高质量聚焦”阶段。\u003c/p\u003e\u003cp data-pid=\"EWQI-o9F\"\u003e2024 年，字节跳动在“利润见顶、AI 狂飙、海外冲高、国内饱和”四条主线并进下，完成了史上最大 AI 资本开支、最大规模反腐通报和最大范围业务瘦身。全年可用“八大硬指标 + 十件头条”速览：\u003c/p\u003e\u003cp data-pid=\"gAh5ggdS\"\u003e一、核心经营数据（美元）\u003c/p\u003e\u003cp data-pid=\"osvpOv1d\"\u003e1. 营收 1 200 亿美元（≈8 500 亿元人民币），同比 +41% \u003c/p\u003e\u003cp data-pid=\"vWdjS259\"\u003e2. 净利润 330 亿美元，同比仅 +6%，净利率由 26% 降至 21%，公司首次对外承认“利润率见顶” \u003c/p\u003e\u003cp data-pid=\"2piS5Mrz\"\u003e3. 海外收入 390 亿美元，+63%，占总收入 1/4，为历史最高 \u003c/p\u003e\u003cp data-pid=\"LkqLZmGd\"\u003e4. AI 相关资本开支 160 亿美元（≈1 150 亿元），占全国 AI 基础设施投资的 1/3，仅次于微软+OpenAI 全球第二 \u003c/p\u003e\u003cp data-pid=\"_R1ANS2R\"\u003e二、十大事件\u003c/p\u003e\u003cp data-pid=\"0ZPThoL6\"\u003e1. 豆包大模型全家桶发布\u003c/p\u003e\u003cp data-pid=\"Za625mvI\"\u003e5 月推出通用 Pro、角色扮演、语音合成、文生图、视频生成等 10+ 细分模型，年底豆包 App 月活 1.1 亿，居国内 AI 应用第一。\u003c/p\u003e\u003cp data-pid=\"qyJG0Tvx\"\u003e2. “模型训练被攻击”案\u003c/p\u003e\u003cp data-pid=\"aj3v_qou\"\u003e6-7 月商业化技术团队实习生田某某注入破坏代码，影响 8 000 张卡训练任务；11 月字节起诉索赔 800 万元，已获法院受理。\u003c/p\u003e\u003cp data-pid=\"nXA03TYl\"\u003e3. 最大反腐通报\u003c/p\u003e\u003cp data-pid=\"N13lHnNs\"\u003e全年辞退违规员工 353 人，移送司法机关 39 人；实名通报 17 人，取消全部期权并列入行业黑名单。\u003c/p\u003e\u003cp data-pid=\"mhBraCDp\"\u003e4. 芯片与算力军备竞赛 \u003c/p\u003e\u003cp data-pid=\"6LBis3cV\"\u003e - 传与博通、台积电合作自研 5 nm AI 芯片（官方否认） \u003c/p\u003e\u003cp data-pid=\"X1jnjW8T\"\u003e - 被曝向英伟达下单 23 万块 H100/B100，价值约 70 亿美元，占英伟达年度出货 1/10，位列全球第二大客户。\u003c/p\u003e\u003cp data-pid=\"veCNAwM8\"\u003e5. AI 硬件试水\u003c/p\u003e\u003cp data-pid=\"-RCOFuUM\"\u003e推出内置豆包大模型的 Ola Friend 耳机、AI 玩具“显眼包”，探索“模型即硬件”场景。\u003c/p\u003e\u003cp data-pid=\"sQqe96r3\"\u003e6. PICO 大裁员\u003c/p\u003e\u003cp data-pid=\"rlVcXeU9\"\u003e砍硬件旗舰、裁员 2 000+，保留少量团队做 AI+XR 融合研发，百亿级投入减值。\u003c/p\u003e\u003cp data-pid=\"4V7jllZb\"\u003e7. 朝夕光年游戏“大撤退”\u003c/p\u003e\u003cp data-pid=\"omQVVZhT\"\u003e11 月关停全部未上线自研项目，已上线项目寻求出售，700 人团队整体优化。\u003c/p\u003e\u003cp data-pid=\"y8S9q6mT\"\u003e8. 飞书裁员 1 000+\u003c/p\u003e\u003cp data-pid=\"iDYtfGzu\"\u003e收缩海外直销，转向渠道代理，目标 2025 年单季度盈利。\u003c/p\u003e\u003cp data-pid=\"GzyJouTl\"\u003e9. 医疗赛道再落子\u003c/p\u003e\u003cp data-pid=\"Mj_HBYqQ\"\u003e12 月成立注册资本 7.34 亿元的“北京宁和康瑞医疗管理有限公司”，经营范围含康复医院、物业管理，继续扩张线下医疗。\u003c/p\u003e\u003cp data-pid=\"eBV-eAFf\"\u003e10. 估值刷新纪录\u003c/p\u003e\u003cp data-pid=\"Q0lSqcsW\"\u003e12 月新一轮期权回购价 180.7 美元/股，对应估值 3 000 亿美元（约 2.34 万亿港元），超越阿里巴巴，仅次于腾讯，位列中国第二大未上市独角兽。\u003c/p\u003e\u003cp data-pid=\"fvQ16HdA\"\u003e一句话总结 :2024 年的字节跳动 = 营收 1 200 亿美元登顶中国 AI 投资第一 + 反腐 353 人瘦身完毕 + 游戏/VR/芯片边缘化 + 豆包大模型全家桶落地 + 估值 3 000 亿美元创新高，公司正式完成“短视频现金牛”向“AI 基础设施巨头”的换挡。\u003c/p\u003e\u003cp data-pid=\"4wYpR4dC\"\u003e2025 年（截至 9 月）\u003c/p\u003e\u003cp data-pid=\"fEOsoivG\"\u003e1.字节跳动对外发布 AI 编程工具 Trae\u003c/p\u003e\u003cp data-pid=\"i221RJVd\"\u003e2025年1 月 20 日，海外macOS 版首发；2 月 17 日，Windows 版上线；3 月 3 日国内版登场，默认豆包 1.5-pro，可切 DeepSeek R1/V3，中文界面合规通道一并提供。5月字节跳动内部限期 6 月 30 日前用 TRAE 替换 Cursor 等第三方工具；6 月 12 日公布月活破百万，字节 85% 新代码出自 AI。7 月 4 日开源 TRAE-Agent 核心，多模型任意接；7 月 21 日 2.0 “SOLO”升级，需求一句话直接变可跑应用，国际版首月 3 美元，之后 10 美元/月。比 Cursor 半价。\u003c/p\u003e\u003cp data-pid=\"XA5PxQ45\"\u003e2. 豆包大模型 1.6 发布\u003c/p\u003e\u003cp data-pid=\"EbTYMgVM\"\u003e6 月 11 日火山引擎原动力大会推出豆包 1.6 与视频生成模型 Seedance 1.0 Pro，定价仅为竞品的 1/3，日均 tokens 调用量突破 16.4 万亿，较 2024 年 5 月增长 137 倍。\u003c/p\u003e\u003cp data-pid=\"IpziOetd\"\u003e3. 视觉理解模型降价 85%\u003c/p\u003e\u003cp data-pid=\"qK0KRdGa\"\u003e7 月 17 日 Force 大会发布豆包视觉理解模型，千 tokens 输入价 3 厘，1 元可处理 284 张 720P 图片，创行业新低。\u003c/p\u003e\u003cp data-pid=\"B04n-0sq\"\u003e4. 机器人 VLA 模型 GR-3 亮相\u003c/p\u003e\u003cp data-pid=\"jEKjl7dY\"\u003e7 月 22 日推出视觉-语言-动作一体化模型 GR-3，切入具身智能，可完成抓取、分拣等复杂任务。\u003c/p\u003e\u003cp data-pid=\"N-TcBEMI\"\u003e5. 开源智能体框架 Agent TARS\u003c/p\u003e\u003cp data-pid=\"PoyzYfF1\"\u003e3 月开源多模态 AI 智能体框架 Agent TARS，支持浏览器、命令行、文件系统自动化，GitHub 社区开发者超 1 000 人。\u003c/p\u003e\u003cp data-pid=\"tNvSQ4Lf\"\u003e6. 长序列训练技术 PHD-Transformer\u003c/p\u003e\u003cp data-pid=\"81o65Qhf\"\u003e4 月 23 日发布高效预训练长度缩放技术，支持最长 198K 上下文，已集成到豆包大模型生产环境。\u003c/p\u003e\u003cp data-pid=\"sk6VeIQq\"\u003e7. 图像合成技术 XVerse 发布\u003c/p\u003e\u003cp data-pid=\"lW37JH0Y\"\u003e 7 月 2 日全球数字经济大会推出 XVerse，通过 DiT 调制实现多主体独立控制，面向广告、设计行业。\u003c/p\u003e\u003cp data-pid=\"Z_JGkZr1\"\u003e8. 二季度营收首超 Meta\u003c/p\u003e\u003cp data-pid=\"Sh7CnTnB\"\u003e 8 月 29 日披露 Q2 营收 480 亿美元，同比增长 25%，单季度规模首次超越 Meta（475 亿美元）。\u003c/p\u003e\u003cp data-pid=\"bCR_imUh\"\u003e9. 估值升至 3 300 亿美元\u003c/p\u003e\u003cp data-pid=\"8r29WvMO\"\u003e同期员工期权回购价从 189.9 美元提至 200.41 美元，公司估值突破 3 300 亿美元，成为全球未上市独角兽第一名。\u003c/p\u003e\u003cp data-pid=\"CITgId8J\"\u003e10. AI for Infra 三年降本 10 亿元\u003c/p\u003e\u003cp data-pid=\"FMfODz64\"\u003eByteBrain 团队 2025 年前 4 个月发表 11 篇顶会论文，利用大模型优化火山引擎稳定性，重要 on-call 提效 26%，累计节省基础设施成本超 10 亿元。\u003c/p\u003e\u003cp data-pid=\"9HwLrGTk\"\u003e11. 季度营收目标上调\u003c/p\u003e\u003cp data-pid=\"XdwvXnDc\"\u003e 5 月 18 日外媒报道，字节跳动 2025 全年营收指引调至 1 860 亿美元，同比增速约 20%，与 Meta 全年预期仅差 10 亿美元。\u003c/p\u003e\u003cp data-pid=\"TK0MO5_X\"\u003e一句话：2025 年的字节跳动 = 对外发布 AI 编程工具 Trae，豆包大模型月活破亿、视频生成降价 85%、机器人 VLA 开源、单季营收首超 Meta，估值站上 3 300 亿美元，正式从“短视频之王”升级为“全球 AI 基础设施巨头”。\u003c/p\u003e\u003cp data-pid=\"D0HR2TvX\"\u003e结语，\u003c/p\u003e\u003cp data-pid=\"6KQLN0IZ\"\u003e可以说，这是全网最完整介绍字节跳动历史的文章。小熊猫采用编年法，简单介绍这家目前全球最大未上市的独角兽公司。回答个问题，泥马耗费本人过万字，这次纯属闲得，批评下自己。\u003c/p\u003e\u003cp data-pid=\"ycF9njiB\"\u003e长而不赘，读而不烦，不用丽句，不含褒贬，虽不详细，却精到好处。用结构战胜词藻。（臭不要脸的，我这是夸我呢么？）\u003c/p\u003e\u003cp data-pid=\"vb_LYobH\"\u003e让平常人不用看专业的财务报表，繁琐的新闻资讯，却能更加深刻形象的了解这家公司的脉络。\u003c/p\u003e\u003cp data-pid=\"5l-xioEC\"\u003e入职前，入职后，内部自审，竞司背调，创业学习，融投调研，均得而值藏。\u003c/p\u003e",
+        "excerpt": "字节跳动（ByteDance）成立于 2012 年 3 月。 2012 年的字节跳动只做一件事：把“今日头条”做出来并跑通算法推荐。 1. 公司 3 月刚注册时，30 多个人挤在北京知春路民居，产品方向只有一个——移动端个性化资讯。 2. 8 月今日头条 1.0 上线，核心卖点就是“不用人工编辑、全靠算法推荐”，90 天做到日活 100 万，年底突破 1000 万用户。 3. 当年收入几乎为零，7 月拿到海纳亚洲 100 万美元 A 轮，全部砸在服务器和招人上，先把…",
+        "excerpt_new": "字节跳动（ByteDance）成立于 2012 年 3 月。 2012 年的字节跳动只做一件事：把“今日头条”做出来并跑通算法推荐。 1. 公司 3 月刚注册时，30 多个人挤在北京知春路民居，产品方向只有一个——移动端个性化资讯。 2. 8 月今日头条 1.0 上线，核心卖点就是“不用人工编辑、全靠算法推荐”，90 天做到日活 100 万，年底突破 1000 万用户。 3. 当年收入几乎为零，7 月拿到海纳亚洲 100 万美元 A 轮，全部砸在服务器和招人上，先把…",
+        "preview_type": "default",
+        "preview_text": "",
+        "relationship": {
+          "voting": 1,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": null
+        },
+        "reaction_instruction": {
+
+        },
+        "relevant_info": {
+          "relevant_type": "",
+          "is_relevant": false,
+          "relevant_text": ""
+        },
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "paid_info": {
+          "type": "",
+          "content": "",
+          "has_purchased": false
+        },
+        "attachment": null,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "unvote",
+        "mark_infos": [
+
+        ],
+        "content_need_truncated": false,
+        "force_login_when_click_read_more": false
+      },
+      "verb": "MEMBER_VOTEUP_ANSWER",
+      "created_time": 1757668077,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "bafec2f1e7c8802e2bdd066088523072",
+        "name": "自由之翼",
+        "headline": "",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/zi-you-zhi-yi-21-60",
+        "url_token": "zi-you-zhi-yi-21-60",
+        "avatar_url": "https://picx.zhimg.com/v2-7c2fd536a1e30b5a73a8d3d5dec4cdc9_l.jpg?source=5a24d060\u0026needBackground=1",
+        "gender": 0,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [
+
+        ],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [
+
+          ],
+          "detail_badges": [
+
+          ],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "赞同了回答",
+      "is_sticky": false
+    },
+    {
+      "id": "1757508683331",
+      "type": "feed",
+      "target": {
+        "id": "372576355",
+        "type": "article",
+        "author": {
+          "id": "1ecedd0c63f8910b286875511b465929",
+          "name": "程序员",
+          "headline": "［个人公众号：程序员的一天］",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/zhi-hu-34-63-63",
+          "url_token": "zhi-hu-34-63-63",
+          "avatar_url": "https://picx.zhimg.com/v2-6394f6d2f49dfc2e182f0ed2ce448c76_l.jpg?source=5a24d060\u0026needBackground=1",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [
+
+          ],
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [
+
+            ],
+            "detail_badges": [
+
+            ],
+            "icon": "",
+            "night_icon": ""
+          },
+          "vip_info": {
+            "is_vip": false,
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "created": 1621099002,
+        "updated": 1621099002,
+        "title": "MacBook使用笔记：安装Homebrew（M1）",
+        "excerpt_title": "",
+        "content": "\u003cp data-pid=\"2bWK6NJY\"\u003e\u003cb\u003e作者 ｜ 公众号：程序员的一天\u003c/b\u003e\u003c/p\u003e\u003chr/\u003e\u003ch2\u003e一、Homebrew是什么？\u003c/h2\u003e\u003cp data-pid=\"55SHZbVQ\"\u003eHomebrew官网：\u003c/p\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003ccode class=\"language-text\"\u003e英文：\nhttps://brew.sh\n中文：\nhttps://brew.sh/index_zh-cn\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp data-pid=\"xAgFpyx0\"\u003eHomebrew是MacOS（或 Linux）的软件包管理器。\u003c/p\u003e\u003cp data-pid=\"37-LB7Xs\"\u003e通过它，我们可以方便的对Mac上的各种应用软件进行管理，例如：安装、更新、查看、搜索、卸载等。\u003c/p\u003e\u003cp data-pid=\"T-eAyfW3\"\u003eHomebrew，可谓是Mac神器，几乎每一位Mac使用者都会安装它。\u003c/p\u003e\u003cp data-pid=\"Tw97pGde\"\u003e用Homebrew官网的一句话总结：\u003c/p\u003e\u003cblockquote data-pid=\"sinRRD6q\"\u003eHomebrew 使 macOS（或您的 Linux 系统）更完整。\u003c/blockquote\u003e\u003cfigure data-size=\"small\"\u003e\u003cimg src=\"https://pic1.zhimg.com/v2-404803f2c63d2f9fdf226292580d0ec0_1440w.jpg\" data-caption=\"\" data-size=\"small\" data-rawwidth=\"966\" data-rawheight=\"494\" class=\"origin_image zh-lightbox-thumb\" width=\"966\" data-original=\"https://pic1.zhimg.com/v2-404803f2c63d2f9fdf226292580d0ec0_r.jpg\" data-original-token=\"v2-97902c78cf6df3bcf4bcea5bcb6e6d49\"/\u003e\u003c/figure\u003e\u003chr/\u003e\u003ch2\u003e二、Mac上安装Homebrew\u003c/h2\u003e\u003cblockquote data-pid=\"VovDgyEA\"\u003eHomebrew 3.0.0版开始，正式支持Apple M1芯片，M1用户放心安装！\u003c/blockquote\u003e\u003ch3\u003e第一步：\u003c/h3\u003e\u003cp data-pid=\"IGwHCT-8\"\u003e打开终端。不知道如何打开终端的朋友，请参考：\u003c/p\u003e\u003ca href=\"https://zhuanlan.zhihu.com/p/369615135\" data-draft-node=\"block\" data-draft-type=\"link-card\" data-image=\"https://pic2.zhimg.com/v2-4b37cc8aa2417ada1d73952e50607d95_180x120.jpg\" data-image-width=\"900\" data-image-height=\"383\" class=\"internal\"\u003e爱码士：MacBook使用笔记：打开终端\u003c/a\u003e\u003ch3\u003e第二步：\u003c/h3\u003e\u003cp data-pid=\"5WrtxWSR\"\u003e在终端命令行窗口输入安装命令。\u003c/p\u003e\u003cp data-pid=\"fDlwrUEj\"\u003e这里需要特别说明几点内容。\u003c/p\u003e\u003cp data-pid=\"JAC1NLhs\"\u003e下面是Homebrew官方给出的安装命令：（如果没有VPN，不要使用此命令安装！）\u003c/p\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003ccode class=\"language-text\"\u003e/bin/bash -c \u0026#34;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\u0026#34;\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp data-pid=\"9yWDViAY\"\u003e通常情况下，官网给出的指令会报错：\u003c/p\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003ccode class=\"language-python3\"\u003e\u003cspan class=\"n\"\u003ecurl\u003c/span\u003e\u003cspan class=\"p\"\u003e:\u003c/span\u003e \u003cspan class=\"p\"\u003e(\u003c/span\u003e\u003cspan class=\"mi\"\u003e7\u003c/span\u003e\u003cspan class=\"p\"\u003e)\u003c/span\u003e \u003cspan class=\"n\"\u003eFailed\u003c/span\u003e \u003cspan class=\"n\"\u003eto\u003c/span\u003e \u003cspan class=\"n\"\u003econnect\u003c/span\u003e \u003cspan class=\"n\"\u003eto\u003c/span\u003e \u003cspan class=\"n\"\u003eraw\u003c/span\u003e\u003cspan class=\"o\"\u003e.\u003c/span\u003e\u003cspan class=\"n\"\u003egithubusercontent\u003c/span\u003e\u003cspan class=\"o\"\u003e.\u003c/span\u003e\u003cspan class=\"n\"\u003ecom\u003c/span\u003e \u003cspan class=\"n\"\u003eport\u003c/span\u003e \u003cspan class=\"mi\"\u003e443\u003c/span\u003e\u003cspan class=\"p\"\u003e:\u003c/span\u003e \u003cspan class=\"n\"\u003eConnection\u003c/span\u003e \u003cspan class=\"n\"\u003erefused\u003c/span\u003e\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp data-pid=\"uLUypl9Z\"\u003e因为这是国外网站，由于GFW（中国长城防火墙）的存在，如果没有vpn，是无法访问的，所以连接被拒绝！\u003c/p\u003e\u003chr/\u003e\u003cp data-pid=\"SaP1TXZJ\"\u003e别着急，有办法解决！\u003c/p\u003e\u003cp data-pid=\"5NzflWre\"\u003e只要我们从国内镜像网站安装，就一切OK了。\u003c/p\u003e\u003cp data-pid=\"5mU3jkra\"\u003e以下为国内安装Homebrew的正确姿势：(基于gitee上某大神的自动安装脚本)\u003c/p\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003ccode class=\"language-text\"\u003e/bin/zsh -c \u0026#34;$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh)\u0026#34;\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cp data-pid=\"j0wTSDpC\"\u003e回车执行指令后，根据提示操作。具体包括以下提示操作：\u003c/p\u003e\u003cp data-pid=\"wyW18Anu\"\u003e\u003cb\u003e（1）选择下载镜像\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"FvfSg1gF\"\u003e根据需要选择下载源，例如，我这里选择中科大下载源，就输入‘1’，回车。\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cimg src=\"https://pic2.zhimg.com/v2-739f08cdbb3fb14802bfa91588278241_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1180\" data-rawheight=\"454\" class=\"origin_image zh-lightbox-thumb\" width=\"1180\" data-original=\"https://pic2.zhimg.com/v2-739f08cdbb3fb14802bfa91588278241_r.jpg\" data-original-token=\"v2-b89e2b355f6a35eb3351efaea909438a\"/\u003e\u003c/figure\u003e\u003cp data-pid=\"Is1550Pd\"\u003e\u003cb\u003e（2）确认删除旧版本\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"oqJhPNHa\"\u003e如果存在旧版本，会弹出删除旧版本提示，输入\u0026#34;Y\u0026#34;，回车。\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cimg src=\"https://pic2.zhimg.com/v2-cf55167d8fe7a2a2ea3a43855e8f01cf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1180\" data-rawheight=\"300\" class=\"origin_image zh-lightbox-thumb\" width=\"1180\" data-original=\"https://pic2.zhimg.com/v2-cf55167d8fe7a2a2ea3a43855e8f01cf_r.jpg\" data-original-token=\"v2-f2b08051c5298a8e23a78a9081dee203\"/\u003e\u003c/figure\u003e\u003cp data-pid=\"hrJ4jGTD\"\u003e\u003cb\u003e（3）输入开机密码（用于mac确认第三方应用安装）\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"1aUmslwD\"\u003e\u003cb\u003e（4）安装git\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"Yb-ERi0P\"\u003e如果之前没有安装过git，会终止homebrew安装，弹出git安装提示，点击“安装”。\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cimg src=\"https://picx.zhimg.com/v2-f9c32e6b0fbfded843d3fafa7b3448f7_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"922\" data-rawheight=\"358\" class=\"origin_image zh-lightbox-thumb\" width=\"922\" data-original=\"https://picx.zhimg.com/v2-f9c32e6b0fbfded843d3fafa7b3448f7_r.jpg\" data-original-token=\"v2-bec25d750c3f7778338dd020bc86ce92\"/\u003e\u003c/figure\u003e\u003cp data-pid=\"3DYMZ6V3\"\u003e\u003cb\u003e（5）再次执行homebrew安装指令\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"rijtZvfS\"\u003e耐心等待git安装完成后，再次运行homebrew安装指令，重新根据提示操作即可。\u003c/p\u003e\u003cp data-pid=\"9ABmiNae\"\u003e安装需要一段时间，过程中，可以在终端看到脚本执行了那些操作。\u003c/p\u003e\u003cfigure data-size=\"normal\"\u003e\u003cimg src=\"https://pic4.zhimg.com/v2-bf1f0461a373e541af8be956dce862bf_1440w.jpg\" data-caption=\"\" data-size=\"normal\" data-rawwidth=\"1118\" data-rawheight=\"346\" class=\"origin_image zh-lightbox-thumb\" width=\"1118\" data-original=\"https://pic4.zhimg.com/v2-bf1f0461a373e541af8be956dce862bf_r.jpg\" data-original-token=\"v2-c0489b001106a00e4d33a7f8f77389b5\"/\u003e\u003c/figure\u003e\u003cp data-pid=\"v3bBt--k\"\u003e\u003cb\u003e（6）验证是否安装成功\u003c/b\u003e\u003c/p\u003e\u003cp data-pid=\"uv7nlX7-\"\u003e安装脚本执行完成后，重启终端。（重启后才生效）\u003c/p\u003e\u003cp data-pid=\"9Y4XzJJF\"\u003e通过在终端输入\u0026#34;brew -v\u0026#34;，可以查看homebrew版本。\u003c/p\u003e\u003cp data-pid=\"Zp_20qe5\"\u003e如果正确输出版本信息，表示成功安装。\u003c/p\u003e\u003cblockquote data-pid=\"HujqwxyI\"\u003e虽然叫做\u0026#39;Homebrew\u0026#39;，但实际使用时，命令是\u0026#39;brew\u0026#39;。\u003c/blockquote\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003ccode class=\"language-text\"\u003eqiuxiannv@qiuxiannvdeMBP ~ % brew -v\nHomebrew 3.1.7-42-gd45832b\nHomebrew/homebrew-core (git revision 09d1a8b385; last commit 2021-05-15)\nHomebrew/homebrew-cask (git revision c1dad4a5cf; last commit 2021-05-15)\nqiuxiannv@qiuxiannvdeMBP ~ % \u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003cblockquote data-pid=\"NGyMdgXD\"\u003e在M1芯片上，homebrew的安装路径为：\u0026#34;/opt/Homebrew/\u0026#34;\u003c/blockquote\u003e\u003chr/\u003e\u003ch2\u003e三、Homebrew卸载\u003c/h2\u003e\u003cp data-pid=\"PtPDv419\"\u003e如需卸载，使用指令：\u003c/p\u003e\u003cdiv class=\"highlight\"\u003e\u003cpre\u003e\u003ccode class=\"language-text\"\u003e/bin/zsh -c \u0026#34;$(curl -fsSL https://gitee.com/cunkai/HomebrewCN/raw/master/HomebrewUninstall.sh)\u0026#34;\u003c/code\u003e\u003c/pre\u003e\u003c/div\u003e\u003chr/\u003e\u003cp data-pid=\"PqRuP66B\"\u003e如果有用，点个赞吧～ \u003c/p\u003e\u003cp data-pid=\"hvcqLF0q\"\u003e\u003cb\u003eEND\u003c/b\u003e\u003c/p\u003e",
+        "excerpt": "\u003cb\u003e作者 ｜ 公众号：程序员的一天\u003c/b\u003e一、Homebrew是什么？Homebrew官网： 英文： https://brew.sh 中文： https://brew.sh/index_zh-cnHomebrew是MacOS（或 Linux）的软件包管理器。 通过它，我们可以方便的对Mac上的各种应用软件进行管理，例如：安装、更新、查看、搜索、卸载等。 Homebrew，可谓是Mac神器，几乎每一位Mac使用者都会安装它。 用Homebrew官网的一句话总结： Homebrew 使 macOS（或您的 Linux 系统）更完整。二、Mac上…",
+        "excerpt_new": "\u003cb\u003e作者 ｜ 公众号：程序员的一天\u003c/b\u003e一、Homebrew是什么？Homebrew官网： 英文： https://brew.sh 中文： https://brew.sh/index_zh-cnHomebrew是MacOS（或 Linux）的软件包管理器。 通过它，我们可以方便的对Mac上的各种应用软件进行管理，例如：安装、更新、查看、搜索、卸载等。 Homebrew，可谓是Mac神器，几乎每一位Mac使用者都会安装它。 用Homebrew官网的一句话总结： Homebrew 使 macOS（或您的 Linux 系统）更完整。二、Mac上…",
+        "preview_type": "default",
+        "preview_text": "",
+        "url": "https://zhuanlan.zhihu.com/p/372576355",
+        "comment_permission": "all",
+        "voteup_count": 745,
+        "comment_count": 225,
+        "image_url": "https://picx.zhimg.com/v2-4b37cc8aa2417ada1d73952e50607d95_r.jpg?source=172ae18b",
+        "linkbox": {
+          "url": "",
+          "category": "",
+          "pic": "",
+          "title": ""
+        },
+        "reaction_instruction": {
+
+        },
+        "upvoted_followees": [
+
+        ],
+        "voting": 1,
+        "content_need_truncated": false,
+        "force_login_when_click_read_more": false,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "unvote"
+      },
+      "verb": "MEMBER_COLLECT_ARTICLE",
+      "created_time": 1757508683,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "bafec2f1e7c8802e2bdd066088523072",
+        "name": "自由之翼",
+        "headline": "",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/zi-you-zhi-yi-21-60",
+        "url_token": "zi-you-zhi-yi-21-60",
+        "avatar_url": "https://picx.zhimg.com/v2-7c2fd536a1e30b5a73a8d3d5dec4cdc9_l.jpg?source=5a24d060\u0026needBackground=1",
+        "gender": 0,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [
+
+        ],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [
+
+          ],
+          "detail_badges": [
+
+          ],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "收藏了文章",
+      "is_sticky": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "need_force_login": false,
+    "next": "https://www.zhihu.com/api/v3/moments/zi-you-zhi-yi-21-60/activities?offset=1757508683331\u0026page_num=1"
+  }
+}

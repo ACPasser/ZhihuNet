@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.acpasser.zhihunet.repository.mybatis.mapper.ext.ZhihuQuestionExtMapper">
+  <resultMap id="BaseResultMap" type="org.acpasser.zhihunet.model.ZhihuQuestion">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="question_id" jdbcType="BIGINT" property="questionId" />
+    <result column="question_type" jdbcType="VARCHAR" property="questionType" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="url" jdbcType="VARCHAR" property="url" />
+    <result column="author_token" jdbcType="VARCHAR" property="authorToken" />
+    <result column="question_created_time" jdbcType="TIMESTAMP" property="questionCreatedTime" />
+    <result column="answer_count" jdbcType="INTEGER" property="answerCount" />
+    <result column="comment_count" jdbcType="INTEGER" property="commentCount" />
+    <result column="follower_count" jdbcType="INTEGER" property="followerCount" />
+    <result column="excerpt" jdbcType="VARCHAR" property="excerpt" />
+    <result column="bound_topic_ids" jdbcType="VARCHAR" property="boundTopicIds" />
+    <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+    <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime" />
+    <result column="deleted_at" jdbcType="INTEGER" property="deletedAt" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="org.acpasser.zhihunet.model.ZhihuQuestion">
+    <result column="detail" jdbcType="LONGVARCHAR" property="detail" />
+  </resultMap>
+    <insert id="batchUpsert">
+        INSERT INTO zhihu_question (
+        question_id,
+        question_type,
+        title,
+        url,
+        author_token,
+        question_created_time,
+        answer_count,
+        comment_count,
+        follower_count,
+        excerpt,
+        bound_topic_ids,
+        detail,
+        created_time,
+        updated_time,
+        deleted_at
+        ) VALUES
+        <foreach collection="questions" item="question" separator=",">
+            (
+            #{question.questionId},
+            #{question.questionType},
+            #{question.title},
+            #{question.url},
+            #{question.authorToken},
+            #{question.questionCreatedTime},
+            #{question.answerCount},
+            #{question.commentCount},
+            #{question.followerCount},
+            #{question.excerpt},
+            #{question.boundTopicIds},
+            #{question.detail},
+            <!-- 首次插入时生成创建时间 -->
+            IFNULL(#{question.createdTime}, NOW()),
+            <!-- 每次插入/更新都刷新更新时间 -->
+            NOW(),
+            0
+            )
+        </foreach>
+        ON DUPLICATE KEY UPDATE
+        question_type = VALUES(question_type),
+        title = VALUES(title),
+        url = VALUES(url),
+        author_token = VALUES(author_token),
+        question_created_time = VALUES(question_created_time),
+        answer_count = VALUES(answer_count),
+        comment_count = VALUES(comment_count),
+        follower_count = VALUES(follower_count),
+        excerpt = VALUES(excerpt),
+        bound_topic_ids = VALUES(bound_topic_ids),
+        detail = VALUES(detail),
+        <!-- 保留原始创建时间，不更新 -->
+        created_time = zhihu_question.created_time,
+        <!-- 每次更新都刷新更新时间 -->
+        updated_time = NOW(),
+        deleted_at = 0
+    </insert>
+</mapper>

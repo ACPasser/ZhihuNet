@@ -1,0 +1,85 @@
+{
+  "id": "1468868411658",
+  "type": "feed",
+  "target": {
+    "id": 37082471,
+    "type": "collection",
+    "creator": {
+      "id": "73e4a40f860b771362c8bedc09fc494b",
+      "name": "xin TANG",
+      "headline": "",
+      "type": "people",
+      "user_type": "people",
+      "url": "https://www.zhihu.com/people/xin-tang-61",
+      "url_token": "xin-tang-61",
+      "avatar_url": "https://pic1.zhimg.com/038eb5dcbd8128d59a3d174955f8a029_l.jpg?source=5a24d060&needBackground=1",
+      "gender": 1,
+      "is_following": false,
+      "is_followed": false,
+      "is_org": false,
+      "badge": [],
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      },
+      "vip_info": {
+        "is_vip": false,
+        "target_url": ""
+      },
+      "kvip_info": {
+        "is_vip": false,
+        "target_url": ""
+      }
+    },
+    "url": "https://api.zhihu.com/collections/37082471",
+    "updated_time": 1761822680,
+    "created_time": 1399947183,
+    "is_public": true,
+    "title": "我的收藏",
+    "description": "值得反复阅读的回答",
+    "answer_count": 4963,
+    "comment_count": 0,
+    "follower_count": 990,
+    "is_following": false
+  },
+  "verb": "MEMBER_FOLLOW_FAVORITES",
+  "created_time": 1468868411,
+  "interaction": {
+    "can_show_sticker": true
+  },
+  "actor": {
+    "id": "4cb725c2af11c6950dce04fc4ecb4665",
+    "name": "两耳失聪",
+    "headline": "懂球帝 创始人&amp;负责人",
+    "type": "people",
+    "user_type": "people",
+    "url": "https://www.zhihu.com/people/cong",
+    "url_token": "cong",
+    "avatar_url": "https://pica.zhimg.com/44efd7558f0d2ca2abb3b3692b456273_l.jpg?source=5a24d060&needBackground=1",
+    "gender": 1,
+    "is_following": false,
+    "is_followed": false,
+    "is_org": false,
+    "badge": [],
+    "badge_v2": {
+      "title": "",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "vip_info": {
+      "is_vip": false,
+      "target_url": ""
+    },
+    "kvip_info": {
+      "is_vip": false,
+      "target_url": ""
+    }
+  },
+  "action_text": "关注了收藏夹",
+  "is_sticky": false
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.acpasser.zhihunet.repository.mybatis.mapper.ext.ZhihuPinExtMapper">
+    <resultMap id="BaseResultMap" type="org.acpasser.zhihunet.model.ZhihuPin">
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="pin_id" jdbcType="BIGINT" property="pinId"/>
+        <result column="author_token" jdbcType="VARCHAR" property="authorToken"/>
+        <result column="comment_count" jdbcType="INTEGER" property="commentCount"/>
+        <result column="like_count" jdbcType="INTEGER" property="likeCount"/>
+        <result column="favorite_count" jdbcType="INTEGER" property="favoriteCount"/>
+        <result column="repin_count" jdbcType="INTEGER" property="repinCount"/>
+        <result column="creation_disclaimer" jdbcType="VARCHAR" property="creationDisclaimer"/>
+        <result column="comment_permission" jdbcType="VARCHAR" property="commentPermission"/>
+        <result column="url" jdbcType="VARCHAR" property="url"/>
+        <result column="pin_created_time" jdbcType="TIMESTAMP" property="pinCreatedTime"/>
+        <result column="topic_ids" jdbcType="VARCHAR" property="topicIds"/>
+        <result column="admin_closed_comment" jdbcType="TINYINT" property="adminClosedComment"/>
+        <result column="admin_close_repin" jdbcType="TINYINT" property="adminCloseRepin"/>
+        <result column="contain_ai_content" jdbcType="TINYINT" property="containAiContent"/>
+        <result column="created_time" jdbcType="TIMESTAMP" property="createdTime"/>
+        <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime"/>
+        <result column="deleted_at" jdbcType="INTEGER" property="deletedAt"/>
+    </resultMap>
+    <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="org.acpasser.zhihunet.model.ZhihuPin">
+        <result column="excerpt_title" jdbcType="LONGVARCHAR" property="excerptTitle"/>
+    </resultMap>
+    <insert id="batchUpsert">
+        INSERT INTO zhihu_pin (
+        pin_id,
+        author_token,
+        comment_count,
+        like_count,
+        favorite_count,
+        repin_count,
+        creation_disclaimer,
+        comment_permission,
+        url,
+        pin_created_time,
+        topic_ids,
+        admin_closed_comment,
+        admin_close_repin,
+        contain_ai_content,
+        excerpt_title,
+        created_time,
+        updated_time,
+        deleted_at
+        ) VALUES
+        <foreach collection="pins" item="pin" separator=",">
+            (
+            #{pin.pinId},
+            #{pin.authorToken},
+            #{pin.commentCount},
+            #{pin.likeCount},
+            #{pin.favoriteCount},
+            #{pin.repinCount},
+            #{pin.creationDisclaimer},
+            #{pin.commentPermission},
+            #{pin.url},
+            #{pin.pinCreatedTime},
+            #{pin.topicIds},
+            #{pin.adminClosedComment},
+            #{pin.adminCloseRepin},
+            #{pin.containAiContent},
+            #{pin.excerptTitle},
+            <!-- 首次插入时生成创建时间 -->
+            IFNULL(#{pin.createdTime}, NOW()),
+            <!-- 每次插入/更新都刷新更新时间 -->
+            NOW(),
+            0
+            )
+        </foreach>
+        ON DUPLICATE KEY UPDATE
+        author_token = VALUES(author_token),
+        comment_count = VALUES(comment_count),
+        like_count = VALUES(like_count),
+        favorite_count = VALUES(favorite_count),
+        repin_count = VALUES(repin_count),
+        creation_disclaimer = VALUES(creation_disclaimer),
+        comment_permission = VALUES(comment_permission),
+        url = VALUES(url),
+        pin_created_time = VALUES(pin_created_time),
+        topic_ids = VALUES(topic_ids),
+        admin_closed_comment = VALUES(admin_closed_comment),
+        admin_close_repin = VALUES(admin_close_repin),
+        contain_ai_content = VALUES(contain_ai_content),
+        excerpt_title = VALUES(excerpt_title),
+        <!-- 保留原始创建时间，不更新 -->
+        created_time = zhihu_pin.created_time,
+        <!-- 每次更新都刷新更新时间 -->
+        updated_time = NOW(),
+        deleted_at = 0
+    </insert>
+</mapper>

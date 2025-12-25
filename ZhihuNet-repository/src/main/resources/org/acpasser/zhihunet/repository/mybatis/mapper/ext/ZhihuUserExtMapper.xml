@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.acpasser.zhihunet.repository.mybatis.mapper.ext.ZhihuUserExtMapper">
+    <resultMap id="BaseResultMap" type="org.acpasser.zhihunet.model.ZhihuUser">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="token" jdbcType="VARCHAR" property="token" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="user_type" jdbcType="VARCHAR" property="userType" />
+        <result column="index_url" jdbcType="VARCHAR" property="indexUrl" />
+        <result column="description" jdbcType="VARCHAR" property="description" />
+        <result column="headline" jdbcType="VARCHAR" property="headline" />
+        <result column="ip_info" jdbcType="VARCHAR" property="ipInfo" />
+        <result column="gender" jdbcType="TINYINT" property="gender" />
+        <result column="follower_count" jdbcType="INTEGER" property="followerCount" />
+        <result column="following_count" jdbcType="INTEGER" property="followingCount" />
+        <result column="mutual_followees_count" jdbcType="INTEGER" property="mutualFolloweesCount" />
+        <result column="answer_count" jdbcType="INTEGER" property="answerCount" />
+        <result column="question_count" jdbcType="INTEGER" property="questionCount" />
+        <result column="articles_count" jdbcType="INTEGER" property="articlesCount" />
+        <result column="columns_count" jdbcType="INTEGER" property="columnsCount" />
+        <result column="zvideo_count" jdbcType="INTEGER" property="zvideoCount" />
+        <result column="favorite_count" jdbcType="INTEGER" property="favoriteCount" />
+        <result column="favorited_count" jdbcType="INTEGER" property="favoritedCount" />
+        <result column="pins_count" jdbcType="INTEGER" property="pinsCount" />
+        <result column="voteup_count" jdbcType="INTEGER" property="voteupCount" />
+        <result column="thanked_count" jdbcType="INTEGER" property="thankedCount" />
+        <result column="following_columns_count" jdbcType="INTEGER" property="followingColumnsCount" />
+        <result column="following_topic_count" jdbcType="INTEGER" property="followingTopicCount" />
+        <result column="following_question_count" jdbcType="INTEGER" property="followingQuestionCount" />
+        <result column="business" jdbcType="VARCHAR" property="business" />
+        <result column="locations" jdbcType="VARCHAR" property="locations" />
+        <result column="employments" jdbcType="VARCHAR" property="employments" />
+        <result column="educations" jdbcType="VARCHAR" property="educations" />
+        <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+        <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime" />
+        <result column="deleted_at" jdbcType="INTEGER" property="deletedAt" />
+    </resultMap>
+
+    <select id="list" resultMap="BaseResultMap"
+            parameterType="org.acpasser.zhihunet.common.dto.ListZhihuUserCondition">
+        select * from zhihu_user
+        where deleted_at = 0
+        <if test="nameQuery != null and nameQuery != ''">
+            and (
+                token like #{nameQuery}
+                    or name like #{nameQuery}
+                    or headline like #{nameQuery}
+                    or employments like #{nameQuery}
+                    or educations like #{nameQuery}
+            )
+        </if>
+        <if test="offset != null and pageSize != null">
+            limit #{offset}, #{pageSize}
+        </if>
+    </select>
+
+
+    <select id="count" resultType="java.lang.Long"
+            parameterType="org.acpasser.zhihunet.common.dto.ListZhihuUserCondition">
+        select count(*) from zhihu_user
+        where deleted_at = 0
+        <if test="nameQuery != null and nameQuery != ''">
+            and (
+            token like #{nameQuery}
+            or name like #{nameQuery}
+            or headline like #{nameQuery}
+            or employments like #{nameQuery}
+            or educations like #{nameQuery}
+            )
+        </if>
+    </select>
+
+
+    <insert id="batchUpsert">
+        INSERT INTO zhihu_user (
+        token,
+        name,
+        user_type,
+        index_url,
+        description,
+        headline,
+        ip_info,
+        gender,
+        follower_count,
+        following_count,
+        mutual_followees_count,
+        answer_count,
+        question_count,
+        articles_count,
+        columns_count,
+        zvideo_count,
+        favorite_count,
+        favorited_count,
+        pins_count,
+        voteup_count,
+        thanked_count,
+        following_columns_count,
+        following_topic_count,
+        following_question_count,
+        business,
+        locations,
+        employments,
+        educations,
+        created_time,
+        updated_time
+        -- 省略 deleted_at，新插入时数据库默认填 0
+        )
+        VALUES
+        <foreach collection="zhihuUsers" item="user" separator=",">
+            (
+            #{user.token},
+            #{user.name},
+            #{user.userType},
+            #{user.indexUrl},
+            #{user.description},
+            #{user.headline},
+            #{user.ipInfo},
+            #{user.gender},
+            #{user.followerCount},
+            #{user.followingCount},
+            #{user.mutualFolloweesCount},
+            #{user.answerCount},
+            #{user.questionCount},
+            #{user.articlesCount},
+            #{user.columnsCount},
+            #{user.zvideoCount},
+            #{user.favoriteCount},
+            #{user.favoritedCount},
+            #{user.pinsCount},
+            #{user.voteupCount},
+            #{user.thankedCount},
+            #{user.followingColumnsCount},
+            #{user.followingTopicCount},
+            #{user.followingQuestionCount},
+            #{user.business},
+            #{user.locations},
+            #{user.employments},
+            #{user.educations},
+            -- 首次插入时生成创建时间，已存在则不修改（用 IFNULL 保留原时间）
+            IFNULL(#{user.createdTime}, NOW()),
+            -- 每次更新时刷新更新时间
+            NOW()
+            )
+        </foreach>
+        -- 当 token 冲突时执行更新（仅更新非创建时间的字段）
+        ON DUPLICATE KEY UPDATE
+        name = VALUES(name),
+        user_type = VALUES(user_type),
+        index_url = VALUES(index_url),
+        description = VALUES(description),
+        headline = VALUES(headline),
+        ip_info = VALUES(ip_info),
+        gender = VALUES(gender),
+        follower_count = VALUES(follower_count),
+        following_count = VALUES(following_count),
+        mutual_followees_count = VALUES(mutual_followees_count),
+        answer_count = VALUES(answer_count),
+        question_count = VALUES(question_count),
+        articles_count = VALUES(articles_count),
+        columns_count = VALUES(columns_count),
+        zvideo_count = VALUES(zvideo_count),
+        favorite_count = VALUES(favorite_count),
+        favorited_count = VALUES(favorited_count),
+        pins_count = VALUES(pins_count),
+        voteup_count = VALUES(voteup_count),
+        thanked_count = VALUES(thanked_count),
+        following_columns_count = VALUES(following_columns_count),
+        following_topic_count = VALUES(following_topic_count),
+        following_question_count = VALUES(following_question_count),
+        business = VALUES(business),
+        locations = VALUES(locations),
+        employments = VALUES(employments),
+        educations = VALUES(educations),
+        -- 创建时间不变（保留首次插入时间）
+        created_time = IFNULL(zhihu_user.created_time, NOW()),
+        -- 更新时间刷新为当前时间
+        updated_time = NOW(),
+        deleted_at = 0
+    </insert>
+</mapper>

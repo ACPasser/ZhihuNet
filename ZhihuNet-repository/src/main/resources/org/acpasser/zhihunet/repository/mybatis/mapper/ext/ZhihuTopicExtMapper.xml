@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.acpasser.zhihunet.repository.mybatis.mapper.ext.ZhihuTopicExtMapper">
+    <resultMap id="BaseResultMap" type="org.acpasser.zhihunet.model.ZhihuTopic">
+        <id column="id" jdbcType="INTEGER" property="id" />
+        <result column="topic_id" jdbcType="BIGINT" property="topicId" />
+        <result column="name" jdbcType="VARCHAR" property="name" />
+        <result column="topic_type" jdbcType="VARCHAR" property="topicType" />
+        <result column="url" jdbcType="VARCHAR" property="url" />
+        <result column="created_time" jdbcType="TIMESTAMP" property="createdTime" />
+        <result column="updated_time" jdbcType="TIMESTAMP" property="updatedTime" />
+        <result column="deleted_at" jdbcType="INTEGER" property="deletedAt" />
+    </resultMap>
+    <insert id="batchUpsert">
+        INSERT INTO zhihu_topic (
+        topic_id,
+        name,
+        topic_type,
+        url,
+        created_time,
+        updated_time,
+        deleted_at
+        ) VALUES
+        <foreach collection="topics" item="topic" separator=",">
+            (
+            #{topic.topicId},
+            #{topic.name},
+            #{topic.topicType},
+            #{topic.url},
+            <!-- 首次插入时生成创建时间 -->
+            IFNULL(#{topic.createdTime}, NOW()),
+            <!-- 每次插入/更新都刷新更新时间 -->
+            NOW(),
+            0
+            )
+        </foreach>
+        ON DUPLICATE KEY UPDATE
+        name = VALUES(name),
+        topic_type = VALUES(topic_type),
+        url = VALUES(url),
+        <!-- 保留原始创建时间，不更新 -->
+        created_time = zhihu_topic.created_time,
+        <!-- 每次更新都刷新更新时间 -->
+        updated_time = NOW(),
+        deleted_at = 0
+    </insert>
+</mapper>

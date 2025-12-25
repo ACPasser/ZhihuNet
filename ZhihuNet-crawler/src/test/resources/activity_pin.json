@@ -1,0 +1,289 @@
+{
+  "id": "1740674306790",
+  "type": "feed",
+  "target": {
+    "ab_config": {
+      "md_interact_unify": "1"
+    },
+    "admin_closed_comment": false,
+    "author": {
+      "avatar_url": "https://picx.zhimg.com/v2-58065fdefaf543f86cccc363923d8444_720w.jpg?source=8a6f5038&needBackground=1",
+      "badge_v2": {
+        "detail_badges": [
+
+        ],
+        "icon": "",
+        "merged_badges": [
+
+        ],
+        "night_icon": "",
+        "title": ""
+      },
+      "exposed_medal": {
+        "avatar_url": "",
+        "description": "",
+        "medal_avatar_frame": "",
+        "medal_id": "0",
+        "medal_name": "",
+        "mini_avatar_url": ""
+      },
+      "follower_count": 641,
+      "gender": 1,
+      "headline": "",
+      "id": "ac113c7837148e5d43c18a06cf248d21",
+      "is_advertiser": false,
+      "is_blocked": false,
+      "is_blocking": false,
+      "is_followed": false,
+      "is_following": false,
+      "is_org": false,
+      "is_special_follow": false,
+      "kvip_info": {
+        "is_vip": false,
+        "target_url": ""
+      },
+      "name": "河畔草lxr",
+      "reaction_count": 0,
+      "type": "people",
+      "url": "/people/ac113c7837148e5d43c18a06cf248d21",
+      "url_token": "liuxiaoran-34",
+      "user_type": "people",
+      "vip_info": {
+        "is_vip": false
+      }
+    },
+    "can_top": false,
+    "comment_count": 1,
+    "comment_permission": "all",
+    "comments": [
+
+    ],
+    "content": [
+      {
+        "content": "长文LLM综述：长上下文大语言模型如是说<br>向大家宣传一下我们小组最近的长文综述<br>长上下文大语言模型如是说 Thus Spake Long-Context Large Language Model<br>arXiv: <a href=\"https://arxiv.org/abs/2502.17129\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://arxiv.org/abs/2502.17129\" data-icon-name=\"zhicon_icon_24_link\">https://arxiv.org/abs/2502.17129</a><br>bilibili: <a href=\"https://www.bilibili.com/video/BV11h9AYoEYj\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://www.bilibili.com/video/BV11h9AYoEYj\" data-icon-name=\"zhicon_icon_24_link\">https://www.bilibili.com/video/BV11h9AYoEYj</a> （划重点，欢迎大家一键三连 关注转发<br>hf: <a href=\"https://huggingface.co/papers/2502.17129\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://huggingface.co/papers/2502.17129\" data-icon-name=\"zhicon_icon_24_link\">https://huggingface.co/papers/2502.17129</a><br>Github: <a href=\"https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM\" data-icon-name=\"zhicon_icon_24_link\">https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM</a> （包括论文pdf和中文报告pdf，后续有英文pdf以及更详细版本更新 <br>小红书: <a href=\"http://xhslink.com/a/b7hwjYK2qsH6\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"http://xhslink.com/a/b7hwjYK2qsH6\" data-icon-name=\"zhicon_icon_24_link\">http://xhslink.com/a/b7hwjYK2qsH6</a><br><br>这是一次将科研、音乐、哲学相结合起来的尝试！ <br>受理查·施特劳斯的交响诗《查拉图斯特拉如是说》的启发， <br>我们将当前大语言模型（LLM）扩长自身上下文长度的历程，<br>类比为人试图超越自身局限性的努力！<br>人通过激情、科学等的方法去追求永恒，<br>LLM通过架构、框架、训练等的优化去追求无限上下文！<br><br>在这篇综述中，我们从架构、框架、训练、评测四个方面出发， <br>涵盖长度外推、高效缓存、记忆管理、新架构、<br>训练框架、推理框架、长文预训练、长文后训练、<br>多模态长文（长视频）、长文评测共十个主题，<br>展示了长文LLM涉及到的各种技术，并且在文章末尾，<br>我们也列举了长文LLM仍然面临的一些问题。 <br><br>而在对应的视频中，伴随着交响曲的演进，<br>一篇篇长文的工作将在你眼前呈现，<br>长文研究的脉络将在你的眼前展开。<br>我们希望这样的呈现形式，能够<br>让不了解相关研究的朋友们感受到长文研究的架构脉络，<br>让了解长文工作的同行们感受到看到/看懂这些工作时候的感动。 <br><br>当然这是一种很创新的呈现形式，欢迎大家的关注！<br>如有不满，还请谅解，不喜勿喷，如有错误，还请指正。<br>我们会认真考虑这些建议，并在三个月后发布修订版。 <br>最后，特别感谢这篇文章合作者们的辛苦付出，<br>感谢华为诺亚实验室对小组科研工作的项目支持。<br><br><a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27460321\" data-pin-topic=\"zhihu://topic/27460321/pin20\">#论文综述</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/23668572\" data-pin-topic=\"zhihu://topic/23668572/pin20\">#科研生活</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/28568717\" data-pin-topic=\"zhihu://topic/28568717/pin20\">#人工智能​</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27267395\" data-pin-topic=\"zhihu://topic/27267395/pin20\">#大语言模型</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/19560026\" data-pin-topic=\"zhihu://topic/19560026/pin20\">#自然语言处理</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/945281748\" data-pin-topic=\"zhihu://topic/945281748/pin20\">#长上下文</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/19551864\" data-pin-topic=\"zhihu://topic/19551864/pin20\">#古典音乐</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27504414\" data-pin-topic=\"zhihu://topic/27504414/pin20\">#查拉图斯特拉如是说</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/19767214\" data-pin-topic=\"zhihu://topic/19767214/pin20\">#复旦</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/28021839\" data-pin-topic=\"zhihu://topic/28021839/pin20\">#上海人工智能实验室</a>  ",
+        "fold_type": "raw",
+        "own_text": "长文LLM综述：长上下文大语言模型如是说<br>向大家宣传一下我们小组最近的长文综述<br>长上下文大语言模型如是说 Thus Spake Long-Context Large Language Model<br>arXiv: <a href=\"https://arxiv.org/abs/2502.17129\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://arxiv.org/abs/2502.17129\" data-icon-name=\"zhicon_icon_24_link\">https://arxiv.org/abs/2502.17129</a><br>bilibili: <a href=\"https://www.bilibili.com/video/BV11h9AYoEYj\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://www.bilibili.com/video/BV11h9AYoEYj\" data-icon-name=\"zhicon_icon_24_link\">https://www.bilibili.com/video/BV11h9AYoEYj</a> （划重点，欢迎大家一键三连 关注转发<br>hf: <a href=\"https://huggingface.co/papers/2502.17129\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://huggingface.co/papers/2502.17129\" data-icon-name=\"zhicon_icon_24_link\">https://huggingface.co/papers/2502.17129</a><br>Github: <a href=\"https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM\" data-icon-name=\"zhicon_icon_24_link\">https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM</a> （包括论文pdf和中文报告pdf，后续有英文pdf以及更详细版本更新 <br>小红书: <a href=\"http://xhslink.com/a/b7hwjYK2qsH6\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"http://xhslink.com/a/b7hwjYK2qsH6\" data-icon-name=\"zhicon_icon_24_link\">http://xhslink.com/a/b7hwjYK2qsH6</a><br><br>这是一次将科研、音乐、哲学相结合起来的尝试！ <br>受理查·施特劳斯的交响诗《查拉图斯特拉如是说》的启发， <br>我们将当前大语言模型（LLM）扩长自身上下文长度的历程，<br>类比为人试图超越自身局限性的努力！<br>人通过激情、科学等的方法去追求永恒，<br>LLM通过架构、框架、训练等的优化去追求无限上下文！<br><br>在这篇综述中，我们从架构、框架、训练、评测四个方面出发， <br>涵盖长度外推、高效缓存、记忆管理、新架构、<br>训练框架、推理框架、长文预训练、长文后训练、<br>多模态长文（长视频）、长文评测共十个主题，<br>展示了长文LLM涉及到的各种技术，并且在文章末尾，<br>我们也列举了长文LLM仍然面临的一些问题。 <br><br>而在对应的视频中，伴随着交响曲的演进，<br>一篇篇长文的工作将在你眼前呈现，<br>长文研究的脉络将在你的眼前展开。<br>我们希望这样的呈现形式，能够<br>让不了解相关研究的朋友们感受到长文研究的架构脉络，<br>让了解长文工作的同行们感受到看到/看懂这些工作时候的感动。 <br><br>当然这是一种很创新的呈现形式，欢迎大家的关注！<br>如有不满，还请谅解，不喜勿喷，如有错误，还请指正。<br>我们会认真考虑这些建议，并在三个月后发布修订版。 <br>最后，特别感谢这篇文章合作者们的辛苦付出，<br>感谢华为诺亚实验室对小组科研工作的项目支持。<br><br><a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27460321\" data-pin-topic=\"zhihu://topic/27460321/pin20\">#论文综述</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/23668572\" data-pin-topic=\"zhihu://topic/23668572/pin20\">#科研生活</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/28568717\" data-pin-topic=\"zhihu://topic/28568717/pin20\">#人工智能​</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27267395\" data-pin-topic=\"zhihu://topic/27267395/pin20\">#大语言模型</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/19560026\" data-pin-topic=\"zhihu://topic/19560026/pin20\">#自然语言处理</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/945281748\" data-pin-topic=\"zhihu://topic/945281748/pin20\">#长上下文</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/19551864\" data-pin-topic=\"zhihu://topic/19551864/pin20\">#古典音乐</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27504414\" data-pin-topic=\"zhihu://topic/27504414/pin20\">#查拉图斯特拉如是说</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/19767214\" data-pin-topic=\"zhihu://topic/19767214/pin20\">#复旦</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/28021839\" data-pin-topic=\"zhihu://topic/28021839/pin20\">#上海人工智能实验室</a>",
+        "text_link_type": "internal",
+        "title": "",
+        "type": "text"
+      }
+    ],
+    "content_html": "<div>长文LLM综述：长上下文大语言模型如是说<br/>向大家宣传一下我们小组最近的长文综述<br/>长上下文大语言模型如是说 Thus Spake Long-Context Large Language Model<br/>arXiv: <a href=\"https://arxiv.org/abs/2502.17129\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://arxiv.org/abs/2502.17129\" data-icon-name=\"zhicon_icon_24_link\">https://arxiv.org/abs/2502.17129</a><br/>bilibili: <a href=\"https://www.bilibili.com/video/BV11h9AYoEYj\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://www.bilibili.com/video/BV11h9AYoEYj\" data-icon-name=\"zhicon_icon_24_link\">https://www.bilibili.com/video/BV11h9AYoEYj</a> （划重点，欢迎大家一键三连 关注转发<br/>hf: <a href=\"https://huggingface.co/papers/2502.17129\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://huggingface.co/papers/2502.17129\" data-icon-name=\"zhicon_icon_24_link\">https://huggingface.co/papers/2502.17129</a><br/>Github: <a href=\"https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM\" data-icon-name=\"zhicon_icon_24_link\">https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM</a> （包括论文pdf和中文报告pdf，后续有英文pdf以及更详细版本更新 <br/>小红书: <a href=\"http://xhslink.com/a/b7hwjYK2qsH6\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"http://xhslink.com/a/b7hwjYK2qsH6\" data-icon-name=\"zhicon_icon_24_link\">http://xhslink.com/a/b7hwjYK2qsH6</a><br/><br/>这是一次将科研、音乐、哲学相结合起来的尝试！ <br/>受理查·施特劳斯的交响诗《查拉图斯特拉如是说》的启发， <br/>我们将当前大语言模型（LLM）扩长自身上下文长度的历程，<br/>类比为人试图超越自身局限性的努力！<br/>人通过激情、科学等的方法去追求永恒，<br/>LLM通过架构、框架、训练等的优化去追求无限上下文！<br/><br/>在这篇综述中，我们从架构、框架、训练、评测四个方面出发， <br/>涵盖长度外推、高效缓存、记忆管理、新架构、<br/>训练框架、推理框架、长文预训练、长文后训练、<br/>多模态长文（长视频）、长文评测共十个主题，<br/>展示了长文LLM涉及到的各种技术，并且在文章末尾，<br/>我们也列举了长文LLM仍然面临的一些问题。 <br/><br/>而在对应的视频中，伴随着交响曲的演进，<br/>一篇篇长文的工作将在你眼前呈现，<br/>长文研究的脉络将在你的眼前展开。<br/>我们希望这样的呈现形式，能够<br/>让不了解相关研究的朋友们感受到长文研究的架构脉络，<br/>让了解长文工作的同行们感受到看到/看懂这些工作时候的感动。 <br/><br/>当然这是一种很创新的呈现形式，欢迎大家的关注！<br/>如有不满，还请谅解，不喜勿喷，如有错误，还请指正。<br/>我们会认真考虑这些建议，并在三个月后发布修订版。 <br/>最后，特别感谢这篇文章合作者们的辛苦付出，<br/>感谢华为诺亚实验室对小组科研工作的项目支持。<br/><br/><a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27460321\" data-pin-topic=\"zhihu://topic/27460321/pin20\">#论文综述</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/23668572\" data-pin-topic=\"zhihu://topic/23668572/pin20\">#科研生活</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/28568717\" data-pin-topic=\"zhihu://topic/28568717/pin20\">#人工智能​</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27267395\" data-pin-topic=\"zhihu://topic/27267395/pin20\">#大语言模型</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/19560026\" data-pin-topic=\"zhihu://topic/19560026/pin20\">#自然语言处理</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/945281748\" data-pin-topic=\"zhihu://topic/945281748/pin20\">#长上下文</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/19551864\" data-pin-topic=\"zhihu://topic/19551864/pin20\">#古典音乐</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27504414\" data-pin-topic=\"zhihu://topic/27504414/pin20\">#查拉图斯特拉如是说</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/19767214\" data-pin-topic=\"zhihu://topic/19767214/pin20\">#复旦</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/28021839\" data-pin-topic=\"zhihu://topic/28021839/pin20\">#上海人工智能实验室</a>  </div>",
+    "created": 1740674306,
+    "creation_disclaimer": "",
+    "excerpt_title": "长文LLM综述：长上下文大语言模型如是说<br>向大家宣传一下我们小组最近的长文综述<br>长上下文大语言模型如是说 Thus Spake Long-Context Large Language Model<br>arXiv: <a href=\"https://arxiv.org/abs/2502.17129\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://arxiv.org/abs/2502.17129\" data-icon-name=\"zhicon_icon_24_link\">https://arxiv.org/abs/2502.17129</a><br>bilibili: <a href=\"https://www.bilibili.com/video/BV11h9AYoEYj\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://www.bilibili.com/video/BV11h9AYoEYj\" data-icon-name=\"zhicon_icon_24_link\">https://www.bilibili.com/video/BV11h9AYoEYj</a> （划重点，欢迎大家一键三连 关注转发<br>hf: <a href=\"https://huggingface.co/papers/2502.17129\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://huggingface.co/papers/2502.17129\" data-icon-name=\"zhicon_icon_24_link\">https://huggingface.co/papers/2502.17129</a><br>Github: <a href=\"https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM\" data-icon-name=\"zhicon_icon_24_link\">https://github.com/OpenMOSS/Thus-Spake-Long-Context-LLM</a> （包括论文pdf和中文报告pdf，后续有英文pdf以及更详细版本更新 <br>小红书: <a href=\"http://xhslink.com/a/b7hwjYK2qsH6\" data-insert-way=\"force\" data-draft-node=\"inline\" data-draft-type=\"text-link\" class=\"internal\" data-icon-type=\"link\" data-original-url=\"http://xhslink.com/a/b7hwjYK2qsH6\" data-icon-name=\"zhicon_icon_24_link\">http://xhslink.com/a/b7hwjYK2qsH6</a><br><br>这是一次将科研、音乐、哲学相结合起来的尝试！ <br>受理查·施特劳斯的交响诗《查拉图斯特拉如是说》的启发， <br>我们将当前大语言模型（LLM）扩长自身上下文长度的历程，<br>类比为人试图超越自身局限性的努力！<br>人通过激情、科学等的方法去追求永恒，<br>LLM通过架构、框架、训练等的优化去追求无限上下文！<br><br>在这篇综述中，我们从架构、框架、训练、评测四个方面出发， <br>涵盖长度外推、高效缓存、记忆管理、新架构、<br>训练框架、推理框架、长文预训练、长文后训练、<br>多模态长文（长视频）、长文评测共十个主题，<br>展示了长文LLM涉及到的各种技术，并且在文章末尾，<br>我们也列举了长文LLM仍然面临的一些问题。 <br><br>而在对应的视频中，伴随着交响曲的演进，<br>一篇篇长文的工作将在你眼前呈现，<br>长文研究的脉络将在你的眼前展开。<br>我们希望这样的呈现形式，能够<br>让不了解相关研究的朋友们感受到长文研究的架构脉络，<br>让了解长文工作的同行们感受到看到/看懂这些工作时候的感动。 <br><br>当然这是一种很创新的呈现形式，欢迎大家的关注！<br>如有不满，还请谅解，不喜勿喷，如有错误，还请指正。<br>我们会认真考虑这些建议，并在三个月后发布修订版。 <br>最后，特别感谢这篇文章合作者们的辛苦付出，<br>感谢华为诺亚实验室对小组科研工作的项目支持。<br><br><a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27460321\" data-pin-topic=\"zhihu://topic/27460321/pin20\">#论文综述</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/23668572\" data-pin-topic=\"zhihu://topic/23668572/pin20\">#科研生活</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/28568717\" data-pin-topic=\"zhihu://topic/28568717/pin20\">#人工智能​</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27267395\" data-pin-topic=\"zhihu://topic/27267395/pin20\">#大语言模型</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/19560026\" data-pin-topic=\"zhihu://topic/19560026/pin20\">#自然语言处理</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/945281748\" data-pin-topic=\"zhihu://topic/945281748/pin20\">#长上下文</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/19551864\" data-pin-topic=\"zhihu://topic/19551864/pin20\">#古典音乐</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27504414\" data-pin-topic=\"zhihu://topic/27504414/pin20\">#查拉图斯特拉如是说</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/19767214\" data-pin-topic=\"zhihu://topic/19767214/pin20\">#复旦</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/28021839\" data-pin-topic=\"zhihu://topic/28021839/pin20\">#上海人工智能实验室</a>  ",
+    "favlists_count": 1,
+    "favorite_count": 1,
+    "id": "1878604872380814766",
+    "is_admin_close_repin": false,
+    "is_contain_ai_content": false,
+    "is_deleted": false,
+    "is_top": false,
+    "like_count": 2,
+    "likers": [
+
+    ],
+    "long_threshold": [
+      {
+        "height": 3,
+        "width": 1
+      },
+      {
+        "height": 1,
+        "width": 3
+      }
+    ],
+    "meet_reaction_guide_conditions": false,
+    "page_view_count": null,
+    "questions": null,
+    "reaction": {
+      "image_reactions": {
+
+      },
+      "relation": {
+        "current_user_is_navigator": false,
+        "faved": true,
+        "following": false,
+        "is_author": false,
+        "is_navigator_vote": false,
+        "liked": false,
+        "subcribed": false,
+        "vote": "Neutral",
+        "vote_next_step": ""
+      },
+      "statistics": {
+        "applaud_count": 2,
+        "bullet_count": 0,
+        "comment_count": 1,
+        "down_vote_count": 0,
+        "favorites": 1,
+        "interest_play_count": 0,
+        "like_count": 0,
+        "plaincontent_like_count": 0,
+        "plaincontent_vote_up_count": 0,
+        "play_count": 0,
+        "pv_count": 0,
+        "question_answer_count": 0,
+        "question_follower_count": 0,
+        "republishers": [
+
+        ],
+        "share_count": 0,
+        "subscribe_count": 0,
+        "up_vote_count": 2
+      }
+    },
+    "reaction_count": 2,
+    "reaction_instruction": {
+
+    },
+    "reaction_relation": {
+      "like": 0,
+      "vote": 2
+    },
+    "regulate_info": {
+      "is_regulating": false
+    },
+    "repin_count": 0,
+    "ring_info": null,
+    "self_create": false,
+    "source_pin_id": 0,
+    "state": "normal",
+    "tag_specials": {
+
+    },
+    "tags": [
+      "#论文综述</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/23668572\" data-pin-topic=\"zhihu://topic/23668572/pin20\">#",
+      "#人工智能​</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27267395\" data-pin-topic=\"zhihu://topic/27267395/pin20\">#",
+      "#自然语言处理</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/945281748\" data-pin-topic=\"zhihu://topic/945281748/pin20\">#",
+      "#古典音乐</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/27504414\" data-pin-topic=\"zhihu://topic/27504414/pin20\">#",
+      "#复旦</a>  <a class=\"hash_tag\" href=\"https://www.zhihu.com/topic/28021839\" data-pin-topic=\"zhihu://topic/28021839/pin20\">#"
+    ],
+    "top_reactions": {
+      "like": 2
+    },
+    "topics": [
+      {
+        "id": "28021839",
+        "name": "上海人工智能实验室",
+        "topic_type": "NORMAL",
+        "type": "topic",
+        "url": "zhihu://topic/28021839/pin20"
+      },
+      {
+        "id": "19767214",
+        "name": "复旦",
+        "topic_type": "NORMAL",
+        "type": "topic",
+        "url": "zhihu://topic/19767214/pin20"
+      },
+      {
+        "id": "27504414",
+        "name": "查拉图斯特拉如是说",
+        "topic_type": "NORMAL",
+        "type": "topic",
+        "url": "zhihu://topic/27504414/pin20"
+      },
+      {
+        "id": "19551864",
+        "name": "古典音乐",
+        "topic_type": "NORMAL",
+        "type": "topic",
+        "url": "zhihu://topic/19551864/pin20"
+      },
+      {
+        "id": "945281748",
+        "name": "长上下文",
+        "topic_type": "NORMAL",
+        "type": "topic",
+        "url": "zhihu://topic/945281748/pin20"
+      },
+      {
+        "id": "19560026",
+        "name": "自然语言处理",
+        "topic_type": "NORMAL",
+        "type": "topic",
+        "url": "zhihu://topic/19560026/pin20"
+      },
+      {
+        "id": "27267395",
+        "name": "大语言模型",
+        "topic_type": "NORMAL",
+        "type": "topic",
+        "url": "zhihu://topic/27267395/pin20"
+      },
+      {
+        "id": "28568717",
+        "name": "人工智能​",
+        "topic_type": "NORMAL",
+        "type": "topic",
+        "url": "zhihu://topic/28568717/pin20"
+      },
+      {
+        "id": "23668572",
+        "name": "科研生活",
+        "topic_type": "NORMAL",
+        "type": "topic",
+        "url": "zhihu://topic/23668572/pin20"
+      },
+      {
+        "id": "27460321",
+        "name": "论文综述",
+        "topic_type": "NORMAL",
+        "type": "topic",
+        "url": "zhihu://topic/27460321/pin20"
+      }
+    ],
+    "type": "pin",
+    "updated": 1740674306,
+    "url": "https://www.zhihu.com/pin/1878604872380814766?native=0",
+    "view_permission": "all",
+    "virtuals": {
+      "is_favorited": true,
+      "is_liked": false
+    }
+  },
+  "verb": "MEMBER_CREATE_PIN",
+  "created_time": 1740674306,
+  "interaction": {
+    "can_show_sticker": true
+  },
+  "actor": {
+    "id": "ac113c7837148e5d43c18a06cf248d21",
+    "name": "河畔草lxr",
+    "headline": "",
+    "type": "people",
+    "user_type": "people",
+    "url": "https://www.zhihu.com/people/liuxiaoran-34",
+    "url_token": "liuxiaoran-34",
+    "avatar_url": "https://pica.zhimg.com/v2-58065fdefaf543f86cccc363923d8444_l.jpg?source=5a24d060&needBackground=1",
+    "gender": 1,
+    "is_following": false,
+    "is_followed": false,
+    "is_org": false,
+    "badge": [
+
+    ],
+    "badge_v2": {
+      "title": "",
+      "merged_badges": [
+
+      ],
+      "detail_badges": [
+
+      ],
+      "icon": "",
+      "night_icon": ""
+    },
+    "vip_info": {
+      "is_vip": false,
+      "target_url": ""
+    },
+    "kvip_info": {
+      "is_vip": false,
+      "target_url": ""
+    }
+  },
+  "action_text": "发布了想法",
+  "is_sticky": false
+}

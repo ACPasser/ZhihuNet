@@ -1,0 +1,728 @@
+{
+  "data": [
+    {
+      "id": "1469739144952",
+      "type": "feed",
+      "target": {
+        "id": "42084375",
+        "title": "你支持还是反对唐纳德·特朗普（Donald J. Trump）？为什么？",
+        "url": "https://api.zhihu.com/questions/42084375",
+        "type": "question",
+        "question_type": "normal",
+        "created": 1459665924,
+        "answer_count": 539,
+        "comment_count": 51,
+        "follower_count": 6145,
+        "detail": "<a href=\"https://link.zhihu.com/?target=http%3A//elections.huffingtonpost.com/pollster/donald-trump-favorable-rating\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Donald Trump Favorable Rating</a><br/><a href=\"https://link.zhihu.com/?target=http%3A//www.realclearpolitics.com/epolls/other/trump_favorableunfavorable-5493.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">RealClearPolitics</a><br/>---------------------------------<br/>鏡像問題：<a href=\"https://www.zhihu.com/question/51296313\" class=\"internal\">你支持还是反对Hillary Clinton？为什么？ - 人物</a>",
+        "excerpt": "<a href=\"https://link.zhihu.com/?target=http%3A//elections.huffingtonpost.com/pollster/donald-trump-favorable-rating\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">Donald Trump Favorable Rating</a> <a href=\"https://link.zhihu.com/?target=http%3A//www.realclearpolitics.com/epolls/other/trump_favorableunfavorable-5493.html\" class=\" wrap external\" target=\"_blank\" rel=\"nofollow noreferrer\">RealClearPolitics</a> ------------------------------…",
+        "bound_topic_ids": [
+          472,
+          25682,
+          37417,
+          158403,
+          159978
+        ],
+        "relationship": {
+          "is_author": false
+        },
+        "is_following": false,
+        "author": {
+          "id": "0",
+          "name": "匿名用户",
+          "headline": "",
+          "type": "",
+          "user_type": "",
+          "url": "",
+          "url_token": "",
+          "avatar_url": "https://pic1.zhimg.com/aadd7b895.png",
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": null,
+          "badge_v2": null,
+          "vip_info": {
+            "is_vip": false,
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "reaction_instruction": {}
+      },
+      "verb": "",
+      "created_time": 1469739144,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "4cb725c2af11c6950dce04fc4ecb4665",
+        "name": "两耳失聪",
+        "headline": "懂球帝 创始人&amp;负责人",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/cong",
+        "url_token": "cong",
+        "avatar_url": "https://picx.zhimg.com/44efd7558f0d2ca2abb3b3692b456273_l.jpg?source=5a24d060&needBackground=1",
+        "gender": 1,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [],
+          "detail_badges": [],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "关注了问题",
+      "is_sticky": false
+    },
+    {
+      "id": "1469735808278",
+      "type": "feed",
+      "target": {
+        "id": 92578057,
+        "type": "collection",
+        "creator": {
+          "id": "d60b5f7bcb19ee7cbbcad30daea10d97",
+          "name": "wuweilxl",
+          "headline": "欲将心事付瑶琴，知音少，弦断有谁听。",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/wwlxl",
+          "url_token": "wwlxl",
+          "avatar_url": "https://picx.zhimg.com/75c56f78eca4dd0d8e28b854de33667e_l.jpg?source=5a24d060&needBackground=1",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [],
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          },
+          "vip_info": {
+            "is_vip": false,
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "url": "https://api.zhihu.com/collections/92578057",
+        "updated_time": 1743556498,
+        "created_time": 1458266444,
+        "is_public": true,
+        "title": "地缘政治（欧非)",
+        "description": "",
+        "answer_count": 53,
+        "comment_count": 0,
+        "follower_count": 523,
+        "is_following": false
+      },
+      "verb": "MEMBER_FOLLOW_FAVORITES",
+      "created_time": 1469735808,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "4cb725c2af11c6950dce04fc4ecb4665",
+        "name": "两耳失聪",
+        "headline": "懂球帝 创始人&amp;负责人",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/cong",
+        "url_token": "cong",
+        "avatar_url": "https://picx.zhimg.com/44efd7558f0d2ca2abb3b3692b456273_l.jpg?source=5a24d060&needBackground=1",
+        "gender": 1,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [],
+          "detail_badges": [],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "关注了收藏夹",
+      "is_sticky": false
+    },
+    {
+      "id": "1469730161269",
+      "type": "feed",
+      "target": {
+        "id": "24540462",
+        "title": "从地缘政治角度，乌克兰对俄罗斯意味着什么？",
+        "url": "https://api.zhihu.com/questions/24540462",
+        "type": "question",
+        "question_type": "normal",
+        "created": 1405759674,
+        "answer_count": 61,
+        "comment_count": 0,
+        "follower_count": 669,
+        "detail": "",
+        "excerpt": "",
+        "bound_topic_ids": [
+          285,
+          1135,
+          3853,
+          5548,
+          8723
+        ],
+        "relationship": {
+          "is_author": false
+        },
+        "is_following": false,
+        "author": {
+          "id": "779f7b42f6798a512678c177c0290084",
+          "name": "图灵Don",
+          "headline": "被收藏260000次 洞察和把握未来趋势",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/TuringDon",
+          "url_token": "TuringDon",
+          "avatar_url": "https://pic1.zhimg.com/bdb7baa2d_l.jpg?source=5a24d060&needBackground=1",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [],
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          },
+          "vip_info": {
+            "is_vip": false,
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "reaction_instruction": {}
+      },
+      "verb": "",
+      "created_time": 1469730161,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "4cb725c2af11c6950dce04fc4ecb4665",
+        "name": "两耳失聪",
+        "headline": "懂球帝 创始人&amp;负责人",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/cong",
+        "url_token": "cong",
+        "avatar_url": "https://pic1.zhimg.com/44efd7558f0d2ca2abb3b3692b456273_l.jpg?source=5a24d060&needBackground=1",
+        "gender": 1,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [],
+          "detail_badges": [],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "关注了问题",
+      "is_sticky": false
+    },
+    {
+      "id": "1469044448328",
+      "type": "feed",
+      "target": {
+        "id": "28255035",
+        "title": "你所知或亲身经历过的最高明的犯罪是怎样的？",
+        "url": "https://api.zhihu.com/questions/28255035",
+        "type": "question",
+        "question_type": "normal",
+        "created": 1424295221,
+        "answer_count": 371,
+        "comment_count": 17,
+        "follower_count": 43757,
+        "detail": "欢迎广大警察蜀黍、受害群众热烈分享。<br/><br/>也欢迎潜在犯罪分子坦白从宽——可以匿名分享哦。嗯。",
+        "excerpt": "欢迎广大警察蜀黍、受害群众热烈分享。 也欢迎潜在犯罪分子坦白从宽——可以匿名分…",
+        "bound_topic_ids": [
+          215,
+          7128,
+          24550,
+          88042,
+          2109549
+        ],
+        "relationship": {
+          "is_author": false
+        },
+        "is_following": false,
+        "author": {
+          "id": "44cf9866597feb588ff285c56e43295f",
+          "name": "康暨",
+          "headline": "元怀疑论者：我怀疑我是怀疑论者。",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/ywzgb",
+          "url_token": "ywzgb",
+          "avatar_url": "https://picx.zhimg.com/v2-3c71f6d580823378f33cd5e0d2a2521b_l.jpg?source=5a24d060&needBackground=1",
+          "gender": 0,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [],
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          },
+          "vip_info": {
+            "is_vip": false,
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "reaction_instruction": {}
+      },
+      "verb": "",
+      "created_time": 1469044448,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "4cb725c2af11c6950dce04fc4ecb4665",
+        "name": "两耳失聪",
+        "headline": "懂球帝 创始人&amp;负责人",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/cong",
+        "url_token": "cong",
+        "avatar_url": "https://picx.zhimg.com/44efd7558f0d2ca2abb3b3692b456273_l.jpg?source=5a24d060&needBackground=1",
+        "gender": 1,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [],
+          "detail_badges": [],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "关注了问题",
+      "is_sticky": false
+    },
+    {
+      "id": "1468868411658",
+      "type": "feed",
+      "target": {
+        "id": 37082471,
+        "type": "collection",
+        "creator": {
+          "id": "73e4a40f860b771362c8bedc09fc494b",
+          "name": "xin TANG",
+          "headline": "",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/xin-tang-61",
+          "url_token": "xin-tang-61",
+          "avatar_url": "https://pic1.zhimg.com/038eb5dcbd8128d59a3d174955f8a029_l.jpg?source=5a24d060&needBackground=1",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [],
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          },
+          "vip_info": {
+            "is_vip": false,
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "url": "https://api.zhihu.com/collections/37082471",
+        "updated_time": 1761822680,
+        "created_time": 1399947183,
+        "is_public": true,
+        "title": "我的收藏",
+        "description": "值得反复阅读的回答",
+        "answer_count": 4963,
+        "comment_count": 0,
+        "follower_count": 990,
+        "is_following": false
+      },
+      "verb": "MEMBER_FOLLOW_FAVORITES",
+      "created_time": 1468868411,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "4cb725c2af11c6950dce04fc4ecb4665",
+        "name": "两耳失聪",
+        "headline": "懂球帝 创始人&amp;负责人",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/cong",
+        "url_token": "cong",
+        "avatar_url": "https://pica.zhimg.com/44efd7558f0d2ca2abb3b3692b456273_l.jpg?source=5a24d060&needBackground=1",
+        "gender": 1,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [],
+          "detail_badges": [],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "关注了收藏夹",
+      "is_sticky": false
+    },
+    {
+      "id": "1468855130999",
+      "type": "feed",
+      "target": {
+        "id": "111329395",
+        "type": "answer",
+        "url": "https://api.zhihu.com/answers/111329395",
+        "voteup_count": 839,
+        "thanks_count": 247,
+        "question": {
+          "id": "48461380",
+          "title": "如何看待壹基金于2016年7月13日发表的《壹基金关于近期网络谣言的声明》？",
+          "url": "https://api.zhihu.com/questions/48461380",
+          "type": "question",
+          "question_type": "normal",
+          "created": 1468418805,
+          "answer_count": 30,
+          "comment_count": 3,
+          "follower_count": 479,
+          "detail": "<figure><img src=\"https://pic1.zhimg.com/8f53270a051cf2f2eb4ccb55e8061710_b.png\" data-rawheight=\"1280\" data-rawwidth=\"720\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic1.zhimg.com/8f53270a051cf2f2eb4ccb55e8061710_r.jpg\"/></figure><br/><figure><img src=\"https://pic1.zhimg.com/67027ec6ad66dcb8a9d803c443ec43e0_b.png\" data-rawheight=\"1280\" data-rawwidth=\"720\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic1.zhimg.com/67027ec6ad66dcb8a9d803c443ec43e0_r.jpg\"/></figure><br/><figure><img src=\"https://picx.zhimg.com/c75acdc55295b8904b5078615f5e52ad_b.png\" data-rawheight=\"1280\" data-rawwidth=\"720\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://picx.zhimg.com/c75acdc55295b8904b5078615f5e52ad_r.jpg\"/></figure><br/><figure><img src=\"https://pic4.zhimg.com/a0030dd5078d586cdc755081cadaaf3d_b.png\" data-rawheight=\"1280\" data-rawwidth=\"720\" class=\"origin_image zh-lightbox-thumb\" width=\"720\" data-original=\"https://pic4.zhimg.com/a0030dd5078d586cdc755081cadaaf3d_r.jpg\"/></figure>",
+          "excerpt": "",
+          "bound_topic_ids": [
+            922,
+            17100,
+            17101,
+            32433
+          ],
+          "relationship": {
+            "is_author": false
+          },
+          "is_following": false,
+          "author": {
+            "id": "b8a187b0bf5e1fb9a9f1cdfe6c66cea0",
+            "name": "虞雨遇",
+            "headline": "已卸载",
+            "type": "people",
+            "user_type": "people",
+            "url": "https://www.zhihu.com/people/yu-yu-yu-27-49",
+            "url_token": "yu-yu-yu-27-49",
+            "avatar_url": "https://pica.zhimg.com/426eaa5f8a62604835624a0e07ab5216_l.jpg?source=5a24d060&needBackground=1",
+            "gender": 0,
+            "is_following": false,
+            "is_followed": false,
+            "is_org": false,
+            "badge": [],
+            "badge_v2": {
+              "title": "",
+              "merged_badges": [],
+              "detail_badges": [],
+              "icon": "",
+              "night_icon": ""
+            },
+            "vip_info": {
+              "is_vip": false,
+              "target_url": ""
+            },
+            "kvip_info": {
+              "is_vip": false,
+              "target_url": ""
+            }
+          },
+          "reaction_instruction": null
+        },
+        "updated_time": 1471327638,
+        "created_time": 1468585117,
+        "author": {
+          "id": "a95134fef0259ae4dfb874a240ec3994",
+          "name": "寨都小温侯",
+          "headline": "中國嘅月就系圆，冇布坎南嘅日就系開心。",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/Chinashenzhen",
+          "url_token": "Chinashenzhen",
+          "avatar_url": "https://picx.zhimg.com/67add489d69ef9b8108a98a54600441f_l.jpg?source=5a24d060&needBackground=1",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [],
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          },
+          "vip_info": {
+            "is_vip": false,
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "comment_permission": "all",
+        "is_copyable": true,
+        "comment_count": 161,
+        "can_comment": {
+          "status": false,
+          "reason": "只有作者关注的人才可以评论"
+        },
+        "content": "<p data-pid=\"mr8dQ64b\">全文手打，或有不严谨，无耐心者请勿食用。</p><p data-pid=\"pntsYYrX\">我讲的不是壹基金的问题，而且共性的问题，想听内幕的抱歉了，能力不及。我尽可能使我的语言通俗易懂且完善的解释我的每一个观点，如果你认为我哪个观点有解释不到的地方，请在评论区提出，我会告诉你你的读解太过了。希望我的答案会对你有帮助，也希望就事论事不要延伸太过。</p><p data-pid=\"508H0ZBe\">首先声明，以下我的所有言论都是才睡醒的梦话，不针对任何组织和个人。</p><p data-pid=\"EIIrowwm\">不到一年的资本主义国家腐朽落后的慈善基金会的工作经历，七年米兰图书馆内收藏的劳苦大众和正义人士对于资本主义腐朽制度的怒斥的阅读经历，结合我的见闻和主观臆想，以及一些聊胜于无的学校教育，对于这个问题作一些浅显的回答。请壹基金不要寄律师函给我，国际邮费太贵，一粥一饭当思来之不易一针一线恒念物力维艰。</p><p data-pid=\"CHJxu63G\">首先讲慈善基金会的基本制度。</p><p data-pid=\"AXLW024F\">一，十趴以下运营支出占比，七十趴以上公益支出占比，正常留有十趴至十五趴以待后用。请注意！这三项，每一项都是重点。可以试想一下一个正常良好运行的慈善基金会的总收入是多少。数以亿计甚至十亿计，每一趴都是一笔很大很大的金额。可以想一想，任何一项支出有哪怕半趴的出入，都是可以把整个基金会的人送进监狱牢底坐穿的。</p><p data-pid=\"mAIovs-D\">二，在中国，很难办一家慈善基金会，为什么？不是因为公营的慈善基金会多，这是结果而不是原因，原因是国家不愿不敢放任有私营或者私人性质的慈善基金会运营，税务问题倒是其次，应该这么讲，全世界没有比慈善基金会洗钱腐败问题更严重的机构了。因为，就算是国营的，有国家专门监管的慈善基金会都不能避免这些问题，私营的就更不必提。壹基金从红会独立挂在寨都民政局旗下，个人认为，在监管方面是真空的。首先可能是呆梨的腐败问题过于严重，我个人认为慈善基金会的账目，是不能信的。因为首先数额巨大，其次名目繁多，再次是经营问题（这个问题下文会单独将，我在之前道高一尺魔高一丈也曾提过）。可能有人会讲壹基金的账目由四大之一的德勤审计，关于德勤我个人是敬重的，对于寨都的天健信德我也是敬重的，但是我不认为他们有代替政府监管的能力。理事会和会长办有十万种方式越过他们进行违规操作。国家为什么能监管且部分杜绝腐败和洗钱？因为他们不仅有情报机构还有暴力机构的不要脸啊！通过银行，通过监控监听，实在不行吊起来请教啊！德勤也许在美国有执法权，但是在中国他们可能不会这样对待自己的客户，尤其，我不愿讨论或猜测之间的利益链，没证据，不严谨。</p><p data-pid=\"7dYbhoVV\">国家最怕的是什么？当然是兄弟会（帮会）。这个世界还有比慈善基金会更好的中介吗？还有比慈善基金会更好的政商媒介吗？还有比慈善基金会更方便的洗钱机构吗？没有。为什么独裁国家没有慈善基金会？因为要么独裁者干死了兄弟会，要么兄弟会颠覆了独裁者，要么慈善基金会摘了牌子直接挂上了CIA驻某国办事处。</p><p data-pid=\"wk9yAPUD\">之前在第一点提过，每一笔钱用途的规定。慈善基金会的特点是什么？善款时时有，账目年底开。先不提我之前讲过账目不清监管困难的问题，有没有想过这段时间钱在哪？有没有想过每年以待后用的钱在哪？有没有想过在建工程占的是今年的份额但是工程款要项目完工后再结这笔钱在哪？入库了还是躺在银行？请注意，这不是什么百万千万，这是以亿计甚至十亿计的人民币。不要说什么一年两年了，给你一个亿一天的回报率是多少？你要是心大一点做一只股的回报率又是多少？这笔钱怎么算？</p><p data-pid=\"UnMwcrsZ\">共济会什么的我不敢妄言，我只知道我们博科尼的校长马里奥蒙蒂先生，曾任呆梨临时政府总理，财长，欧盟执委，同时，他也是高盛的顾问。至于高盛的背景和顾问团，大家可以自行了解。应该这么讲，欧洲的很多慈善基金会都和世界各大财团有或多或少的瓜葛，从某某某到某某某…</p><p data-pid=\"WO4wkhKC\">往好处讲，慈善基金会和本国的政客混到了一起会把持政权拥有特权，比如老贝比如希拉里（讲真川普算是个屌丝），会成为利益集团的工具。往坏处讲，慈善基金会和境外势力和本国弱势政客勾结，那就…</p><p data-pid=\"nQV8iz5f\">今天要去打个酱油，回来再补充</p><p data-pid=\"ImJmkA0h\">昨晚喝多了刚醒，出去透透气玩会Pokemon Go回来更新。</p><p data-pid=\"6Mr3KkaR\">刚看到几个数据，中国近几年每年的善款都是千亿左右，大大小小的慈善基金会有五千家左右，专职从业人员三万人。红会有多少从业人员？也就是说有大量的中国的慈善基金会是个体户。这算是一个思考吧。</p><p data-pid=\"9fLwt2U6\">讲一下意大利慈善基金会的情况。按规模和经营方式来讲大致可以分为两种。</p><p data-pid=\"kMOT-C-L\">第一种就是像我工作的地方，一栋六层小楼，有花园有球场有各种部门，经营各种业务。我们是非营利机构，但是我们也盈利。有固定投资部门有风险投资部门，因为要面对的现实是人员多开销大要想控制运营占比就必须钱生钱。当然大部分资金投资都是类似于一些低保，保证每年回报率三趴四趴左右（意大利国有银行不接受慈善基金会的存款）。我当时就想拍拍理事长的肩膀问他知不知道深发行和深商行…当然只是个玩笑，意大利虽然对于慈善基金会的监管力有不逮，但是对于胆敢投资失败导致公益支出占比低于五成的慈善基金会，只有一个措施，不是让你关门，而是直接起诉，让你去监狱思考人生。所以虽然风险投资部门都是大神回报率很可观，但是理事长依然只给风投部较少的资金。</p><p data-pid=\"KfukzTtR\">第二种就属于问题有点大的了，我私心揣测国内的部分小规模慈善基金会就是这样的。他们只有数人，但是他们的运营会牵扯到其他盈利机构，类似于开着外挂玩游戏。他们只保证慈善基金会本身的合法运营，将盈利及下游产业交给外围机构去做，因为意大利大部分财团和大企业每年都有社会捐赠的指标，有的上的了台面的愿意给钱给大的慈善基金会，赚了钱再给点回扣或者给予其他方式的馈赠。而第二种这类的慈善基金会大多是那些不愿做慈善的公司私设的或者御用的，每年完成慈善指标钱转一圈或者两圈过几道手再以接受捐赠或者低价购买的方式将价值回收。或者有点心更大的直接捐给政客或者政客指定的机构及项目，完成利益输送或是洗钱。这也是这类利益团体的软肋所在，慈善基金会是除头脑人物以外最了解整个利益集团的地方，了解上线下线整笔钱的来源用途经过多少手。所以一旦慈善基金会被查，整个集团都将暴露，所以慈善基金会的账目一定是清晰的，缜密的，严谨的，且根本不可信的。</p><p data-pid=\"EFFR123V\">大概的慈善基金会可以腐败的方式可以总结一下：做假账，用资金的时间价值创造收益（可以在一年期完成也可以利用类似工程建设的时间创造出时间差），洗钱，进行政商集团内利益输送。</p><p data-pid=\"YbJQ2Kyc\">应该这么讲，国内的慈善基金会的监管已经到了可以严格起来的地步，杀鸡儆猴杀一儆百。随着原始积累的完成和视野的开阔，必将有越来越多的草莽英雄投身于慈善基金会的事业。</p><p data-pid=\"MhbKXs_y\">我曾开玩笑说我们是高举十字架手捧上帝相的新时代十字军，为了世界和平宇宙大同，披荆斩棘。但是我不希望我的祖国成为别人脚下的荆棘。</p><p data-pid=\"S4MtcbOj\">经济寡头政治，政商勾结（特别是政治与境外资本勾结），游说主义，舆论控制，以慈善基金会为媒介的合纵连横，都是发展时期特别是经济软着陆经济中高速发展的中国必须要重视的问题。奉劝可能会看到的各位大神们，兴亡百姓苦，百姓最无知百姓最无辜，做事前应当三思。别把自己太当人，容易不把别人当人，更容易不被别人当人。</p><p data-pid=\"UFKTi-fE\">中国，是每一个中国人的中国，不是谁的游乐场。</p><p data-pid=\"y3-hNr4g\">PS:今天在阅览室看期刊，看到有奥地利和中国的经济人士表示应该鼓励比特币进入慈善捐赠。嗯，你们就作吧，可劲的作吧。</p><p data-pid=\"5WLhNJRC\">今天看到了两句话，算是民众对于政府与精英在经济政治方面博弈的揣测的两个极端吧。</p><p data-pid=\"x8s2sSj7\">A failing recovery is their friend, so long asthey can blame the administration&#39;s supposed fiscal irresponsibility.</p><p data-pid=\"7JAEgqFd\">Limits on fiscal irresponsibility couldevolve into limits on other fiscal policies.</p><p data-pid=\"5DYUzSbz\">既然真的有人看，那就稍微做一点补充吧。算是这个问题的延伸和一些感想。</p><p data-pid=\"P796Jyyc\">我以前的几个账号大多都是讨论政经问题然后骂了起来后来被扣友善度或者封号的，知乎上对于政经问题持纯洁态度的人比较少，大多是屁股决定脑袋或者更低端一点脑袋长在别人嘴上的人。我又是个喜欢较真的人，这不是知乎的问题，是我自己的问题。</p><p data-pid=\"SPC-oRR-\">人类一思考，上帝就发笑。一个人如果不能准确的找到自己的定位，准确的分析自己离客观的距离，那他的思考，离客观和准确，就是南辕北辙。其实不仅仅是中国，应该这样来讲，有墙的中国对于一条信息的报道立场比没有墙的欧洲还要多（私心认为美国可能对于事件的观点立场更局限）。我是真的遇到过有一次米兰风俗区发生枪击案由于各种原因没有一家媒体报导，还是我妈在国内某新闻看到打电话问我的…中国大概还有官方的，五毛的，客观的，反动的，骂街的这几种立场对于同一事件的不同解读。国内的民众多看看马克思主义哲学和马克思主义政治经济学，要想在新闻的行文措辞中找寻蛛丝马迹应该还不算困难。</p><p data-pid=\"buJRgVne\">鲁迅先生评三国中行文状人有言：至于写人，亦颇有失，以致欲显刘备之长厚而似伪，状诸葛之多智而近妖。此言可以借用，任何一篇新闻稿，对于当事人有心理描述，有暗示的动机揣测，那就表明他想将你引向他的立场，做出与他吻合的逻辑推理，对于人物和事件做出他想让你做出的判断，此时不是你聪明，而且他的技巧高超。至于一些网络上公知们的文章，通常会做出一些惊人之语，此时不要热血沸腾，认真想一下他的论据和论点的因果关系，判断一下是否必要充分，判断论据是否为结论的主要矛盾主要方面。</p><p data-pid=\"uyFSTCMl\">以上算是一些理性阅读独立思考的小技巧。其实在社交上特别是脸书奶酪上经常看到中文后面一连串感叹号也是蛮难过的。城管打人高官贪腐你们说政权药丸痛心疾首，岛屿纠纷外邦辱华你们吵着虽远必诛热血沸腾，国家管控你们骂国家管太宽担心高度集权，国家力有不逮你们骂酒囊饭袋经济失控。我相信不是你们的错你们也没有错，政经斗法，资产阶级寻求政治话语权，政府进行打压，双方舆论的屁股决定脑袋又有话语权和行文技巧，被蒙蔽被煽动很正常。希望看到这篇文章的朋友都能养成独立思考的能力。</p><p data-pid=\"1EDGOzWZ\">世界一体化地球村，全世界都将成为资本和资本家的游乐场。这不是最可怕的。我在欧洲看到基金会贪腐政客们的合纵连横也不是最可怕的，最可怕的是民族的消失和民族价值的湮灭。白人黑人黄种人，没有民族没有种族没有国界，全民拉手唱歌跳舞，很美好吗？请原谅我的自私，我不喜欢那时候，那样的中国。</p><p data-pid=\"CZLL-6HT\">再啰嗦的忠告可能会看到的各位精英，寻求政治话语权不是错，如果说用资金勾结政客和境外势力来谋求恐非正途。兴亡百姓苦，百姓最无知百姓最无辜，你们有资本有头脑，不如放过中国去别的国家寻求政治话语权？大家都是炎黄子孙，如果你怕自己没有这个能力，请帮我问候你们全家，就这么觉得中国人民好欺负？</p><p data-pid=\"l69vFpBn\">才疏学浅势单力薄，鲁迅先生的文章救不了中国，留美留欧的理工商文的博士们也救不了中国，能救中国的只有每个国人自强自救。国人强，则国强。民智高，则外敌不敢觊觎，蛀虫不敢偷食，国贼不敢作威。</p><p data-pid=\"Bym5GHxh\">我希望，未来的中国，是勤劳炎黄子孙的乐土，不是新老资本家的游乐场，更不是民粹的乌托邦。</p><p data-pid=\"xx2Mxpzc\">PS:你们认真看了吗？只看到有人点赞感谢没人讨论好尴尬，知乎还有礼节性的点赞？私心讲一句，断断续续写了三天，点赞什么的无所谓的，希望大家能真的认真看…商科生行文措辞写东西不容易…</p><a data-hash=\"ef3930dd09e14194a08198ed197ebc5c\" href=\"https://www.zhihu.com/people/ef3930dd09e14194a08198ed197ebc5c\" class=\"member_mention\" data-hovercard=\"p$b$ef3930dd09e14194a08198ed197ebc5c\">@Abraham</a><p data-pid=\"7OahYv1z\"> 私信我基金会可能用到的洗钱途径，本来我私心被误解我说的手法是我工作的基金会的手法或者认为我在影射壹基金。但是想想还是直说了吧，我臆想的几种手法。</p><p data-pid=\"REVzVUIp\">第一，援建项目15m欧，实际大概只有5m欧，就是所谓的溢价。</p><p data-pid=\"ubqGp38i\">第二，账目低价收购，其实说出来可能很张扬，但是说实话在账目上反应并不明显，再加上所谓延缓工期或是清理不良资产的手段，而且，都是假账了，也就不在乎了。</p><p data-pid=\"VgktOYXI\">第三，善款可以直接拨发的，可以拨发到一些野鸡基金会，再由这些基金会通过一些渠道洗白。</p><p data-pid=\"_SdZoY-F\">第四，不是所有的受捐助人的账户都是受捐助人的…在受捐助资格方面管制几乎没有</p><p data-pid=\"IT_ksBX4\">第五，如果打到受捐助人账户的钱受捐助人能拿到超过一半，请给慈善基金会送一面锦旗，回扣什么的，并不是中国特色。</p><p data-pid=\"k2wwwtSK\">所以，我上文提到的比特币，比特币要是进入慈善捐赠，此处各位脑补一个大大的笑脸。</p><p data-pid=\"m5yvGl0A\">PS:补两个小思考</p><p data-pid=\"rbrzXvfC\">1，经济全球化导致的大型兼并收购浪潮中，良性资产有多少，兼并收购后的结果现在如何？</p><p data-pid=\"ny698X9K\">2，全球每年投入的医疗慈善是一笔怎样的数字？有多少是投入到几乎不可治愈疾病的无底洞的？几乎不可治愈疾病的进步又有多少？</p><p data-pid=\"KkkPDFY2\">无意批判什么，我也没有结论，仅供大家思考。</p><p data-pid=\"4-NRlLM4\">又一点小补充:现在是米兰时间七月十九号下午六点半，百度否认收购AC米兰，Fininvest集团，如果大家有兴趣可以去外网看看评论，意大利第一家打破国家垄断并在一定程度上替代国家垄断传媒的集团。新闻说百分百收购五亿欧元全资来自潮汕系，刘（宜华）黄（国美，茂业，大中华）汪（汎港）姚（宝能）张（生命），资本市场的人保起家草莽英雄，在整个广东都有知名度，可以持续关注。有没有人告诉你们，足球俱乐部的账目，只要是非会员制对全体会员负责的俱乐部，账目是不透明的。</p><p data-pid=\"w9GoZspJ\">还是讲一下吧，我个人联系方式什么的出于隐私考虑很抱歉不能提供给各位。至于公众号，我没有什么需要宣传的东西，所以也没有。最近要帮一个基友完成一篇略佶屈聱牙的论文，可能私信和评论不能及时回复，等工作完了会给大家推荐一个书单。</p><p data-pid=\"ZFkpB9FG\">在比可卡帮一个Programmazione e gestione delle politiche e dei servizi sociali专业的朋友搞论文，他认为如果我的假设成立，那与整个利益集团相匹配的慈善基金会将大于壹基金的规模，一个壹基金不足以成为一个以大中华地区为攻略核心辐射东亚的利益集团的中转核心。想了想，阴谋论什么的，假想起来整个体系的确是过于宏大了。可能我们看来的阴谋论，在别人眼中是走上富强的康庄大道，有点类似于之前日本的大东亚共荣？可能吧。资本全球化和大东亚共荣本质上的区别在哪里？欢迎讨论。</p><p data-pid=\"vOR9Ztq5\">看了看这个问题下面别的答案的评论区撕的都很激烈，怎么就没人找我来撕呢！好尴尬！</p>",
+        "excerpt": "全文手打，或有不严谨，无耐心者请勿食用。 我讲的不是壹基金的问题，而且共性的问题，想听内幕的抱歉了，能力不及。我尽可能使我的语言通俗易懂且完善的解释我的每一个观点，如果你认为我哪个观点有解释不到的地方，请在评论区提出，我会告诉你你的读解太过了。希望我的答案会对你有帮助，也希望就事论事不要延伸太过。 首先声明，以下我的所有言论都是才睡醒的梦话，不针对任何组织和个人。 不到一年的资本主义国家腐朽落后的…",
+        "excerpt_new": "全文手打，或有不严谨，无耐心者请勿食用。 我讲的不是壹基金的问题，而且共性的问题，想听内幕的抱歉了，能力不及。我尽可能使我的语言通俗易懂且完善的解释我的每一个观点，如果你认为我哪个观点有解释不到的地方，请在评论区提出，我会告诉你你的读解太过了。希望我的答案会对你有帮助，也希望就事论事不要延伸太过。 首先声明，以下我的所有言论都是才睡醒的梦话，不针对任何组织和个人。 不到一年的资本主义国家腐朽落后的…",
+        "preview_type": "default",
+        "preview_text": "",
+        "relationship": {
+          "voting": 0,
+          "is_thanked": false,
+          "is_nothelp": false,
+          "upvoted_followee_ids": null
+        },
+        "reaction_instruction": {},
+        "relevant_info": {
+          "relevant_type": "",
+          "is_relevant": false,
+          "relevant_text": ""
+        },
+        "reshipment_settings": "allowed",
+        "answer_type": "normal",
+        "paid_info": {
+          "type": "",
+          "content": "",
+          "has_purchased": false
+        },
+        "attachment": null,
+        "is_navigator": false,
+        "navigator_vote": false,
+        "vote_next_step": "vote",
+        "mark_infos": [],
+        "content_need_truncated": false,
+        "force_login_when_click_read_more": false
+      },
+      "verb": "MEMBER_VOTEUP_ANSWER",
+      "created_time": 1468855130,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "4cb725c2af11c6950dce04fc4ecb4665",
+        "name": "两耳失聪",
+        "headline": "懂球帝 创始人&amp;负责人",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/cong",
+        "url_token": "cong",
+        "avatar_url": "https://picx.zhimg.com/44efd7558f0d2ca2abb3b3692b456273_l.jpg?source=5a24d060&needBackground=1",
+        "gender": 1,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [],
+          "detail_badges": [],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "赞同了回答",
+      "is_sticky": false
+    },
+    {
+      "id": "1468709833365",
+      "type": "feed",
+      "target": {
+        "id": "25216495",
+        "title": "销售的最高境界是什么？",
+        "url": "https://api.zhihu.com/questions/25216495",
+        "type": "question",
+        "question_type": "normal",
+        "created": 1410062276,
+        "answer_count": 1797,
+        "comment_count": 56,
+        "follower_count": 40056,
+        "detail": "现在的社会已经进入移动互联网时代，社会形态和过去发生巨大的变化，过去，人是团队的一员，所以讲究忠诚和奉献，销售的对象以细分市场为实施目标，现在呢，个人越来越关注个体，越来越多杰出的人很大一部分的选择是退出团队，自己成为意见领袖，在这样的大变革时代，这是一个聆听个体的时代，由于个体的要求，是千变万化的，那么销售在这样的大变革下，它的最高境界是什么？",
+        "excerpt": "现在的社会已经进入移动互联网时代，社会形态和过去发生巨大的变化，过去，人是团队…",
+        "bound_topic_ids": [
+          196,
+          1740,
+          4640,
+          19309
+        ],
+        "relationship": {
+          "is_author": false
+        },
+        "is_following": false,
+        "author": {
+          "id": "8f7e93ec189edcf3aca8e8ddc58e8a5c",
+          "name": "倪建伟",
+          "headline": "23年大客户销售专家，（V信）NJWtopsales进学习群",
+          "type": "people",
+          "user_type": "people",
+          "url": "https://www.zhihu.com/people/se-ge-5",
+          "url_token": "se-ge-5",
+          "avatar_url": "https://picx.zhimg.com/v2-bd0efa2741ae17cff95053458b9f99f0_l.jpg?source=5a24d060&needBackground=1",
+          "gender": 1,
+          "is_following": false,
+          "is_followed": false,
+          "is_org": false,
+          "badge": [],
+          "badge_v2": {
+            "title": "",
+            "merged_badges": [],
+            "detail_badges": [],
+            "icon": "",
+            "night_icon": ""
+          },
+          "vip_info": {
+            "is_vip": false,
+            "target_url": ""
+          },
+          "kvip_info": {
+            "is_vip": false,
+            "target_url": ""
+          }
+        },
+        "reaction_instruction": {}
+      },
+      "verb": "",
+      "created_time": 1468709833,
+      "interaction": {
+        "can_show_sticker": true
+      },
+      "actor": {
+        "id": "4cb725c2af11c6950dce04fc4ecb4665",
+        "name": "两耳失聪",
+        "headline": "懂球帝 创始人&amp;负责人",
+        "type": "people",
+        "user_type": "people",
+        "url": "https://www.zhihu.com/people/cong",
+        "url_token": "cong",
+        "avatar_url": "https://picx.zhimg.com/44efd7558f0d2ca2abb3b3692b456273_l.jpg?source=5a24d060&needBackground=1",
+        "gender": 1,
+        "is_following": false,
+        "is_followed": false,
+        "is_org": false,
+        "badge": [],
+        "badge_v2": {
+          "title": "",
+          "merged_badges": [],
+          "detail_badges": [],
+          "icon": "",
+          "night_icon": ""
+        },
+        "vip_info": {
+          "is_vip": false,
+          "target_url": ""
+        },
+        "kvip_info": {
+          "is_vip": false,
+          "target_url": ""
+        }
+      },
+      "action_text": "关注了问题",
+      "is_sticky": false
+    }
+  ],
+  "paging": {
+    "is_end": false,
+    "need_force_login": false,
+    "next": "https://www.zhihu.com/api/v3/moments/cong/activities?offset=1468709833365&page_num=4"
+  }
+}

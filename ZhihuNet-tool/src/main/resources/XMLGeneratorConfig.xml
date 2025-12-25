@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "https://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <context id="MySQLTables" targetRuntime="MyBatis3">
+        <property name="beginningDelimiter" value="`"/>
+        <property name="endingDelimiter" value="`"/>
+        <property name="javaFileEncoding" value="UTF-8"/>
+
+        <!--生成mapper.xml时覆盖原文件-->
+        <plugin type="org.mybatis.generator.plugins.UnmergeableXmlMappersPlugin" />
+        <!-- 为模型生成序列化方法-->
+        <plugin type="org.mybatis.generator.plugins.SerializablePlugin"/>
+        <!-- 为生成的Java模型创建一个toString方法 -->
+        <!-- <plugin type="org.mybatis.generator.plugins.ToStringPlugin"/> -->
+        <plugin type="com.itfsw.mybatis.generator.plugins.LimitPlugin"/>
+        <plugin type="com.itfsw.mybatis.generator.plugins.BatchInsertPlugin"/>
+        <plugin type="com.itfsw.mybatis.generator.plugins.ModelColumnPlugin"/>
+
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true"/>
+            <!-- 去除注释中的时间戳 -->
+            <!--<property name="suppressDate" value="true"/> -->
+            <!-- 添加数据库字段的备注信息 -->
+            <!--<property name="addRemarkComments" value="true"/> -->
+        </commentGenerator>
+
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/zhihu"
+                        userId="root"
+                        password="Qingyang1234.">
+            <!--默认使用当前连接的数据库实例作为 catalog，避免扫描其他数据库实例中的同名表。-->
+            <property name="nullCatalogMeansCurrent" value="true" />
+            <!--控制 MBG 是否读取数据库表 / 字段的 COMMENT 备注信息（即建表时通过 COMMENT 关键字添加的说明）。 -->
+            <property name="remarks" value="true"/>
+            <!-- 指定 MBG 是否通过数据库的 INFORMATION_SCHEMA 系统表获取表结构信息（而非直接访问表元数据）。-->
+            <property name="useInformationSchema" value="true"/>
+        </jdbcConnection>
+
+        <javaTypeResolver >
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+        <!-- 控制实体类的存放位置、包结构和字符串处理逻辑 -->
+        <javaModelGenerator targetPackage="org.acpasser.zhihunet.model"
+                            targetProject="ZhihuNet-model/src/main/java">
+            <property name="enableSubPackages" value="true" />
+            <property name="trimStrings" value="true" />
+        </javaModelGenerator>
+        <!-- 控制 XML 映射文件的存放路径和包结构 -->
+        <sqlMapGenerator targetPackage="org.acpasser.zhihunet.repository.mybatis.mapper"
+                         targetProject="ZhihuNet-repository/src/main/resources">
+            <property name="enableSubPackages" value="true" />
+        </sqlMapGenerator>
+        <!-- 控制接口的存放路径、包结构以及与 XML 映射文件的关联方式 -->
+        <javaClientGenerator type="XMLMAPPER" targetPackage="org.acpasser.zhihunet.repository.mybatis.mapper"
+                             targetProject="ZhihuNet-repository/src/main/java">
+            <property name="enableSubPackages" value="true" />
+        </javaClientGenerator>
+
+<!--        <table tableName="zhihu_user" domainObjectName="ZhihuUser" >-->
+<!--            <generatedKey column="id" sqlStatement="JDBC" identity="true" />-->
+<!--        </table>-->
+<!--        <table tableName="zhihu_user_interaction" domainObjectName="ZhihuUserInteraction" >-->
+<!--            <generatedKey column="id" sqlStatement="JDBC" identity="true" />-->
+<!--        </table>-->
+<!--        <table tableName="zhihu_question" domainObjectName="ZhihuQuestion" >-->
+<!--            <generatedKey column="id" sqlStatement="JDBC" identity="true" />-->
+<!--        </table>-->
+<!--        <table tableName="zhihu_answer" domainObjectName="ZhihuAnswer" >-->
+<!--            <generatedKey column="id" sqlStatement="JDBC" identity="true" />-->
+<!--            <columnOverride column="is_copyable" javaType="java.lang.Boolean" jdbcType="TINYINT"/>-->
+<!--        </table>-->
+<!--        <table tableName="zhihu_article" domainObjectName="ZhihuArticle" >-->
+<!--            <generatedKey column="id" sqlStatement="JDBC" identity="true" />-->
+<!--        </table>-->
+<!--        <table tableName="user" domainObjectName="User" >-->
+<!--            <generatedKey column="id" sqlStatement="JDBC" identity="true" />-->
+<!--        </table>-->
+<!--        <table tableName="zhihu_pin" domainObjectName="ZhihuPin" >-->
+<!--            <generatedKey column="id" sqlStatement="JDBC" identity="true" />-->
+<!--            <columnOverride column="admin_closed_comment" javaType="java.lang.Boolean" jdbcType="TINYINT"/>-->
+<!--            <columnOverride column="admin_close_repin" javaType="java.lang.Boolean" jdbcType="TINYINT"/>-->
+<!--            <columnOverride column="contain_ai_content" javaType="java.lang.Boolean" jdbcType="TINYINT"/>-->
+<!--        </table>-->
+<!--        <table tableName="zhihu_topic" domainObjectName="ZhihuTopic" >-->
+<!--            <generatedKey column="id" sqlStatement="JDBC" identity="true" />-->
+<!--        </table>-->
+        <table tableName="zhihu_collection" domainObjectName="ZhihuCollection" >
+            <generatedKey column="id" sqlStatement="JDBC" identity="true" />
+            <columnOverride column="public_status" javaType="java.lang.Boolean" jdbcType="TINYINT"/>
+        </table>
+    </context>
+</generatorConfiguration>

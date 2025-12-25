@@ -1,0 +1,101 @@
+{
+  "id": "1760585947085",
+  "type": "feed",
+  "target": {
+    "id": "1954725359602870003",
+    "title": "张雪峰为什么被禁止关注了？",
+    "url": "https://api.zhihu.com/questions/1954725359602870003",
+    "type": "question",
+    "question_type": "normal",
+    "created": 1758822842,
+    "answer_count": 2609,
+    "comment_count": 64,
+    "follower_count": 4966,
+    "detail": "\u003cp\u003e张雪峰一直以来都是以言词幽默犀利而著称。\u003c/p\u003e\u003cp\u003e给学生和家长的建议也很中肯。\u003c/p\u003e\u003cp\u003e记得以前高考，找工作的时候，因为家里人见识，文化水平的局限，真的很吃亏。\u003c/p\u003e\u003cp\u003e所以不明白为什么那么多人攻击张雪峰。\u003c/p\u003e",
+    "excerpt": "张雪峰一直以来都是以言词幽默犀利而著称。给学生和家长的建议也很中肯。记得以前高…",
+    "bound_topic_ids": [
+      199568,
+      2812395,
+      3786875,
+      4132156,
+      4136223
+    ],
+    "relationship": {
+      "is_author": false
+    },
+    "is_following": true,
+    "author": {
+      "id": "5b065f0040b9236258082160c9dcb592",
+      "name": "温暖",
+      "headline": "生活像山泉，越流越混浊。",
+      "type": "people",
+      "user_type": "people",
+      "url": "https://www.zhihu.com/people/wei-xin-yong-hu-59-26-54-40",
+      "url_token": "wei-xin-yong-hu-59-26-54-40",
+      "avatar_url": "https://pic1.zhimg.com/v2-a61bc745f35ef8456470b1d1cc07b8f9_l.jpg?source=5a24d060\u0026needBackground=1",
+      "gender": 1,
+      "is_following": false,
+      "is_followed": false,
+      "is_org": false,
+      "badge": [],
+      "badge_v2": {
+        "title": "",
+        "merged_badges": [],
+        "detail_badges": [],
+        "icon": "",
+        "night_icon": ""
+      },
+      "vip_info": {
+        "is_vip": false,
+        "widget": {
+          "url": "https://picx.zhimg.com/v2-64a58c6459bea11becf5f93975ce9993_r.jpg?source=5a24d060",
+          "night_mode_url": "https://pic1.zhimg.com/v2-64a58c6459bea11becf5f93975ce9993_r.jpg?source=5a24d060",
+          "id": 40101
+        },
+        "target_url": ""
+      },
+      "kvip_info": {
+        "is_vip": false,
+        "target_url": ""
+      }
+    },
+    "reaction_instruction": {}
+  },
+  "verb": "",
+  "created_time": 1760585947,
+  "interaction": {
+    "can_show_sticker": true
+  },
+  "actor": {
+    "id": "bafec2f1e7c8802e2bdd066088523072",
+    "name": "自由之翼",
+    "headline": "",
+    "type": "people",
+    "user_type": "people",
+    "url": "https://www.zhihu.com/people/zi-you-zhi-yi-21-60",
+    "url_token": "zi-you-zhi-yi-21-60",
+    "avatar_url": "https://picx.zhimg.com/v2-7c2fd536a1e30b5a73a8d3d5dec4cdc9_l.jpg?source=5a24d060\u0026needBackground=1",
+    "gender": 0,
+    "is_following": false,
+    "is_followed": false,
+    "is_org": false,
+    "badge": [],
+    "badge_v2": {
+      "title": "",
+      "merged_badges": [],
+      "detail_badges": [],
+      "icon": "",
+      "night_icon": ""
+    },
+    "vip_info": {
+      "is_vip": false,
+      "target_url": ""
+    },
+    "kvip_info": {
+      "is_vip": false,
+      "target_url": ""
+    }
+  },
+  "action_text": "关注了问题",
+  "is_sticky": false
+}
