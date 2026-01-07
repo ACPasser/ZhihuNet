@@ -7,9 +7,12 @@ import org.acpasser.zhihunet.common.dto.zhihu.ZhihuUserDTO;
 import org.acpasser.zhihunet.common.dto.zhihu.ZhihuUserInteractionDTO;
 import org.acpasser.zhihunet.common.exception.BusinessException;
 import org.acpasser.zhihunet.common.request.zhihu.ZhihuUserActivityCrawlRequest;
+import org.acpasser.zhihunet.common.request.zhihu.ZhihuUserCrawlRequest;
 import org.acpasser.zhihunet.common.request.zhihu.ZhihuUserListRequest;
 import org.acpasser.zhihunet.contract.dto.activity.ActivityCrawlResult;
+import org.acpasser.zhihunet.contract.dto.user.UserCrawlResult;
 import org.acpasser.zhihunet.contract.request.ActivityCrawlRequest;
+import org.acpasser.zhihunet.contract.request.UserInfoCrawlRequest;
 import org.acpasser.zhihunet.contract.response.BaseResponse;
 import org.acpasser.zhihunet.contract.service.CrawlerService;
 import org.acpasser.zhihunet.core.service.ZhihuService;
@@ -61,6 +64,19 @@ public class ZhihuUserServiceImpl implements ZhihuService {
             .toList();
     }
 
+    public UserCrawlResult crawlUser(ZhihuUserCrawlRequest userCrawlRequest) {
+        UserInfoCrawlRequest crawlRequest = UserInfoCrawlRequest.builder()
+            .tokens(Collections.singletonList(userCrawlRequest.getToken()))
+            .build();
+        BaseResponse<UserCrawlResult> response = crawlerService.batchCrawlUsers(crawlRequest);
+        if (response.isSuccess()) {
+            return response.getResult();
+        } else {
+            log.error(response.getmessage());
+            throw new BusinessException(response.getmessage());
+        }
+    }
+
     public ActivityCrawlResult crawlActivity(ZhihuUserActivityCrawlRequest activityCrawlRequest) {
         ActivityCrawlRequest crawlRequest = ActivityCrawlRequest.builder()
             .tokens(Collections.singletonList(activityCrawlRequest.getToken()))
@@ -73,7 +89,7 @@ public class ZhihuUserServiceImpl implements ZhihuService {
             return response.getResult();
         } else {
             log.error(response.getmessage());
-            return null;
+            throw new BusinessException(response.getmessage());
         }
     }
 

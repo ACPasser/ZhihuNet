@@ -14,7 +14,7 @@ public class UserRegisterRequest {
 
     @NotBlank(message = "用户名不能为空")
     @Length(max = Constant.DEFAULT_USERNAME_LENGTH, message = "用户名过长")
-    private String userName;
+    private String username;
 
     @NotBlank(message = "密码不能为空")
     @Length(max = Constant.DEFAULT_PASSWORD_LENGTH, message = "密码过长")

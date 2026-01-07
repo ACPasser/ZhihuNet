@@ -1,13 +1,9 @@
 package org.acpasser.zhihunet.crawler;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.databind.PropertyNamingStrategy;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.http.converter.json.Jackson2ObjectMapperBuilder;
 
 @SpringBootApplication
 @ComponentScan({
@@ -25,14 +21,4 @@ public class ZhihuNetCrawlerApplication {
         SpringApplication.run(ZhihuNetCrawlerApplication.class, args);
     }
 
-    // 统一 JSON 处理规则
-    @Bean
-    public Jackson2ObjectMapperBuilder objectMapperBuilder() {
-        Jackson2ObjectMapperBuilder builder = new Jackson2ObjectMapperBuilder();
-        builder.propertyNamingStrategy(PropertyNamingStrategy.SNAKE_CASE);
-        builder.serializationInclusion(JsonInclude.Include.NON_NULL);
-        builder.failOnUnknownProperties(false);
-        builder.defaultViewInclusion(true);
-        return builder;
-    }
 }

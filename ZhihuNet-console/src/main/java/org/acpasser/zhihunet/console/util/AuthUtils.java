@@ -7,7 +7,7 @@ import java.util.List;
 public class AuthUtils {
     private static final List<String> NO_AUTH_URI_LIST = List.of("/user/register", "/user/login");
 
-    private static final List<String> NO_AUTH_URI_PREFIX_LIST = List.of("/avatars");
+    private static final List<String> NO_AUTH_URI_PREFIX_LIST = List.of("/avatars", "/swagger-ui", "/api-docs");
 
     public static boolean passAuthCheck(HttpServletRequest request) {
         String uri = request.getRequestURI();

@@ -44,7 +44,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public String register(UserRegisterRequest userRegisterRequest) {
-        String userName = userRegisterRequest.getUserName();
+        String userName = userRegisterRequest.getUsername();
         if (userRepository.countByName(userName) > 0) {
             throw new BusinessException(String.format("用户名 %s 已存在", userName),
                     ErrorCode.BUSSINESS_EXCEPTION.getCode());
@@ -66,7 +66,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public String login(UserRegisterRequest userRegisterRequest) {
-        String userName = userRegisterRequest.getUserName();
+        String userName = userRegisterRequest.getUsername();
         String inputPwd = userRegisterRequest.getPassword();
         User user = userRepository.getByName(userName);
         if (user == null) {

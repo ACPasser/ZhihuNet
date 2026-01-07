@@ -5,7 +5,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.5.6</version>
+        <version>4.0.1</version>
         <relativePath/>
     </parent>
     <groupId>org.acpasser</groupId>
@@ -32,27 +32,34 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <ZhihuNet.version>0.0.1-SNAPSHOT</ZhihuNet.version>
 
+        <spring-boot.version>4.0.1</spring-boot.version>
+        <spring-framework.version>7.0.2</spring-framework.version>
+        <spring-data.version>2025.1.0</spring-data.version>
+        <spring-test.version>7.0.2</spring-test.version>
+        <mybatis-spring-boot.version>4.0.1</mybatis-spring-boot.version>
+        <springdoc.version>3.0.1</springdoc.version>
+
         <lombok.version>1.18.42</lombok.version>
-        <junit.jupiter.version>6.0.1</junit.jupiter.version>
+        <junit-bom.version>6.0.1</junit-bom.version>
         <mysqlConnector.version>9.4.0</mysqlConnector.version>
-        <spring.version>6.2.11</spring.version>
-        <spring-data.version>2024.0.6</spring-data.version>
         <java-jwt.version>4.5.0</java-jwt.version>
         <commons-lang3.version>3.18.0</commons-lang3.version>
-        <mybatis-spring-boot.version>3.0.5</mybatis-spring-boot.version>
         <dubbo.version>3.3.6</dubbo.version>
+        <maven-surefire-plugin.version>3.5.4</maven-surefire-plugin.version>
+        <jackson.version>2.20.1</jackson.version>
     </properties>
     <dependencyManagement>
         <dependencies>
-            <!-- 统一Spring核心组件版本 -->
+            <!-- Spring Framework BOM（显式指定 Spring Framework 7.0.2，否则会引入5.3.39） -->
             <dependency>
                 <groupId>org.springframework</groupId>
                 <artifactId>spring-framework-bom</artifactId>
-                <version>${spring.version}</version>
+                <version>${spring-framework.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-            <!-- 统一Spring Data版本（适配Spring 6.2.11） -->
+
+            <!-- Spring Data BOM -->
             <dependency>
                 <groupId>org.springframework.data</groupId>
                 <artifactId>spring-data-bom</artifactId>
@@ -60,6 +67,60 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
+
+            <!-- Jackson BOM（显示指定2.x，否则会引入3.x -->
+            <dependency>
+                <groupId>com.fasterxml.jackson</groupId>
+                <artifactId>jackson-bom</artifactId>
+                <version>${jackson.version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+
+            <!-- 升级 Spring Test 以适配 JUnit 6.0.1 -->
+            <dependency>
+                <groupId>org.springframework</groupId>
+                <artifactId>spring-test</artifactId>
+                <version>${spring-test.version}</version>
+                <scope>test</scope>
+            </dependency>
+
+            <!-- JUnit BOM -->
+            <dependency>
+                <groupId>org.junit</groupId>
+                <artifactId>junit-bom</artifactId>
+                <version>${junit-bom.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- Dubbo BOM -->
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-bom</artifactId>
+                <version>${dubbo.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+
+            <!-- Spring Boot Starter Test -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-test</artifactId>
+                <version>${spring-boot.version}</version>
+                <scope>test</scope>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.junit.jupiter</groupId>
+                        <artifactId>*</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.junit.platform</groupId>
+                        <artifactId>*</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+
             <!-- MyBatis 版本管理 -->
             <dependency>
                 <groupId>org.mybatis.spring.boot</groupId>
@@ -72,35 +133,27 @@
                 <version>${mybatis-spring-boot.version}</version>
                 <scope>test</scope>
             </dependency>
-            <!-- Dubbo BOM：统一所有Dubbo子依赖版本 -->
-            <dependency>
-                <groupId>org.apache.dubbo</groupId>
-                <artifactId>dubbo-bom</artifactId>
-                <version>${dubbo.version}</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
+
             <dependency>
                 <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo-spring-boot-starter</artifactId>
                 <version>${dubbo.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework.data</groupId>
+                        <artifactId>spring-data-commons</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo-registry-nacos</artifactId>
                 <version>${dubbo.version}</version>
             </dependency>
-            <!-- 第三方依赖版本管理 -->
             <dependency>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok</artifactId>
                 <version>${lombok.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>org.junit.jupiter</groupId>
-                <artifactId>junit-jupiter</artifactId>
-                <version>${junit.jupiter.version}</version>
-                <scope>test</scope>
             </dependency>
             <dependency>
                 <groupId>org.apache.commons</groupId>
@@ -112,6 +165,23 @@
                 <artifactId>mysql-connector-j</artifactId>
                 <version>${mysqlConnector.version}</version>
             </dependency>
+
+            <!-- Springdoc 排除冲突依赖 -->
+            <dependency>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+                <version>${springdoc.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.springframework.data</groupId>
+                        <artifactId>spring-data-commons</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.springframework.data</groupId>
+                        <artifactId>spring-data-jpa</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
@@ -121,12 +191,12 @@
             <artifactId>lombok</artifactId>
             <scope>provided</scope>
         </dependency>
-
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-log4j2</artifactId>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
         </dependency>
-
+        <!-- Spring Boot Starter 排除 logging -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
@@ -138,10 +208,28 @@
             </exclusions>
         </dependency>
 
+        <!-- Log4j2 -->
         <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <scope>test</scope>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-log4j2</artifactId>
+        </dependency>
+
+        <!-- Springdoc -->
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
         </dependency>
     </dependencies>
+
+    <build>
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-surefire-plugin</artifactId>
+                    <version>${maven-surefire-plugin.version}</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 </project>

@@ -1,5 +1,4 @@
 import org.acpasser.zhihunet.common.utils.JwtUtil;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.Date;
@@ -9,6 +8,8 @@ import java.util.concurrent.TimeUnit;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
@@ -34,7 +35,7 @@ class JwtUtilTest {
         Map<String, Object> parsedClaims = JwtUtil.parseToken(token);
 
         // 验证
-        Assertions.assertNotNull(parsedClaims, "解析的claims不应为null");
+        assertNotNull(parsedClaims, "解析的claims不应为null");
         assertEquals(USER_ID, parsedClaims.get("userId"), "userId应该匹配");
         assertEquals(USERNAME, parsedClaims.get("username"), "username应该匹配");
         assertEquals("admin", parsedClaims.get("role"), "role应该匹配");
@@ -54,7 +55,7 @@ class JwtUtilTest {
         Map<String, Object> parsedClaims = JwtUtil.parseToken(bearerToken);
 
         // 验证
-        Assertions.assertNotNull(parsedClaims);
+        assertNotNull(parsedClaims);
         assertEquals(USER_ID, parsedClaims.get("userId"));
     }
 
@@ -66,7 +67,7 @@ class JwtUtilTest {
         // 生成1分钟过期的token
         String token = JwtUtil.genJwtToken(claims, 1000L * 60);
 
-        Assertions.assertNotNull(token);
+        assertNotNull(token);
 
         // 验证token可以正常解析
         assertDoesNotThrow(() -> JwtUtil.parseToken(token));
@@ -85,8 +86,8 @@ class JwtUtilTest {
 
     @Test
     void testValidateToken_InvalidToken() {
-        Assertions.assertFalse(JwtUtil.validateToken("invalid.token.string"), "无效token应该验证失败");
-        Assertions.assertFalse(JwtUtil.validateToken("Bearer invalid"), "无效的Bearer token应该验证失败");
+        assertFalse(JwtUtil.validateToken("invalid.token.string"), "无效token应该验证失败");
+        assertFalse(JwtUtil.validateToken("Bearer invalid"), "无效的Bearer token应该验证失败");
 
         // 空
         IllegalArgumentException exception = assertThrows(
@@ -142,7 +143,7 @@ class JwtUtilTest {
 
         assertDoesNotThrow(() -> {
             Date expiration = JwtUtil.getExpirationDate(token);
-            Assertions.assertNotNull(expiration);
+            assertNotNull(expiration);
             assertTrue(expiration.after(new Date()), "过期时间应该在当前时间之后");
         });
     }
@@ -168,7 +169,7 @@ class JwtUtilTest {
                 claims.put("userId", "user_" + index);
 
                 String token = JwtUtil.genJwtToken(claims);
-                Assertions.assertNotNull(token);
+                assertNotNull(token);
 
                 Map<String, Object> parsedClaims = JwtUtil.parseToken(token);
                 assertEquals(index, parsedClaims.get("threadIndex"));

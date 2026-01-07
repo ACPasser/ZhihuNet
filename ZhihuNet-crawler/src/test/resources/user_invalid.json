@@ -1,0 +1,9 @@
+{
+  "initialState" : {
+    "entities" : {
+      "users": {
+        "xxx": {}
+      }
+    }
+  }
+}

@@ -214,13 +214,31 @@ public class UserInfoParser {
                     }
                 });
             }
-            // 2. 等待所有爬取任务完成（超时时间可配置）
-            if (!crawlLatch.await(config.getCrawlAwaitMinutes(), TimeUnit.MINUTES)) {
-                log.warn("批量爬取超时，剩余未完成任务数: {}", crawlLatch.getCount());
-                // 超时的任务加入失败名单
-                for (String timeoutToken : pendingTokens.keySet()) {
-                    failedTokenMap.put(timeoutToken, String.format("批量爬取超时（%d分钟），任务未完成（大概率反爬/网络异常）",
-                        config.getCrawlAwaitMinutes()));
+
+            // 2. 等待所有爬取任务完成（动态等待：0=无限等待，非0=按配置超时等待）
+            int awaitMinutes = config.getCrawlAwaitMinutes();
+            try {
+                boolean isTimeout;
+                if (awaitMinutes == 0) {
+                    crawlLatch.await();
+                    isTimeout = false;
+                } else {
+                    isTimeout = !crawlLatch.await(awaitMinutes, TimeUnit.MINUTES);
+                }
+
+                if (isTimeout) {
+                    log.warn("等待超时（>{}分钟），剩余未完成任务数: {}", awaitMinutes, crawlLatch.getCount());
+                    for (String timeoutToken : pendingTokens.keySet()) {
+                        failedTokenMap.put(timeoutToken, String.format("批量爬取超时（>%d分钟），任务未完成", awaitMinutes));
+                    }
+                }
+            } catch (InterruptedException e) {
+                log.error("等待爬取任务完成时线程被中断", e);
+                Thread.currentThread().interrupt(); // 恢复中断状态，符合线程规范
+
+                // 中断时将未完成任务加入失败名单
+                for (String interruptedToken : pendingTokens.keySet()) {
+                    failedTokenMap.put(interruptedToken, "爬取任务被中断，任务未完成");
                 }
             }
 

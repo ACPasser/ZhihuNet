@@ -1,5 +1,3 @@
-server:
-  port: 8082
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -9,7 +7,7 @@ spring:
     hikari: # 数据源的配置信息
       connection-timeout: 30000       # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 默认:30秒
       minimum-idle: 5                 # 最小连接数
-      maximum-pool-size: 20           # 最大连接数
+      maximum-pool-size: 10           # 最大连接数
       auto-commit: true               # 自动提交
       idle-timeout: 600000            # 连接超时的最大时长（毫秒），超时则被释放（retired），默认:10分钟
       pool-name: DateSourceHikariCP   # 连接池名字
@@ -31,7 +29,7 @@ crawler:
   response-timeout-seconds: 5 # 响应超时（等待服务器返回数据的时间）
 
   # 4. 认证信息
-  cookie: "_zap=3acdb6b2-483f-43f4-a043-9f6a4c0a5a2e; d_c0=OqZT5s7uAxuPTmV6VcAsYmNaoo1DJN4cKgU=|1756900396; __snaker__id=mIiJlDE3QgBMBYf4; q_c1=c80c98120a8e470ea1d339bac591748b|1756900515000|1756900515000; q_c1=c80c98120a8e470ea1d339bac591748b|1760498354000|1756900515000; __utma=51854390.861544585.1760498355.1760498355.1760498355.1; __utmz=51854390.1760498355.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=51854390.100--|2=registration_date=20200409=1^3=entry_date=20200409=1; _xsrf=p2iUqCvpxi4IBD8TsXzesAn6zmOD2v0J; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1765692469; HMACCOUNT=D2FDB73E8EA1EA40; z_c0=2|1:0|10:1765692469|4:z_c0|92:Mi4xNDg5ekdnQUFBQUE2cGxQbXp1NERHeVlBQUFCZ0FsVk5OYUlyYWdET3FHTnl1TWt0VklpNFpGaXlORzd6M0F4QjZn|f7b052bc1a8140e9607fcece1276b3dc54bb1822c641cfe815a5de958e5f52f9; SESSIONID=DLD68eAqmqQzOKpcPu31xwlMyS3wSxnjyG9OaXJp3i0; JOID=VV4SBkz3kAZl3EMzCQFnlXITrzESst1AUeQnc3qa4FYdkQhCa2hCOQ7dQzAJm2q_C46MJd6FpDvsnchYMHHMJTw=; osd=WlARAEn4ngVj2Uw9CgdimnwQqTQdvN5GVOspcHyf71gelw1NZWtEPAHTQDYMlGS8DYuDK92DoTTins5dP3_PIzk=; __zse_ck=004_LzRbfyDBkgXiSP=9ls5rtAhNXhWZzVuERrlrnT4P0U=LfZkZG8HPl7NspHZQEYRbPtQgah=UBwbq2b05v=7hCVf1ocOj6jWcjTAYbRN9z/Nx6hjBBQW3IFFahOGEuiwO-jCQmIppmn38XQAUQSVa04RoDfm3H34RHUo4IhXxC8zYVvBQX+ItonTItuV75hmQ1xkMtgcoz7lBPxbbmip57+ezPeQilZmKpqnghPuxwK3umE56RF3YTa4gkGXNSbx9v; sec_token=8d903703e8f95979c9d413cd5ca71749; captcha_session_v2=7vtIYhGZmxgdQhRITVVyTQPhzjtThB4bif8AoQWiyDBJfcnaRCKJ7TgZ21NlVIT5; gdxidpyhxdE=BesQ8h2vsNULlUrtrg%2BgkrSTDtYpMPbBn5v6uphfsauATZTH%2FhzcP7%2FPEy3t01u2zC1P3P90EvHXwrwjASJj2J6S%5ChPPlpY3%2FoN%2B1XT6%2BaXMzMy18E%2BVnclr5rKv1c7j2PqQVbgnVldIqckbllCMXzsg4TP%5C%2FgpDg0gR1a%2FxXrghJmAX%3A1765977623259; captcha_ticket_v2=eyJ2YWxpZGF0ZSI6IkNOMzFfd2FJMUdWbHpXTVlBUF9tZ0ZPWUxlM2h3Z1F6eXA1dXc4a0wxQ1dBTmhBa09XS0VKY3VvaDhHbjRPOHdpakhYQ04uQlN0RTguOFFCdHZIaGIza1U2bG9QbnF3VFlfcVdLWXAxNks2Nk91NVJaR0pEaldqM2haWkJpRXFVRkhCRFRFcTFoM1pxNEROTGFiTFNUZnVQZ0cudWg2UDFxNFFseWFkVHhIWGFmR1lQWip0LllwNndPVGlCOS4qSnRaWF9Jbm9EX2xQSDlFcXFfc05QYzUqcXhucVVEWHplWk5iV1VzbnFnUXQ5YWxLcVBiS21DT3NRYUREWTBRaWxQWGhwM1FYVG5naWNIYXJ6VC5NVUliSGoqeENFbWo5Mk4qdFVEQ0Z4ZW9RUGlpY0l5RmZaWjBlYndObC5Lb0tiV0FtcDBRamQzWGtucVZGTlhVVUM1R2lkODgzb3pQX25scm1kdXVtMnJKSzVmSUNqUWYwbmpSRnI1bVBRZW9YcTl5VWYuZG1LZ2ppRHFuTlMxb3FrUVRoMWIuUDBtQ1FMcFYzZ0UuczM1UWJFbWdQWGZFQnZJcDNlUUQ4OGZZTC5PeEpkTk16RXRFLk5rYlZadTMzNUVsZkZjS3lXVy5jenVNbCpZOFZmTW9ualhIUC5Fbk1hQnQwZmJjQS5mUHF5ODZXUW0uSnFyYVg3N192X2lfMSJ9; BEC=81e7d03b02f619e1531cb798b916e00c; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1765976924"
+  cookie: "_zap=3acdb6b2-483f-43f4-a043-9f6a4c0a5a2e; d_c0=OqZT5s7uAxuPTmV6VcAsYmNaoo1DJN4cKgU=|1756900396; __snaker__id=mIiJlDE3QgBMBYf4; q_c1=c80c98120a8e470ea1d339bac591748b|1756900515000|1756900515000; q_c1=c80c98120a8e470ea1d339bac591748b|1760498354000|1756900515000; __utma=51854390.861544585.1760498355.1760498355.1760498355.1; __utmz=51854390.1760498355.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); __utmv=51854390.100--|2=registration_date=20200409=1^3=entry_date=20200409=1; _xsrf=p2iUqCvpxi4IBD8TsXzesAn6zmOD2v0J; gdxidpyhxdE=m5Zt5tOnRDdXi%2BGdR0vQHDPW9ky14dlej3%2F3B2%5CCGfDRdi5ersxsfq8Ldu3QqS1qUU7rvsEbzZVV8oPbIW4SzcDk53Smnbggr7J6Ota4Tp2kZclovtsLbBebb1o6wrqR0S%2FoBEYgnjOpk510ENOM9tgsGh1cNi%5C0GTMnnLeopr1Lkhta%3A1766069071874; z_c0=2|1:0|10:1766670577|4:z_c0|92:Mi4xNDg5ekdnQUFBQUE2cGxQbXp1NERHeVlBQUFCZ0FsVk5OYUlyYWdET3FHTnl1TWt0VklpNFpGaXlORzd6M0F4QjZn|dd5a22a730a92eebc4fd5a03a8c2f4d17039e8ceeb036246efd10144b1ab3e52; __zse_ck=005_8Q3GT6SWaLBEVxnwH6csP/pyWphIaJb5wbQ89ItQJcXK1Dm7LnAE26lfxZ14ewzEnK0kn3eKiqkewQPqTkf2elXvNpQBJo=3qiQizCfNKIlNsFY==P8mhfLnEOxWdhCX-YfLKNPBiB6r3kXgmJmk1HmCT2R1AvV5jqGOwxFo99tvgYWDHxWKZjmOfJdyo9bqCODGkgPj4L1AUmdIF+GqP+pWgYiZjOYojUFJOU8d8rJISXNjllXbEwTOAth9dz4TJ; Hm_lvt_98beee57fd2ef70ccdd5ca52b9740c49=1765692469,1766286446,1767509264; HMACCOUNT=D2FDB73E8EA1EA40; SESSIONID=HBy2mid8lpJnuAwriSoqcWd8MaXqfhCQr9zfRnQRvpE; JOID=WlwWC0gAMQXSqBVPEPTAncpn-0sARHR3685wLCNnTUi31l80ZSssX7uvHkMQGMaGb19RyVULY-LRwgl8bfOeTB8=; osd=UVAQAkoLPQPbqh5DFv3ClsZh8kkLSHJ-6cV8KiplRkSx310_aS0lXbCjGEoSE8qAZl1axVMCYendxAB-Zv-YRR0=; Hm_lpvt_98beee57fd2ef70ccdd5ca52b9740c49=1767534466; BEC=81a05b8536c1b72d656b636a600357ff"
   user-agent: "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36 Edg/143.0.0.0"
   d-c0: "OqZT5s7uAxuPTmV6VcAsYmNaoo1DJN4cKgU=|1756900396"
   x-zse-93: "101_3_3.0"
@@ -72,4 +70,3 @@ dubbo:
   provider:
     timeout: 300000 # 服务超时（5分钟，适配爬虫长任务）
     retries: 0 # 爬虫任务不重试（内部已做重试逻辑）
-    loadbalance: random # 负载均衡（多实例时随机分配）
