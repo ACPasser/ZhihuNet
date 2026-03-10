@@ -1,0 +1,79 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: zhihu-net
+  web:
+    resources:
+      static-locations:
+        - classpath:/static/  # 默认
+        - file:${avatar.upload-path}
+      cache:
+        period: 86400  # 缓存时间 24 小时（单位：秒）
+  mvc:
+    static-path-pattern: /**  # 关键：请求路径前缀为 /avatars/
+
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zhihu
+    username: YOUR_USERNAME
+    password: YOUR_PASSWORD
+    hikari:                           # 数据源的配置信息
+      connection-timeout: 30000       # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 默认:30秒
+      minimum-idle: 5                 # 最小连接数
+      maximum-pool-size: 10           # 最大连接数
+      auto-commit: true               # 自动提交
+      idle-timeout: 600000            # 连接超时的最大时长（毫秒），超时则被释放（retired），默认:10分钟
+      pool-name: DateSourceHikariCP   # 连接池名字
+      max-lifetime: 1800000           # 连接的生命时长（毫秒），超时而且没被使用则被释放（retired），默认:30分钟 1800000ms
+  data:
+    redis:
+      host: localhost
+      port: 6379
+  mail:
+    host: smtp.qq.com # QQ邮箱SMTP服务器地址
+    port: 465         # SSL加密端口（推荐，安全）
+    username: YOUR_QQ_EMAIL_ADDR # 邮箱
+    password: YOUR_PASSWORD # 16位授权码
+    default-encoding: UTF-8
+    properties:
+      mail:
+        smtp:
+          auth: true # 开启SMTP认证
+          ssl:
+            enable: true # 开启SSL加密
+          socketFactory:
+            class: javax.net.ssl.SSLSocketFactory
+
+
+logging:
+  config: classpath:log4j2.xml  # 日志框架配置文件
+#  level:
+#    org.acpasser.zhihunet.repository.mybatis.mapper: DEBUG # 调试用
+
+
+avatar:
+  upload-path: /Users/acpasser/Documents/Project/ZhihuNet/upload/avatars/  # 需使用绝对路径，避免被Tomcat篡改 => 后续考虑使用阿里云OSS
+  access-prefix: http://localhost:8081/avatars/  # 访问前缀
+
+
+dubbo:
+  application:
+    name: zhihu-console-consumer  # 消费方标识（注册中心可见）
+  registry:
+    address: nacos://127.0.0.1:8848  # 爬虫模块的Nacos地址
+    group: ZHIHU_GROUP               # 与crawler分组一致
+  consumer:
+    timeout: 300000         # 5分钟超时（适配爬虫长任务）
+    retries: 0              # 禁止重试（爬虫内部已重试）
+    check: false            # 启动不检查crawler服务是否存在
+    lazy: true              # 懒加载Dubbo代理，提升启动速度
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+  packages-to-scan: org.acpasser.zhihunet.console.controller

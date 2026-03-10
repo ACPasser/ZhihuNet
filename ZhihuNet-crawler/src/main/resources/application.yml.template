@@ -1,0 +1,72 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/zhihu
+    username: YOUR_USERNAME
+    password: YOUR_PASSWORD
+    hikari: # 数据源的配置信息
+      connection-timeout: 30000       # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 默认:30秒
+      minimum-idle: 5                 # 最小连接数
+      maximum-pool-size: 10           # 最大连接数
+      auto-commit: true               # 自动提交
+      idle-timeout: 600000            # 连接超时的最大时长（毫秒），超时则被释放（retired），默认:10分钟
+      pool-name: DateSourceHikariCP   # 连接池名字
+      max-lifetime: 1800000           # 连接的生命时长（毫秒），超时而且没被使用则被释放（retired），默认:30分钟 1800000ms
+
+crawler:
+  # 配置文件中用横杠，实体类用驼峰
+  # 1. SSL配置
+  trust-all-ssl: true
+
+  # 2. 连接池配置
+  max-conn-total: 50
+  max-conn-per-route: 10
+  connection-time-to-live-seconds: 60 # 连接存活时间（连接在池中最大保留时间）
+  connection-request-timeout-seconds: 5 # 连接池等待超时（获取空闲连接的等待时间）
+
+  # 3. 请求超时配置
+  connect-timeout-seconds: 5 # 连接超时（建立TCP连接的时间）
+  response-timeout-seconds: 5 # 响应超时（等待服务器返回数据的时间）
+
+  # 4. 认证信息
+  cookie: YOUR_ZHIHU_COOKIE
+  user-agent: YOUR_USER-AGENT
+  d-c0: YOUR_DC0
+  x-zse-93: "101_3_3.0"
+
+  # 5. 爬取控制参数
+  max-retries: 1  # HTTP请求重试 & 爬取重试
+  min-retry-delay-seconds: 1
+  max-retry-delay-seconds: 10
+  crawl-await-minutes: 0  # 0=无限等待，非0=超时等待
+  crawl-retry-await-minutes: 1
+  thread-count: 4
+  batch-size: 20
+  script-timeout-seconds: 3  # zse96参数解析脚本超时时间
+
+logging:
+  config: classpath:log4j2.xml  # 日志框架配置文件
+
+# Dubbo 核心配置
+dubbo:
+  # 应用配置：唯一标识，用于注册中心展示
+  application:
+    name: zhihu-crawler-service
+    logger: slf4j # 日志适配SLF4J（与项目日志框架统一）
+  # 注册中心：Nacos（生产级首选）
+  registry:
+    address: nacos://${NACOS_ADDR:127.0.0.1:8848} # 环境变量注入，方便不同环境部署
+    username: ${NACOS_USER:nacos}
+    password: ${NACOS_PWD:nacos}
+    group: ZHIHU_GROUP # 分组隔离，避免与其他项目冲突
+  # 协议配置：默认dubbo协议，端口自动分配（20880-20890）
+  protocol:
+    name: dubbo
+    port: -1 # -1表示自动分配端口，避免多实例端口冲突
+  # 扫描配置：扫描@DubboService注解的服务实现类
+  scan:
+    base-packages: org.acpasser.zhihunet.crawler.service.impl
+  # 提供方配置：通用规则
+  provider:
+    timeout: 300000 # 服务超时（5分钟，适配爬虫长任务）
+    retries: 0 # 爬虫任务不重试（内部已做重试逻辑）
